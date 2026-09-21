@@ -136,7 +136,10 @@ main,
   height: auto;
   flex-shrink: 0;
   border-radius: 50%;
-  filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.35));
+  background: #f3ebe0;
+  box-shadow:
+    0 0 0 3px rgba(243, 235, 224, 0.2),
+    0 12px 28px rgba(0, 0, 0, 0.4);
 }
 
 .brand-text {
