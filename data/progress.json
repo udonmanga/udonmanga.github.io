@@ -1,5 +1,5 @@
 {
-  "generated_at": 1789988523,
+  "generated_at": 1789988697,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -944,6 +944,39 @@
       "stage": "Translation Checking",
       "stage_key": "TL_MERGE",
       "since": "September 21, 2026",
+      "cover": "assets/placeholder-cover.svg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "Mahoyo DNA 2",
+      "series_title": "Mahoyo DNA 2",
+      "series_id": "mahoyodna2",
+      "chapter": "4",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "",
+      "cover": "assets/placeholder-cover.svg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "Mahoyo DNA 2",
+      "series_title": "Mahoyo DNA 2",
+      "series_id": "mahoyodna2",
+      "chapter": "5",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "",
+      "cover": "assets/placeholder-cover.svg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "Mahoyo DNA 2",
+      "series_title": "Mahoyo DNA 2",
+      "series_id": "mahoyodna2",
+      "chapter": "6",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "",
       "cover": "assets/placeholder-cover.svg",
       "cubari_series_url": ""
     },
