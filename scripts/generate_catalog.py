@@ -262,11 +262,23 @@ def load_category_by_id() -> dict[str, str]:
     return {str(k): str(v) for k, v in by_id.items()}
 
 
-def series_category(title_id: str) -> str:
-    global _CATEGORY_BY_ID
-    if _CATEGORY_BY_ID is None:
-        _CATEGORY_BY_ID = load_category_by_id()
-    return _CATEGORY_BY_ID.get(title_id) or "series"
+_LOCAL_COVERS: dict[str, str] | None = None
+
+
+def load_local_covers() -> dict[str, str]:
+    """title id → local assets/covers/... path."""
+    path = ROOT / "data" / "local_covers.json"
+    if not path.is_file():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    return {str(k): str(v) for k, v in (payload.get("by_id") or {}).items()}
+
+
+def prefer_local_cover(title_id: str, remote: str) -> str:
+    global _LOCAL_COVERS
+    if _LOCAL_COVERS is None:
+        _LOCAL_COVERS = load_local_covers()
+    return _LOCAL_COVERS.get(title_id) or remote
 
 
 def match_sheet_to_title(
@@ -348,23 +360,25 @@ def build_cubari_titles() -> list[dict]:
             ct = latest[2] if latest else ""
             series_url = cubari_url(name)
             cover = cubari_cover(data)
+            title_id = Path(name).stem.lower()
+            display_cover = prefer_local_cover(title_id, cover) or "assets/placeholder-cover.svg"
             title = str(data.get("title") or Path(name).stem).strip()
             rows.append(
                 {
                     "_file": name,
                     "_nbytes": len(json.dumps(data, ensure_ascii=False)),
                     "_nchapters": len(chapters),
-                    "_has_cover": 1 if cover else 0,
+                    "_has_cover": 1 if cover or display_cover.startswith("assets/covers/") else 0,
                     "_chapters": chapters,
                     "_cubari_latest_ts": lu,
-                    "id": Path(name).stem.lower(),
+                    "id": title_id,
                     "title": title,
                     "original_title": "",
                     "alt_titles": [],
                     "authors": split_people(data.get("author")),
                     "artists": split_people(data.get("artist")),
-                    "cover": cover or "assets/placeholder-cover.svg",
-                    "category": series_category(Path(name).stem.lower()),
+                    "cover": display_cover,
+                    "category": series_category(title_id),
                     "latest_chapter_number": ck,
                     "latest_chapter_title": ct,
                     # Dates ONLY from Progress.released_at
@@ -374,7 +388,7 @@ def build_cubari_titles() -> list[dict]:
                     "cubari_latest_url": (
                         f"{series_url.rstrip('/')}/{ck}/" if ck else series_url
                     ),
-                    "_cubari_cover": cover,
+                    "_cubari_cover": display_cover,
                 }
             )
 
