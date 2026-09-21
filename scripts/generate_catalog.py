@@ -25,6 +25,28 @@ OWNER = "yk1512"
 REPO = "UMD-Cubari"
 BRANCH = "main"
 
+# Alias / mangled JSON copies that duplicate a canonical Cubari file.
+SKIP_CUBARI_FILES = {
+    "Fate_Grand_Order_Epic_of_Remnant_Deep_Sea_Cyber_Paradise_SERAPH.json",
+    "Fate_Grand_Order__Cempasúchil.json",
+    "Fate_Grand_Order__Christopher_Columbus__Interlude_Him.json",
+    "Fate_Grand_Order__Edward_Teach_s_Interlude_A_Man_s_Battle.json",
+    "Fate_Grand_Order__In_Search_of_the_Perfect_Wine_and_Pickles_Pairing.json",
+    "Fate_Grand_Order__Kama_s_Interlude_Love_Depravity_Is_Ever_by_Your_Side.json",
+    "Fate_Grand_Order__Nikitich_s_Interlude_Cooking_Nikitich.json",
+    "Fate_Grand_Order__Penthesilea_s_Interlude_The_Phantom_of_Troia.json",
+    "Fate_Grand_Order__Qin_Shi_Huang_s_Interlude_The_Melancholy_of_a_Ruler.json",
+    "Fate_Grand_Order__Tomoe_s_Way_of_the_Gamer.json",
+    "Fate_Samurai_Remnant.json",
+    "Fate_Samurai_Remnant__Prologue.json",
+    "Fate_Type_Redline.json",
+    "Fate_Unlimited_Codes__Illya_s_Melancholy.json",
+    "Fate_Zero_Kiritsugu.json",
+    "Fate_Zero_Kotomine.json",
+    "Medorism__Fate_Short_Works.json",
+    "The_Man_Known_as_Tsukiji_Tobimaru.json",
+}
+
 DEFAULT_SITE = {
     "name": "UMD",
     "subtitle": "Type-Moon manga translations. Read on Cubari.",
@@ -183,7 +205,12 @@ def list_json_names() -> list[str]:
     api = f"https://api.github.com/repos/{OWNER}/{REPO}/contents/"
     listing = fetch_json(api)
     assert isinstance(listing, list)
-    return [f["name"] for f in listing if str(f.get("name", "")).endswith(".json")]
+    return [
+        f["name"]
+        for f in listing
+        if str(f.get("name", "")).endswith(".json")
+        and f["name"] not in SKIP_CUBARI_FILES
+    ]
 
 
 def fetch_series(name: str) -> tuple[str, dict]:
