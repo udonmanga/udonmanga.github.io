@@ -161,8 +161,7 @@
       list.sort((a, b) => b.title.localeCompare(a.title, undefined, { sensitivity: "base" }));
     } else {
       list.sort(
-        (a, b) =>
-          (b.released_at || b.last_updated || 0) - (a.released_at || a.last_updated || 0)
+        (a, b) => (b.released_at || 0) - (a.released_at || 0)
       );
     }
     return list;
@@ -201,7 +200,11 @@
                 <a href="${seriesUrl}" rel="noopener noreferrer" target="_blank">${escapeHtml(t.title)}</a>
               </h3>
               <p class="latest-line">${escapeHtml(latestLabel)}: ${titleLine}</p>
-              <p class="released-line">Released ${escapeHtml(t.released_display || t.last_updated_display || "")}</p>
+              ${
+                t.released_display
+                  ? `<p class="released-line">Released ${escapeHtml(t.released_display)}</p>`
+                  : ""
+              }
               <div class="card-actions">
                 <a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters on Cubari</a>
                 <a class="primary" href="${latestUrl}" rel="noopener noreferrer" target="_blank" ${canLatest ? "" : "aria-disabled='true'"}>Read ${chapterLabel} on Cubari</a>

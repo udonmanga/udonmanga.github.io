@@ -54,20 +54,19 @@ SHEET_TITLE_NEEDLES: dict[str, tuple[str, ...]] = {
     "Prisma Illya": ("prismaillya", "3rei"),
     "Saber Wars II": ("saberwars",),
     "Samurai Remnant": ("samurairemnant",),
-    "Seraph": ("seraph", "cyberparadise"),
+    "Seraph": ("seraph", "cyberparadise", "seraph"),
     "Shimousa": ("shimousa",),
     "Shinjuku": ("shinjuku",),
     "Strange Fake": ("strangefake",),
-    "Tsukire Comic Star": ("comicstar", "anthologycomicstar"),
-    "Tsukire Moon Phase": ("moonphase",),
-    "Tsukire a la Carte": ("alacarte", "acomicalacarte"),
+    "Tsukire Comic Star": ("blueglassmoonanthologycomicstar", "anthologycomicstar"),
+    "Tsukire Moon Phase": ("blueglassmoonmoonphase", "moonphase"),
+    "Tsukire a la Carte": ("blueglassmooncomiclacarte", "tsukihimecomiclacarte"),
     "Turas Realta": ("turasrealta", "turas"),
     "Unlimited Blade Works": ("unlimitedbladeworks",),
     "Zero": ("fatezero",),
     "FGO Showdown 1": ("showdown",),
     "FGO Showdown 2": ("showdown",),
     "FGO Showdown 3": ("showdown",),
-    "Tsukihime": ("tsukihime",),
 }
 
 
@@ -219,7 +218,7 @@ def match_sheet_to_title(
             scored.append((score, t))
     if not scored:
         return None
-    scored.sort(key=lambda x: (-x[0], -(x[1].get("last_updated") or 0)))
+    scored.sort(key=lambda x: (-x[0], -(x[1].get("_nchapters") or 0)))
     return scored[0][1]
 
 
@@ -286,6 +285,7 @@ def build_cubari_titles() -> list[dict]:
                     "_nchapters": len(chapters),
                     "_has_cover": 1 if cover else 0,
                     "_chapters": chapters,
+                    "_cubari_latest_ts": lu,
                     "id": Path(name).stem.lower(),
                     "title": title,
                     "original_title": "",
@@ -296,10 +296,9 @@ def build_cubari_titles() -> list[dict]:
                     "status": "ongoing",
                     "latest_chapter_number": ck,
                     "latest_chapter_title": ct,
-                    "released_at": lu,
-                    "released_display": display_date(lu),
-                    "last_updated": lu,
-                    "last_updated_display": display_date(lu),
+                    # Dates ONLY from Progress.released_at
+                    "released_at": 0,
+                    "released_display": "",
                     "cubari_series_url": series_url,
                     "cubari_latest_url": (
                         f"{series_url.rstrip('/')}/{ck}/" if ck else series_url
@@ -315,17 +314,16 @@ def build_cubari_titles() -> list[dict]:
         if prev is None:
             by[key] = row
             continue
-        # Prefer more chapters, then has Cubari cover, then newer, then larger JSON
         score = (
             row["_nchapters"],
             row["_has_cover"],
-            row["last_updated"],
+            row.get("_cubari_latest_ts") or 0,
             row["_nbytes"],
         )
         prev_score = (
             prev["_nchapters"],
             prev["_has_cover"],
-            prev["last_updated"],
+            prev.get("_cubari_latest_ts") or 0,
             prev["_nbytes"],
         )
         if score > prev_score:
@@ -334,8 +332,7 @@ def build_cubari_titles() -> list[dict]:
 
 
 def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[dict], list[dict]]:
-    """Override title latest fields + build latest_releases from sheet when possible."""
-    # Map sheet series → cubari title
+    """Apply Progress.released_at only. Never Cubari or sheet last_updated."""
     series_map: dict[str, dict] = {}
     for rel in releases:
         s = rel["series"]
@@ -344,8 +341,9 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
         matched = match_sheet_to_title(s, titles)
         if matched:
             series_map[s] = matched
+        else:
+            print(f"WARNING: no Cubari match for sheet series {s!r}")
 
-    # Per-title: newest sheet release
     latest_by_title_id: dict[str, dict] = {}
     for rel in releases:
         t = series_map.get(rel["series"])
@@ -357,15 +355,14 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
             latest_by_title_id[tid] = rel
 
     for t in titles:
+        t["released_at"] = 0
+        t["released_display"] = ""
         rel = latest_by_title_id.get(t["id"])
         if not rel:
             continue
         t["released_at"] = rel["released_at"]
         t["released_display"] = rel["released_display"]
-        t["last_updated"] = rel["released_at"]
-        t["last_updated_display"] = rel["released_display"]
         t["latest_chapter_number"] = rel["chapter"]
-        # Prefer chapter title from Cubari JSON if present
         chapters = t.get("_chapters") or {}
         ch_meta = None
         for key, val in chapters.items():
@@ -387,10 +384,11 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
         if len(latest_releases) >= 10:
             break
         t = series_map.get(rel["series"])
-        cover = (t.get("cover") if t else None) or "assets/placeholder-cover.svg"
-        # Always prefer Cubari series cover field when we have a match
+        cover = "assets/placeholder-cover.svg"
         if t and t.get("_cubari_cover"):
             cover = t["_cubari_cover"]
+        elif t and t.get("cover"):
+            cover = t["cover"]
         series_title = t["title"] if t else rel["series"]
         series_id = t["id"] if t else norm_text(rel["series"]) or "unknown"
         cubari = rel["release_link"]
@@ -417,35 +415,6 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
             }
         )
 
-    # Fall back to Cubari-only latest if sheet yielded nothing
-    if not latest_releases:
-        cubari_events: list[dict] = []
-        for t in titles:
-            for key, val in (t.get("_chapters") or {}).items():
-                if not isinstance(val, dict):
-                    continue
-                try:
-                    lu = int(val.get("last_updated") or 0)
-                except (TypeError, ValueError):
-                    lu = 0
-                if not lu:
-                    continue
-                cover = t.get("_cubari_cover") or t.get("cover") or "assets/placeholder-cover.svg"
-                cubari_events.append(
-                    {
-                        "series_id": t["id"],
-                        "series_title": t["title"],
-                        "chapter_number": str(key),
-                        "chapter_title": str(val.get("title") or "").strip(),
-                        "released_at": lu,
-                        "released_display": display_date(lu),
-                        "cover": cover,
-                        "cubari_url": f"{t['cubari_series_url'].rstrip('/')}/{key}/",
-                    }
-                )
-        cubari_events.sort(key=lambda x: -x["released_at"])
-        latest_releases = cubari_events[:10]
-
     clean: list[dict] = []
     for t in titles:
         t = dict(t)
@@ -456,13 +425,17 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
             "_has_cover",
             "_chapters",
             "_cubari_cover",
+            "_cubari_latest_ts",
         ):
             t.pop(k, None)
-        # Expose Cubari cover as-is when present; placeholder only when Cubari has none
         clean.append(t)
 
     clean.sort(
-        key=lambda x: (-(x.get("released_at") or x.get("last_updated") or 0), x["title"].lower())
+        key=lambda x: (
+            0 if (x.get("released_at") or 0) else 1,
+            -(x.get("released_at") or 0),
+            x["title"].lower(),
+        )
     )
     return clean, latest_releases
 
@@ -473,7 +446,7 @@ def build_catalog(site: dict) -> dict:
         releases = load_sheet_releases()
         print(f"Sheet releases loaded: {len(releases)}")
     except Exception as exc:
-        print(f"WARNING: could not load sheet dates ({exc}); using Cubari timestamps")
+        print(f"WARNING: could not load sheet dates ({exc}); dates will be blank")
         releases = []
     titles, latest_releases = apply_sheet_dates(titles, releases)
     return {
