@@ -27,7 +27,6 @@
     grid: document.getElementById("title-grid"),
     meta: document.getElementById("result-meta"),
     empty: document.getElementById("empty-state"),
-    generated: document.getElementById("generated-at"),
   };
 
   function escapeHtml(value) {
@@ -110,7 +109,7 @@
               <div class="chapter">${chapterBits.join(" · ")}</div>
             </div>
             <div class="date">${escapeHtml(row.released_display || "")}</div>
-            <span class="cta">Read on Cubari</span>
+            <span class="cta">Read</span>
           </a>
         `;
       })
@@ -190,8 +189,8 @@
               : ""
           }
           <div class="card-actions">
-            <a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters on Cubari</a>
-            <a class="primary" href="${latestUrl}" rel="noopener noreferrer" target="_blank" ${canLatest ? "" : "aria-disabled='true'"}>Read ${chapterLabel} on Cubari</a>
+            <a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters</a>
+            <a class="primary" href="${latestUrl}" rel="noopener noreferrer" target="_blank" ${canLatest ? "" : "aria-disabled='true'"}>Read ${chapterLabel}</a>
           </div>
         </div>
       </article>
@@ -239,14 +238,6 @@
     renderHeader(catalog.site || {});
     renderLatest(catalog.latest_releases || []);
     renderCards();
-
-    if (catalog.generated_at) {
-      const d = new Date(catalog.generated_at * 1000);
-      els.generated.textContent = `Catalogue generated ${d.toLocaleString(undefined, {
-        dateStyle: "medium",
-        timeStyle: "short",
-      })}`;
-    }
   }
 
   init().catch((err) => {
