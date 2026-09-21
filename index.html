@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UMD</title>
+    <meta
+      name="description"
+      content="UMD Type-Moon manga translations. Browse releases and read on Cubari."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/site.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#projects">Skip to projects</a>
+
+    <header class="site-header">
+      <div class="header-main">
+        <div class="brand-block">
+          <p class="eyebrow">Translations</p>
+          <h1 class="brand" id="site-name">UMD</h1>
+          <p class="subtitle" id="site-subtitle">
+            Type-Moon manga translations. Read on Cubari.
+          </p>
+          <div class="header-links" id="header-links" hidden></div>
+        </div>
+        <label class="search-wrap">
+          <span class="visually-hidden">Search titles</span>
+          <input
+            type="search"
+            id="search"
+            name="q"
+            placeholder="Search titles…"
+            autocomplete="off"
+            enterkeyhint="search"
+          />
+        </label>
+      </div>
+    </header>
+
+    <main>
+      <section class="latest" aria-labelledby="latest-heading">
+        <div class="section-head">
+          <h2 id="latest-heading">Latest releases</h2>
+          <p>Newest public chapters across all series.</p>
+        </div>
+        <div
+          class="latest-scroll"
+          id="latest-releases"
+          tabindex="0"
+          aria-label="Latest releases list"
+        ></div>
+      </section>
+
+      <section class="projects" id="projects" aria-labelledby="projects-heading">
+        <div class="section-head">
+          <h2 id="projects-heading">Projects</h2>
+          <p>Open a series on Cubari, or jump to the latest chapter.</p>
+        </div>
+
+        <div class="controls">
+          <div
+            class="filters"
+            id="status-filters"
+            role="toolbar"
+            aria-label="Filter by status"
+          ></div>
+          <label class="sort-wrap">
+            <span class="visually-hidden">Sort projects</span>
+            <select id="sort" aria-label="Sort projects">
+              <option value="updated">Recently updated</option>
+              <option value="title-asc">Title A–Z</option>
+              <option value="title-desc">Title Z–A</option>
+            </select>
+          </label>
+        </div>
+
+        <p class="result-meta" id="result-meta" aria-live="polite"></p>
+        <div class="card-grid" id="title-grid"></div>
+        <p class="empty" id="empty-state" hidden>No projects match your search.</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        Catalogue only — reading happens on
+        <a href="https://cubari.moe/" rel="noopener noreferrer">Cubari</a>.
+      </p>
+      <p id="generated-at"></p>
+    </footer>
+
+    <script src="assets/catalog.js" defer></script>
+  </body>
+</html>

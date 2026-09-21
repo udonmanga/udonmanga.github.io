@@ -1,0 +1,1149 @@
+{
+  "generated_at": 1789973671,
+  "site": {
+    "name": "UMD",
+    "subtitle": "Type-Moon manga translations. Read on Cubari.",
+    "discord_url": "",
+    "recruitment_url": "",
+    "accent": "#c45c26",
+    "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub"
+  },
+  "latest_releases": [
+    {
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "chapter_number": "29.5",
+      "chapter_title": "",
+      "released_at": 1789864980,
+      "released_display": "September 20, 2026",
+      "cover": "https://i.imgur.com/DYk0Zp2.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
+    },
+    {
+      "series_id": "fatestay_night_heavens_feel",
+      "series_title": "Fate/stay night: Heaven's Feel",
+      "chapter_number": "112",
+      "chapter_title": "Day 11 - Bad News (1)",
+      "released_at": 1789184460,
+      "released_display": "September 12, 2026",
+      "cover": "https://i.imgur.com/ZXPD3yQ.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/112/"
+    },
+    {
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "chapter_number": "29.4",
+      "chapter_title": "",
+      "released_at": 1787365620,
+      "released_display": "August 22, 2026",
+      "cover": "https://i.imgur.com/DYk0Zp2.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/29.4/"
+    },
+    {
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "chapter_number": "29.3",
+      "chapter_title": "",
+      "released_at": 1787005440,
+      "released_display": "August 18, 2026",
+      "cover": "https://i.imgur.com/DYk0Zp2.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/29.3/"
+    },
+    {
+      "series_id": "fatestay_night_heavens_feel",
+      "series_title": "Fate/stay night: Heaven's Feel",
+      "chapter_number": "111",
+      "chapter_title": "Day 10 - Steal (6)",
+      "released_at": 1786879560,
+      "released_display": "August 16, 2026",
+      "cover": "https://i.imgur.com/ZXPD3yQ.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/111/"
+    },
+    {
+      "series_id": "fategrand_order_mortalisstella_",
+      "series_title": "Fate/Grand Order -mortalis:stella-",
+      "chapter_number": "25.3",
+      "chapter_title": "Beyond Good and Evil - Fragment One (Part 3)",
+      "released_at": 1786846140,
+      "released_display": "August 16, 2026",
+      "cover": "assets/placeholder-cover.svg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/25.3/"
+    },
+    {
+      "series_id": "the_case_files_of_lord_melloi_ii",
+      "series_title": "The Case Files of Lord Melloi II",
+      "chapter_number": "67.2",
+      "chapter_title": "",
+      "released_at": 1786843860,
+      "released_display": "August 16, 2026",
+      "cover": "https://i.imgur.com/4HDNkAr.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/67.2/"
+    },
+    {
+      "series_id": "fate_samurai_remnant_prologue",
+      "series_title": "Fate Samurai Remnant Prologue",
+      "chapter_number": "4.2",
+      "chapter_title": "",
+      "released_at": 1786322220,
+      "released_display": "August 10, 2026",
+      "cover": "https://i.imgur.com/9v8gNC6.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9TYW11cmFpX1JlbW5hbnRfUHJvbG9ndWUuanNvbg/4.2/"
+    },
+    {
+      "series_id": "fatestay_night_heavens_feel",
+      "series_title": "Fate/stay night: Heaven's Feel",
+      "chapter_number": "110",
+      "chapter_title": "Day 10 - Steal (5)",
+      "released_at": 1785708480,
+      "released_display": "August 3, 2026",
+      "cover": "https://i.imgur.com/ZXPD3yQ.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/110/"
+    },
+    {
+      "series_id": "fatestay_night_unlimited_blade_works",
+      "series_title": "Fate/stay night: Unlimited Blade Works",
+      "chapter_number": "34.1",
+      "chapter_title": "",
+      "released_at": 1785584400,
+      "released_display": "August 1, 2026",
+      "cover": "https://i.imgur.com/7ADwQpS.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/34.1/"
+    }
+  ],
+  "titles": [
+    {
+      "id": "fategrand_order_epic_of_remnant_shinjuku",
+      "title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Sasaki Shounen"
+      ],
+      "cover": "https://i.imgur.com/DYk0Zp2.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "29.5",
+      "latest_chapter_title": "",
+      "last_updated": 1789864980,
+      "last_updated_display": "September 20, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
+    },
+    {
+      "id": "fatestay_night_heavens_feel",
+      "title": "Fate/stay night: Heaven's Feel",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Task Ohna"
+      ],
+      "cover": "https://i.imgur.com/ZXPD3yQ.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "112",
+      "latest_chapter_title": "Day 11 - Bad News (1)",
+      "last_updated": 1789184460,
+      "last_updated_display": "September 12, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/112/"
+    },
+    {
+      "id": "tsukihime_a_piece_of_blue_glass_moon_comic_anthology",
+      "title": "Tsukihime -A piece of blue glass moon- Comic Anthology",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Mameneko No. 2",
+        "Ashida Yuri",
+        "nAkuta",
+        "Hoshino Makoto",
+        "nipi",
+        "Takenashi Eri",
+        "Azami Masurao",
+        "Gonta",
+        "furu",
+        "Uhanako",
+        "Royst",
+        "Takahara Yu",
+        "Ryousuke",
+        "metalog"
+      ],
+      "cover": "https://i.imgur.com/V7zCgil.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "8",
+      "latest_chapter_title": "(Former) Normal Girl",
+      "last_updated": 1787478195,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/8/"
+    },
+    {
+      "id": "tsukihime_a_piece_of_blue_glass_moon_comic_à_la_carte",
+      "title": "Tsukihime -A piece of blue glass moon- COMIC à la carte",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Piyo",
+        "Hoshi Naosuke",
+        "TAa",
+        "nipi",
+        "Uhanako",
+        "metalog"
+      ],
+      "cover": "https://i.imgur.com/fvwnybO.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "9",
+      "latest_chapter_title": "Leisure",
+      "last_updated": 1787477636,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NPTUlDX8OgX2xhX2NhcnRlLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NPTUlDX8OgX2xhX2NhcnRlLmpzb24/9/"
+    },
+    {
+      "id": "fategrand_order_epic_of_remnant_seraph",
+      "title": "Fate/Grand Order -Epic of Remnant- SE,RA.PH",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nishide Kengorou"
+      ],
+      "cover": "https://i.imgur.com/lUMxFE3.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "037.2",
+      "latest_chapter_title": "Curtainfall 2 (Part 2)",
+      "last_updated": 1787477544,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/037.2/"
+    },
+    {
+      "id": "fategrand_order_penthesileas_interlude_the_phantom_of_troia",
+      "title": "Fate/Grand Order: Penthesilea's Interlude - The Phantom of Troia",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Shinjirou"
+      ],
+      "cover": "https://i.imgur.com/c3pecAd.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787477493,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1BlbnRoZXNpbGVhc19JbnRlcmx1ZGVfVGhlX1BoYW50b21fb2ZfVHJvaWEuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1BlbnRoZXNpbGVhc19JbnRlcmx1ZGVfVGhlX1BoYW50b21fb2ZfVHJvaWEuanNvbg/001/"
+    },
+    {
+      "id": "fate_grand_order__nikitich_s_interlude_cooking_nikitich",
+      "title": "Fate-Grand Order_ Nikitich_s Interlude - Cooking Nikitich!",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [],
+      "artists": [],
+      "cover": "assets/placeholder-cover.svg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787477421,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9fTmlraXRpY2hfc19JbnRlcmx1ZGVfQ29va2luZ19OaWtpdGljaC5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9fTmlraXRpY2hfc19JbnRlcmx1ZGVfQ29va2luZ19OaWtpdGljaC5qc29u/001/"
+    },
+    {
+      "id": "fategrand_order_dobrynya_nikitichs_interlude_cooking_nikitich",
+      "title": "Fate/Grand Order: Dobrynya Nikitich's Interlude – Cooking Nikitich!",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Robina"
+      ],
+      "cover": "https://files.catbox.moe/li9bk8.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787477421,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0RvYnJ5bnlhX05pa2l0aWNoc19JbnRlcmx1ZGVfQ29va2luZ19OaWtpdGljaC5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0RvYnJ5bnlhX05pa2l0aWNoc19JbnRlcmx1ZGVfQ29va2luZ19OaWtpdGljaC5qc29u/001/"
+    },
+    {
+      "id": "fatetype_redline",
+      "title": "Fate/Type Redline",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Hirano Ryouji"
+      ],
+      "cover": "https://files.catbox.moe/8qn7h6.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "022.1",
+      "latest_chapter_title": "",
+      "last_updated": 1787477366,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVR5cGVfUmVkbGluZS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVR5cGVfUmVkbGluZS5qc29u/022.1/"
+    },
+    {
+      "id": "fategrand_order_qin_shi_huangs_interlude_the_melancholy_of_a_ruler",
+      "title": "Fate/Grand Order: Qin Shi Huang's Interlude - The Melancholy of a Ruler",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Azuma Toh"
+      ],
+      "cover": "https://i.imgur.com/zhjMHy3.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787477273,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1Fpbl9TaGlfSHVhbmdzX0ludGVybHVkZV9UaGVfTWVsYW5jaG9seV9vZl9hX1J1bGVyLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1Fpbl9TaGlfSHVhbmdzX0ludGVybHVkZV9UaGVfTWVsYW5jaG9seV9vZl9hX1J1bGVyLmpzb24/001/"
+    },
+    {
+      "id": "fatezero_kiritsugu",
+      "title": "Fate/Zero ~Kiritsugu~",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Morii Shizuki"
+      ],
+      "cover": "https://i.imgur.com/w7wZsBA.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787477210,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS2lyaXRzdWd1Lmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS2lyaXRzdWd1Lmpzb24/001/"
+    },
+    {
+      "id": "fategrand_order_kamas_interlude_lovedepravity_is_ever_by_your_side",
+      "title": "Fate/Grand Order: Kama's Interlude - Love/Depravity Is Ever by Your Side",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "ReDrop"
+      ],
+      "cover": "https://i.imgur.com/ug2Teh0.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787477032,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0thbWFzX0ludGVybHVkZV9Mb3ZlRGVwcmF2aXR5X0lzX0V2ZXJfYnlfWW91cl9TaWRlLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0thbWFzX0ludGVybHVkZV9Mb3ZlRGVwcmF2aXR5X0lzX0V2ZXJfYnlfWW91cl9TaWRlLmpzb24/001/"
+    },
+    {
+      "id": "cempasúchil",
+      "title": "Cempasúchil",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nobitarou"
+      ],
+      "cover": "https://i.imgur.com/naoWMWb.png",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476990,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQ2VtcGFzw7pjaGlsLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQ2VtcGFzw7pjaGlsLmpzb24/001/"
+    },
+    {
+      "id": "fate_grand_order__cempasúchil",
+      "title": "Fate-Grand Order_ Cempasúchil",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [],
+      "artists": [],
+      "cover": "assets/placeholder-cover.svg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476990,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9fQ2VtcGFzw7pjaGlsLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9fQ2VtcGFzw7pjaGlsLmpzb24/001/"
+    },
+    {
+      "id": "fategrand_order_christopher_columbus_interlude_him",
+      "title": "Fate/Grand Order: Christopher Columbus' Interlude - Him",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Takenaka Hideo"
+      ],
+      "cover": "https://i.imgur.com/J9IagKb.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476960,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0NocmlzdG9waGVyX0NvbHVtYnVzX0ludGVybHVkZV9IaW0uanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0NocmlzdG9waGVyX0NvbHVtYnVzX0ludGVybHVkZV9IaW0uanNvbg/001/"
+    },
+    {
+      "id": "fatezero_kotomine",
+      "title": "Fate/Zero ~Kotomine~",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Haruno Tomoya"
+      ],
+      "cover": "https://i.imgur.com/tb3VuLB.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476928,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS290b21pbmUuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS290b21pbmUuanNvbg/001/"
+    },
+    {
+      "id": "morning_scenery",
+      "title": "Morning Scenery",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nakatani"
+      ],
+      "cover": "https://i.imgur.com/MqBESS8.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476842,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTW9ybmluZ19TY2VuZXJ5Lmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTW9ybmluZ19TY2VuZXJ5Lmpzb24/001/"
+    },
+    {
+      "id": "witch_on_the_holy_night",
+      "title": "Witch on the Holy Night",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nakatani"
+      ],
+      "cover": "https://i.imgur.com/es7vZNU.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "3",
+      "latest_chapter_title": "A Certain Day's Events",
+      "last_updated": 1787476812,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fVGhlX0hvbHlfTmlnaHQuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fVGhlX0hvbHlfTmlnaHQuanNvbg/3/"
+    },
+    {
+      "id": "hazakura_romantic",
+      "title": "Hazakura Romantic",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Suzuki Maito"
+      ],
+      "cover": "https://i.imgur.com/JWZ0KZe.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476795,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vSGF6YWt1cmFfUm9tYW50aWMuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vSGF6YWt1cmFfUm9tYW50aWMuanNvbg/001/"
+    },
+    {
+      "id": "fategrand_order_edward_teachs_interlude_a_mans_battle",
+      "title": "Fate/Grand Order: Edward Teach's Interlude - A Man's Battle",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "B-Suke"
+      ],
+      "cover": "https://files.catbox.moe/cvmo04.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476742,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0Vkd2FyZF9UZWFjaHNfSW50ZXJsdWRlX0FfTWFuc19CYXR0bGUuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0Vkd2FyZF9UZWFjaHNfSW50ZXJsdWRlX0FfTWFuc19CYXR0bGUuanNvbg/001/"
+    },
+    {
+      "id": "passionate_and_hopeful_taiga_sensei",
+      "title": "Passionate and Hopeful Taiga-sensei!",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Medori"
+      ],
+      "cover": "https://i.imgur.com/lqBDfAS.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476722,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vUGFzc2lvbmF0ZV9hbmRfSG9wZWZ1bF9UYWlnYV9zZW5zZWkuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vUGFzc2lvbmF0ZV9hbmRfSG9wZWZ1bF9UYWlnYV9zZW5zZWkuanNvbg/001/"
+    },
+    {
+      "id": "fateunlimited_codes_illyas_melancholy",
+      "title": "Fate/Unlimited Codes - Illya's Melancholy",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Medori"
+      ],
+      "cover": "https://i.imgur.com/D1losG5.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476659,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVVubGltaXRlZF9Db2Rlc19JbGx5YXNfTWVsYW5jaG9seS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVVubGltaXRlZF9Db2Rlc19JbGx5YXNfTWVsYW5jaG9seS5qc29u/001/"
+    },
+    {
+      "id": "the_man_known_as_tsukiji_tobimaru",
+      "title": "The Man known as Tsukiji Tobimaru",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nakatani"
+      ],
+      "cover": "https://i.imgur.com/xfFWEP6.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476591,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX01hbl9rbm93bl9hc19Uc3VraWppX1RvYmltYXJ1Lmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX01hbl9rbm93bl9hc19Uc3VraWppX1RvYmltYXJ1Lmpzb24/001/"
+    },
+    {
+      "id": "fategrand_order_in_search_of_the_perfect_wine_and_pickles_pairing",
+      "title": "Fate/Grand Order: In Search of the Perfect Wine and Pickles Pairing!",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Moguchi (もぐち)"
+      ],
+      "cover": "https://i.imgur.com/WuzLhfn.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476570,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0luX1NlYXJjaF9vZl90aGVfUGVyZmVjdF9XaW5lX2FuZF9QaWNrbGVzX1BhaXJpbmcuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0luX1NlYXJjaF9vZl90aGVfUGVyZmVjdF9XaW5lX2FuZF9QaWNrbGVzX1BhaXJpbmcuanNvbg/001/"
+    },
+    {
+      "id": "fate_grand_order__tomoe_s_way_of_the_gamer",
+      "title": "Fate-Grand Order_ Tomoe_s Way of the Gamer",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [],
+      "artists": [],
+      "cover": "assets/placeholder-cover.svg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476549,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9fVG9tb2Vfc19XYXlfb2ZfdGhlX0dhbWVyLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9fVG9tb2Vfc19XYXlfb2ZfdGhlX0dhbWVyLmpzb24/001/"
+    },
+    {
+      "id": "tomoes_way_of_the_gamer",
+      "title": "Tomoe's Way of the Gamer",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Syatey"
+      ],
+      "cover": "https://i.imgur.com/LghGWLP.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476549,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVG9tb2VzX1dheV9vZl90aGVfR2FtZXIuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVG9tb2VzX1dheV9vZl90aGVfR2FtZXIuanNvbg/001/"
+    },
+    {
+      "id": "tale_of_the_25th",
+      "title": "Tale of the 25th",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Sasaki Shounen"
+      ],
+      "cover": "https://i.imgur.com/CCD17jN.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "last_updated": 1787476528,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGFsZV9vZl90aGVfMjV0aC5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGFsZV9vZl90aGVfMjV0aC5qc29u/001/"
+    },
+    {
+      "id": "fatesamurai_remnant",
+      "title": "Fate/Samurai Remnant",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Mugetsu"
+      ],
+      "cover": "https://i.imgur.com/V3O25Ff.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "001.3",
+      "latest_chapter_title": "",
+      "last_updated": 1787473405,
+      "last_updated_display": "August 23, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/001.3/"
+    },
+    {
+      "id": "fategrand_order_mortalisstella_",
+      "title": "Fate/Grand Order -mortalis:stella-",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Shiramine"
+      ],
+      "cover": "assets/placeholder-cover.svg",
+      "status": "ongoing",
+      "latest_chapter_number": "25.3",
+      "latest_chapter_title": "Beyond Good and Evil - Fragment One (Part 3)",
+      "last_updated": 1786846140,
+      "last_updated_display": "August 16, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/25.3/"
+    },
+    {
+      "id": "the_case_files_of_lord_melloi_ii",
+      "title": "The Case Files of Lord Melloi II",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Asuma Toh"
+      ],
+      "cover": "https://i.imgur.com/4HDNkAr.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "67.2",
+      "latest_chapter_title": "",
+      "last_updated": 1786843860,
+      "last_updated_display": "August 16, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/67.2/"
+    },
+    {
+      "id": "fate_samurai_remnant_prologue",
+      "title": "Fate Samurai Remnant Prologue",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Mugetsu"
+      ],
+      "cover": "https://i.imgur.com/9v8gNC6.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "4.2",
+      "latest_chapter_title": "",
+      "last_updated": 1786322220,
+      "last_updated_display": "August 10, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9TYW11cmFpX1JlbW5hbnRfUHJvbG9ndWUuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9TYW11cmFpX1JlbW5hbnRfUHJvbG9ndWUuanNvbg/4.2/"
+    },
+    {
+      "id": "fatestay_night_unlimited_blade_works",
+      "title": "Fate/stay night: Unlimited Blade Works",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Moriyama Daisuke"
+      ],
+      "cover": "https://i.imgur.com/7ADwQpS.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "34.1",
+      "latest_chapter_title": "",
+      "last_updated": 1785584400,
+      "last_updated_display": "August 1, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/34.1/"
+    },
+    {
+      "id": "fategrand_order_turas_réalta_",
+      "title": "Fate/Grand Order -turas réalta-",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Kawaguchi Takeshi"
+      ],
+      "cover": "https://i.imgur.com/v3VLpmp.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "97",
+      "latest_chapter_title": "Seventh Singularity Finale 3",
+      "last_updated": 1784974440,
+      "last_updated_display": "July 25, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/97/"
+    },
+    {
+      "id": "fate_grand_order_epic_of_remnant_deep_sea_cyber_paradise_seraph",
+      "title": "Fate-Grand Order -Epic of Remnant- Deep Sea Cyber-Paradise SERAPH",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [],
+      "artists": [],
+      "cover": "assets/placeholder-cover.svg",
+      "status": "ongoing",
+      "latest_chapter_number": "37.2",
+      "latest_chapter_title": "- Curtainfall 2 (Part 2)",
+      "last_updated": 1784974380,
+      "last_updated_display": "July 25, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9FcGljX29mX1JlbW5hbnRfRGVlcF9TZWFfQ3liZXJfUGFyYWRpc2VfU0VSQVBILmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9HcmFuZF9PcmRlcl9FcGljX29mX1JlbW5hbnRfRGVlcF9TZWFfQ3liZXJfUGFyYWRpc2VfU0VSQVBILmpzb24/37.2/"
+    },
+    {
+      "id": "fatestrange_fake",
+      "title": "Fate/Strange Fake",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Morii Shizuki"
+      ],
+      "cover": "https://i.imgur.com/51Rdl4F.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "17.4",
+      "latest_chapter_title": "",
+      "last_updated": 1784974320,
+      "last_updated_display": "July 25, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/17.4/"
+    },
+    {
+      "id": "fatekaleid_liner_prisma_illya_3rei",
+      "title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Hiroyama Hiroshi"
+      ],
+      "cover": "https://i.imgur.com/VEeGrIs.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "76",
+      "latest_chapter_title": "",
+      "last_updated": 1784974260,
+      "last_updated_display": "July 25, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/76/"
+    },
+    {
+      "id": "fategrand_order_epic_of_remnant_shimousa",
+      "title": "Fate/Grand Order -Epic of Remnant- Shimousa",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Wataru Rei"
+      ],
+      "cover": "https://i.imgur.com/MJKWoiC.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "44",
+      "latest_chapter_title": "Fourth and Fifth Duels (Part 3)",
+      "last_updated": 1767608220,
+      "last_updated_display": "January 5, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/44/"
+    },
+    {
+      "id": "melty_blood_type_lumina_piece_in_paradise",
+      "title": "Melty Blood: Type Lumina Piece in Paradise",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "metalog"
+      ],
+      "cover": "https://i.imgur.com/cItgjJ2.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "24",
+      "latest_chapter_title": "",
+      "last_updated": 1766144100,
+      "last_updated_display": "December 19, 2025",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfVHlwZV9MdW1pbmFfUGllY2VfaW5fUGFyYWRpc2UuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfVHlwZV9MdW1pbmFfUGllY2VfaW5fUGFyYWRpc2UuanNvbg/24/"
+    },
+    {
+      "id": "melty_blood_back_alley_nightmare",
+      "title": "Melty Blood: Back Alley Nightmare",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Kirishima Takeru"
+      ],
+      "cover": "https://i.imgur.com/YTywxWr.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "2",
+      "latest_chapter_title": "",
+      "last_updated": 1765969920,
+      "last_updated_display": "December 17, 2025",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfQmFja19BbGxleV9OaWdodG1hcmUuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfQmFja19BbGxleV9OaWdodG1hcmUuanNvbg/2/"
+    },
+    {
+      "id": "avalon_tale",
+      "title": "Avalon Tale",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nakatani"
+      ],
+      "cover": "https://files.catbox.moe/seeoti.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "3",
+      "latest_chapter_title": "Twilight of the King",
+      "last_updated": 1765104900,
+      "last_updated_display": "December 7, 2025",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQXZhbG9uX1RhbGUuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQXZhbG9uX1RhbGUuanNvbg/3/"
+    },
+    {
+      "id": "witch_on_the_holy_night_comic_à_la_carte_witchcraft",
+      "title": "Witch on the Holy Night -Comic à La Carte- Witchcraft",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Yoshiki",
+        "Ijiro Suika",
+        "Hazumi Nariyuki",
+        "Azuma Shoko",
+        "また (Mata)",
+        "Tapo",
+        "Ooishi Kou (Ra-men)",
+        "Aona Masao",
+        "Tsutauchi Nikuhachi",
+        "Futaba Masumi"
+      ],
+      "cover": "https://i.imgur.com/vPv8UOO.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "1",
+      "latest_chapter_title": "Who's Sus?",
+      "last_updated": 1745034060,
+      "last_updated_display": "April 19, 2025",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfV2l0Y2hjcmFmdC5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfV2l0Y2hjcmFmdC5qc29u/1/"
+    },
+    {
+      "id": "fatehollow_ataraxia",
+      "title": "Fate/hollow ataraxia",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Medori"
+      ],
+      "cover": "https://i.imgur.com/hnugXI5.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "7",
+      "latest_chapter_title": "",
+      "last_updated": 1743491580,
+      "last_updated_display": "April 1, 2025",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWhvbGxvd19hdGFyYXhpYS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWhvbGxvd19hdGFyYXhpYS5qc29u/7/"
+    },
+    {
+      "id": "tsukihime_a_piece_of_blue_glass_moon_moon_phase",
+      "title": "Tsukihime -A piece of blue glass moon- Moon Phase",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nakatani"
+      ],
+      "cover": "https://i.imgur.com/uTGfbll.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "4",
+      "latest_chapter_title": "Where Eternity Comes to Die",
+      "last_updated": 1743064140,
+      "last_updated_display": "March 27, 2025",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX01vb25fUGhhc2UuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX01vb25fUGhhc2UuanNvbg/4/"
+    },
+    {
+      "id": "fatezero",
+      "title": "Fate/Zero",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Shinjirou"
+      ],
+      "cover": "https://i.imgur.com/2N6IyWw.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "47",
+      "latest_chapter_title": "",
+      "last_updated": 1739078040,
+      "last_updated_display": "February 9, 2025",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/47/"
+    },
+    {
+      "id": "fategrand_order_saber_wars_ii_side_story_jane_ishtar",
+      "title": "Fate/Grand Order SABER WARS II Side Story: Jane & Ishtar",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Moriyama Daisuke"
+      ],
+      "cover": "https://i.imgur.com/8RDlHUN.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "2",
+      "latest_chapter_title": "",
+      "last_updated": 1723742760,
+      "last_updated_display": "August 16, 2024",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1NBQkVSX1dBUlNfSUlfU2lkZV9TdG9yeV9KYW5lX0lzaHRhci5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1NBQkVSX1dBUlNfSUlfU2lkZV9TdG9yeV9KYW5lX0lzaHRhci5qc29u/2/"
+    },
+    {
+      "id": "witch_on_the_holy_night_comic_à_la_carte_nursery_rhyme",
+      "title": "Witch on the Holy Night -Comic à La Carte- Nursery Rhyme",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Namino Ryou",
+        "konno",
+        "Yui Yui",
+        "Shiranami Kouki",
+        "Shimesaba (シメサバ)",
+        "Takenoko Seijin",
+        "Usui Rinno",
+        "Hazumi Nariyuki",
+        "Keikenchi",
+        "Tapo",
+        "Mata",
+        "Aona Masao",
+        "Tsutauchi Nikuhachi",
+        "Futaba Masumi"
+      ],
+      "cover": "https://i.imgur.com/xi4aqCz.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "1",
+      "latest_chapter_title": "The Bambi Case",
+      "last_updated": 1714917600,
+      "last_updated_display": "May 5, 2024",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfTnVyc2VyeV9SaHltZS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfTnVyc2VyeV9SaHltZS5qc29u/1/"
+    },
+    {
+      "id": "fategrand_order_gouka_kenran_mugetsu_sakuhinshuu",
+      "title": "Fate/Grand Order: Gouka Kenran Mugetsu Sakuhinshuu",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Mugetsu"
+      ],
+      "cover": "https://i.imgur.com/71kg0Kq.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "1",
+      "latest_chapter_title": "Miyamoto Musashi vs Okita Souji",
+      "last_updated": 1708943940,
+      "last_updated_display": "February 26, 2024",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0dvdWthX0tlbnJhbl9NdWdldHN1X1Nha3VoaW5zaHV1Lmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0dvdWthX0tlbnJhbl9NdWdldHN1X1Nha3VoaW5zaHV1Lmpzb24/1/"
+    },
+    {
+      "id": "dotsuki_manzai",
+      "title": "Dotsuki Manzai",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Takatou Rui"
+      ],
+      "cover": "https://i.imgur.com/J9mqkvJ.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "1",
+      "latest_chapter_title": "Prologue",
+      "last_updated": 1682249880,
+      "last_updated_display": "April 23, 2023",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRG90c3VraV9NYW56YWkuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRG90c3VraV9NYW56YWkuanNvbg/1/"
+    },
+    {
+      "id": "tsukihime_a_piece_of_blue_glass_moon_anthology_comic_star",
+      "title": "Tsukihime -A piece of blue glass moon- Anthology Comic STAR",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Piyo",
+        "Ono Tako",
+        "Hoshi Naosuke",
+        "Ashida Yuri",
+        "Niijiru",
+        "Azami Masurao",
+        "Ajaraya Benbe",
+        "Chiizuroe",
+        "Royst",
+        "metalog",
+        "Uyuki"
+      ],
+      "cover": "https://i.imgur.com/4hS1hRg.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "10",
+      "latest_chapter_title": "The Most Suitable One is?!",
+      "last_updated": 1657380960,
+      "last_updated_display": "July 10, 2022",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0FudGhvbG9neV9Db21pY19TVEFSLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0FudGhvbG9neV9Db21pY19TVEFSLmpzb24/10/"
+    },
+    {
+      "id": "medorism_fate_short_works",
+      "title": "Medorism: Fate Short Works",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Medori"
+      ],
+      "cover": "https://i.imgur.com/gpJTIok.jpg",
+      "status": "ongoing",
+      "latest_chapter_number": "1",
+      "latest_chapter_title": "Cava",
+      "last_updated": 1644775380,
+      "last_updated_display": "February 14, 2022",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVkb3Jpc21fRmF0ZV9TaG9ydF9Xb3Jrcy5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVkb3Jpc21fRmF0ZV9TaG9ydF9Xb3Jrcy5qc29u/1/"
+    }
+  ]
+}
