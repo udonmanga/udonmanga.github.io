@@ -1,5 +1,5 @@
 {
-  "generated_at": 1789988117,
+  "generated_at": 1789988261,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -358,17 +358,6 @@
       "series_title": "Fate/Zero",
       "series_id": "fatezero",
       "chapter": "55",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
-      "cover": "assets/covers/fatezero.jpg",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/"
-    },
-    {
-      "sheet_series": "Zero",
-      "series_title": "Fate/Zero",
-      "series_id": "fatezero",
-      "chapter": "56",
       "stage": "Translating",
       "stage_key": "TL",
       "since": "",
