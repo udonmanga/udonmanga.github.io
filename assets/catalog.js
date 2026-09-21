@@ -55,6 +55,13 @@
     return raw;
   }
 
+  /** Display-only: 029.5 → 29.5, 004 → 4. Cubari URLs keep padded keys. */
+  function displayChapter(raw) {
+    const text = String(raw ?? "").trim();
+    if (!text) return "";
+    return text.replace(/(^|\.)0+(\d)/g, "$1$2");
+  }
+
   function applyAccent(accent) {
     if (accent) document.documentElement.style.setProperty("--accent", accent);
   }
@@ -99,7 +106,7 @@
 
     els.latest.innerHTML = rows
       .map((row) => {
-        const chapterBits = [`Ch. ${escapeHtml(row.chapter_number)}`];
+        const chapterBits = [`Chapter ${escapeHtml(displayChapter(row.chapter_number))}`];
         if (row.chapter_title) chapterBits.push(escapeHtml(row.chapter_title));
         return `
           <a class="latest-row" href="${escapeHtml(row.cubari_url)}" rel="noopener noreferrer" target="_blank">
@@ -162,7 +169,7 @@
   function cardHtml(t) {
     const category = t.category || "series";
     const chapterLabel = t.latest_chapter_number
-      ? `Chapter ${escapeHtml(t.latest_chapter_number)}`
+      ? `Chapter ${escapeHtml(displayChapter(t.latest_chapter_number))}`
       : "latest chapter";
     const titleLine = t.latest_chapter_title
       ? `${chapterLabel} — ${escapeHtml(t.latest_chapter_title)}`
