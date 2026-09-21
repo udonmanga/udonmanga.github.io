@@ -101,6 +101,26 @@ def norm_chapter(raw: object) -> str:
     return f"{f:.10f}".rstrip("0").rstrip(".")
 
 
+def resolve_chapter_key(chapters: dict | None, chapter: object) -> str | None:
+    """Map a sheet/chapter number to the exact Cubari JSON chapter key.
+
+    Cubari keys are often zero-padded (029.5); sheet links usually are not (29.5).
+    """
+    target = norm_chapter(chapter)
+    if not target or not isinstance(chapters, dict):
+        return None
+    matches = [k for k in chapters if norm_chapter(k) == target]
+    if not matches:
+        return None
+    # Prefer the canonical stored key (usually the zero-padded one).
+    matches.sort(key=lambda k: (len(k), k))
+    return matches[-1]
+
+
+def chapter_cubari_url(series_url: str, chapter_key: str) -> str:
+    return f"{series_url.rstrip('/')}/{chapter_key}/"
+
+
 def display_date(ts: int) -> str:
     if not ts:
         return ""
@@ -362,22 +382,20 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
             continue
         t["released_at"] = rel["released_at"]
         t["released_display"] = rel["released_display"]
-        t["latest_chapter_number"] = rel["chapter"]
         chapters = t.get("_chapters") or {}
-        ch_meta = None
-        for key, val in chapters.items():
-            if norm_chapter(key) == rel["chapter"] and isinstance(val, dict):
-                ch_meta = val
-                break
+        ch_key = resolve_chapter_key(chapters, rel["chapter"])
+        t["latest_chapter_number"] = ch_key or rel["chapter"]
+        ch_meta = chapters.get(ch_key) if ch_key else None
+        if not isinstance(ch_meta, dict):
+            ch_meta = None
         t["latest_chapter_title"] = (
             str((ch_meta or {}).get("title") or "").strip() or rel.get("chapter_title") or ""
         )
-        if rel["release_link"]:
-            t["cubari_latest_url"] = rel["release_link"]
+        # Always rebuild from Cubari key — sheet release_link often omits zero-padding.
+        if ch_key:
+            t["cubari_latest_url"] = chapter_cubari_url(t["cubari_series_url"], ch_key)
         else:
-            t["cubari_latest_url"] = (
-                f"{t['cubari_series_url'].rstrip('/')}/{rel['chapter']}/"
-            )
+            t["cubari_latest_url"] = t["cubari_series_url"]
 
     latest_releases: list[dict] = []
     for rel in releases:
@@ -391,22 +409,24 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
             cover = t["cover"]
         series_title = t["title"] if t else rel["series"]
         series_id = t["id"] if t else norm_text(rel["series"]) or "unknown"
-        cubari = rel["release_link"]
-        if not cubari and t:
-            cubari = f"{t['cubari_series_url'].rstrip('/')}/{rel['chapter']}/"
+        chapters = (t.get("_chapters") or {}) if t else {}
+        ch_key = resolve_chapter_key(chapters, rel["chapter"]) if t else None
+        chapter_title = ""
+        if ch_key and isinstance(chapters.get(ch_key), dict):
+            chapter_title = str(chapters[ch_key].get("title") or "").strip()
+        if t and ch_key:
+            cubari = chapter_cubari_url(t["cubari_series_url"], ch_key)
+        elif t:
+            cubari = t["cubari_series_url"]
+        else:
+            cubari = rel["release_link"]
         if not cubari:
             continue
-        chapter_title = ""
-        if t:
-            for key, val in (t.get("_chapters") or {}).items():
-                if norm_chapter(key) == rel["chapter"] and isinstance(val, dict):
-                    chapter_title = str(val.get("title") or "").strip()
-                    break
         latest_releases.append(
             {
                 "series_id": series_id,
                 "series_title": series_title,
-                "chapter_number": rel["chapter"],
+                "chapter_number": ch_key or rel["chapter"],
                 "chapter_title": chapter_title,
                 "released_at": rel["released_at"],
                 "released_display": rel["released_display"],
