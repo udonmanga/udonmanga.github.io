@@ -1,5 +1,5 @@
 {
-  "generated_at": 1789975909,
+  "generated_at": 1789979726,
   "site": {
     "name": "Udon Mango D",
     "subtitle": "Translations of Type-Moon Works",
@@ -123,13 +123,13 @@
         "Sasaki Shounen"
       ],
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
+      "category": "series",
       "latest_chapter_number": "029.5",
       "latest_chapter_title": "",
       "released_at": 1789864980,
       "released_display": "September 20, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
     },
     {
       "id": "fatestay_night_heavens_feel",
@@ -143,13 +143,13 @@
         "Task Ohna"
       ],
       "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
+      "category": "series",
       "latest_chapter_number": "112",
       "latest_chapter_title": "Day 11 - Bad News (1)",
       "released_at": 1789184460,
       "released_display": "September 12, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/112/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/112/"
     },
     {
       "id": "fategrand_order_mortalisstella_",
@@ -163,13 +163,13 @@
         "Shiramine"
       ],
       "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
+      "category": "series",
       "latest_chapter_number": "025.3",
       "latest_chapter_title": "Beyond Good and Evil - Fragment One (Part 3)",
       "released_at": 1786846140,
       "released_display": "August 16, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/025.3/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/025.3/"
     },
     {
       "id": "the_case_files_of_lord_melloi_ii",
@@ -183,13 +183,13 @@
         "Asuma Toh"
       ],
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
+      "category": "series",
       "latest_chapter_number": "067.2",
       "latest_chapter_title": "",
       "released_at": 1786843860,
       "released_display": "August 16, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/067.2/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/067.2/"
     },
     {
       "id": "fatesamurai_remnant",
@@ -203,13 +203,13 @@
         "Mugetsu"
       ],
       "cover": "assets/covers/fatesamurai_remnant.jpg",
+      "category": "series",
       "latest_chapter_number": "004.2",
       "latest_chapter_title": "",
       "released_at": 1786322220,
       "released_display": "August 10, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.2/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.2/"
     },
     {
       "id": "fatestay_night_unlimited_blade_works",
@@ -223,13 +223,13 @@
         "Moriyama Daisuke"
       ],
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
+      "category": "series",
       "latest_chapter_number": "034.1",
       "latest_chapter_title": "",
       "released_at": 1785584400,
       "released_display": "August 1, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.1/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.1/"
     },
     {
       "id": "fategrand_order_turas_réalta_",
@@ -243,13 +243,13 @@
         "Kawaguchi Takeshi"
       ],
       "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
+      "category": "series",
       "latest_chapter_number": "098",
       "latest_chapter_title": "Seventh Singularity Finale 4",
       "released_at": 1784974440,
       "released_display": "July 25, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/098/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/098/"
     },
     {
       "id": "fategrand_order_epic_of_remnant_seraph",
@@ -263,13 +263,13 @@
         "Nishide Kengorou"
       ],
       "cover": "assets/covers/fategrand_order_epic_of_remnant_seraph.jpg",
+      "category": "series",
       "latest_chapter_number": "037.2",
       "latest_chapter_title": "Curtainfall 2 (Part 2)",
       "released_at": 1784974380,
       "released_display": "July 25, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/037.2/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/037.2/"
     },
     {
       "id": "fatestrange_fake",
@@ -283,13 +283,13 @@
         "Morii Shizuki"
       ],
       "cover": "assets/covers/fatestrange_fake.jpg",
+      "category": "series",
       "latest_chapter_number": "021",
       "latest_chapter_title": "",
       "released_at": 1784974320,
       "released_display": "July 25, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/021/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/021/"
     },
     {
       "id": "fatekaleid_liner_prisma_illya_3rei",
@@ -303,13 +303,13 @@
         "Hiroyama Hiroshi"
       ],
       "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
+      "category": "series",
       "latest_chapter_number": "077.2",
       "latest_chapter_title": "A Tale of Friendship",
       "released_at": 1784974260,
       "released_display": "July 25, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/077.2/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/077.2/"
     },
     {
       "id": "fatetype_redline",
@@ -323,13 +323,13 @@
         "Hirano Ryouji"
       ],
       "cover": "assets/covers/fatetype_redline.jpg",
+      "category": "series",
       "latest_chapter_number": "022.2",
       "latest_chapter_title": "",
       "released_at": 1777005665,
       "released_display": "April 24, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVR5cGVfUmVkbGluZS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVR5cGVfUmVkbGluZS5qc29u/022.2/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVR5cGVfUmVkbGluZS5qc29u/022.2/"
     },
     {
       "id": "fategrand_order_epic_of_remnant_shimousa",
@@ -343,13 +343,13 @@
         "Wataru Rei"
       ],
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg",
+      "category": "series",
       "latest_chapter_number": "045",
       "latest_chapter_title": "Fourth and Fifth Duels (Part 4)",
       "released_at": 1767608220,
       "released_display": "January 5, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/045/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/045/"
     },
     {
       "id": "melty_blood_type_lumina_piece_in_paradise",
@@ -363,13 +363,13 @@
         "metalog"
       ],
       "cover": "assets/covers/melty_blood_type_lumina_piece_in_paradise.jpg",
+      "category": "series",
       "latest_chapter_number": "024.5",
       "latest_chapter_title": "",
       "released_at": 1766144100,
       "released_display": "December 19, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfVHlwZV9MdW1pbmFfUGllY2VfaW5fUGFyYWRpc2UuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfVHlwZV9MdW1pbmFfUGllY2VfaW5fUGFyYWRpc2UuanNvbg/024.5/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfVHlwZV9MdW1pbmFfUGllY2VfaW5fUGFyYWRpc2UuanNvbg/024.5/"
     },
     {
       "id": "melty_blood_back_alley_nightmare",
@@ -383,13 +383,13 @@
         "Kirishima Takeru"
       ],
       "cover": "assets/covers/melty_blood_back_alley_nightmare.jpg",
+      "category": "series",
       "latest_chapter_number": "010.5",
       "latest_chapter_title": "",
       "released_at": 1765969920,
       "released_display": "December 17, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfQmFja19BbGxleV9OaWdodG1hcmUuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfQmFja19BbGxleV9OaWdodG1hcmUuanNvbg/010.5/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVsdHlfQmxvb2RfQmFja19BbGxleV9OaWdodG1hcmUuanNvbg/010.5/"
     },
     {
       "id": "avalon_tale",
@@ -403,13 +403,13 @@
         "Nakatani"
       ],
       "cover": "assets/covers/avalon_tale.jpg",
+      "category": "anthology",
       "latest_chapter_number": "4",
       "latest_chapter_title": "Curtain Call",
       "released_at": 1765104900,
       "released_display": "December 7, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQXZhbG9uX1RhbGUuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQXZhbG9uX1RhbGUuanNvbg/4/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQXZhbG9uX1RhbGUuanNvbg/4/"
     },
     {
       "id": "fategrand_order_dobrynya_nikitichs_interlude_cooking_nikitich",
@@ -423,13 +423,13 @@
         "Robina"
       ],
       "cover": "assets/covers/fategrand_order_dobrynya_nikitichs_interlude_cooking_nikitich.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1754457272,
       "released_display": "August 6, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0RvYnJ5bnlhX05pa2l0aWNoc19JbnRlcmx1ZGVfQ29va2luZ19OaWtpdGljaC5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0RvYnJ5bnlhX05pa2l0aWNoc19JbnRlcmx1ZGVfQ29va2luZ19OaWtpdGljaC5qc29u/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0RvYnJ5bnlhX05pa2l0aWNoc19JbnRlcmx1ZGVfQ29va2luZ19OaWtpdGljaC5qc29u/001/"
     },
     {
       "id": "fategrand_order_edward_teachs_interlude_a_mans_battle",
@@ -443,13 +443,13 @@
         "B-Suke"
       ],
       "cover": "assets/covers/fategrand_order_edward_teachs_interlude_a_mans_battle.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1754100752,
       "released_display": "August 2, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0Vkd2FyZF9UZWFjaHNfSW50ZXJsdWRlX0FfTWFuc19CYXR0bGUuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0Vkd2FyZF9UZWFjaHNfSW50ZXJsdWRlX0FfTWFuc19CYXR0bGUuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0Vkd2FyZF9UZWFjaHNfSW50ZXJsdWRlX0FfTWFuc19CYXR0bGUuanNvbg/001/"
     },
     {
       "id": "cempasúchil",
@@ -463,13 +463,13 @@
         "Nobitarou"
       ],
       "cover": "assets/covers/cempasúchil.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1753696623,
       "released_display": "July 28, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQ2VtcGFzw7pjaGlsLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQ2VtcGFzw7pjaGlsLmpzb24/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQ2VtcGFzw7pjaGlsLmpzb24/001/"
     },
     {
       "id": "fatezero_kotomine",
@@ -483,13 +483,13 @@
         "Haruno Tomoya"
       ],
       "cover": "assets/covers/fatezero_kotomine.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1745146326,
       "released_display": "April 20, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS290b21pbmUuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS290b21pbmUuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS290b21pbmUuanNvbg/001/"
     },
     {
       "id": "fatezero_kiritsugu",
@@ -503,13 +503,13 @@
         "Morii Shizuki"
       ],
       "cover": "assets/covers/fatezero_kiritsugu.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1745146205,
       "released_display": "April 20, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS2lyaXRzdWd1Lmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS2lyaXRzdWd1Lmpzb24/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm9fS2lyaXRzdWd1Lmpzb24/001/"
     },
     {
       "id": "witch_on_the_holy_night_comic_à_la_carte_witchcraft",
@@ -532,13 +532,13 @@
         "Futaba Masumi"
       ],
       "cover": "assets/covers/witch_on_the_holy_night_comic_à_la_carte_witchcraft.jpg",
+      "category": "anthology",
       "latest_chapter_number": "12",
       "latest_chapter_title": "Supper of the Witches",
       "released_at": 1745034060,
       "released_display": "April 19, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfV2l0Y2hjcmFmdC5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfV2l0Y2hjcmFmdC5qc29u/12/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfV2l0Y2hjcmFmdC5qc29u/12/"
     },
     {
       "id": "passionate_and_hopeful_taiga_sensei",
@@ -552,13 +552,13 @@
         "Medori"
       ],
       "cover": "assets/covers/passionate_and_hopeful_taiga_sensei.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1743491696,
       "released_display": "April 1, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vUGFzc2lvbmF0ZV9hbmRfSG9wZWZ1bF9UYWlnYV9zZW5zZWkuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vUGFzc2lvbmF0ZV9hbmRfSG9wZWZ1bF9UYWlnYV9zZW5zZWkuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vUGFzc2lvbmF0ZV9hbmRfSG9wZWZ1bF9UYWlnYV9zZW5zZWkuanNvbg/001/"
     },
     {
       "id": "fateunlimited_codes_illyas_melancholy",
@@ -572,13 +572,13 @@
         "Medori"
       ],
       "cover": "assets/covers/fateunlimited_codes_illyas_melancholy.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1743491652,
       "released_display": "April 1, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVVubGltaXRlZF9Db2Rlc19JbGx5YXNfTWVsYW5jaG9seS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVVubGltaXRlZF9Db2Rlc19JbGx5YXNfTWVsYW5jaG9seS5qc29u/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVVubGltaXRlZF9Db2Rlc19JbGx5YXNfTWVsYW5jaG9seS5qc29u/001/"
     },
     {
       "id": "fatehollow_ataraxia",
@@ -592,13 +592,13 @@
         "Medori"
       ],
       "cover": "assets/covers/fatehollow_ataraxia.jpg",
+      "category": "series",
       "latest_chapter_number": "012.2",
       "latest_chapter_title": "",
       "released_at": 1743491580,
       "released_display": "April 1, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWhvbGxvd19hdGFyYXhpYS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWhvbGxvd19hdGFyYXhpYS5qc29u/012.2/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWhvbGxvd19hdGFyYXhpYS5qc29u/012.2/"
     },
     {
       "id": "tsukihime_a_piece_of_blue_glass_moon_moon_phase",
@@ -612,13 +612,13 @@
         "Nakatani"
       ],
       "cover": "assets/covers/tsukihime_a_piece_of_blue_glass_moon_moon_phase.jpg",
+      "category": "anthology",
       "latest_chapter_number": "5",
       "latest_chapter_title": "Sleeping Beauty",
       "released_at": 1743064140,
       "released_display": "March 27, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX01vb25fUGhhc2UuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX01vb25fUGhhc2UuanNvbg/5/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX01vb25fUGhhc2UuanNvbg/5/"
     },
     {
       "id": "hazakura_romantic",
@@ -632,13 +632,13 @@
         "Suzuki Maito"
       ],
       "cover": "assets/covers/hazakura_romantic.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1741472734,
       "released_display": "March 8, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vSGF6YWt1cmFfUm9tYW50aWMuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vSGF6YWt1cmFfUm9tYW50aWMuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vSGF6YWt1cmFfUm9tYW50aWMuanNvbg/001/"
     },
     {
       "id": "fatezero",
@@ -652,13 +652,13 @@
         "Shinjirou"
       ],
       "cover": "assets/covers/fatezero.jpg",
+      "category": "series",
       "latest_chapter_number": "051",
       "latest_chapter_title": "",
       "released_at": 1739078040,
       "released_display": "February 9, 2025",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/051/",
-      "category": "series"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/051/"
     },
     {
       "id": "fategrand_order_in_search_of_the_perfect_wine_and_pickles_pairing",
@@ -672,13 +672,13 @@
         "Moguchi (もぐち)"
       ],
       "cover": "assets/covers/fategrand_order_in_search_of_the_perfect_wine_and_pickles_pairing.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1730640166,
       "released_display": "November 3, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0luX1NlYXJjaF9vZl90aGVfUGVyZmVjdF9XaW5lX2FuZF9QaWNrbGVzX1BhaXJpbmcuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0luX1NlYXJjaF9vZl90aGVfUGVyZmVjdF9XaW5lX2FuZF9QaWNrbGVzX1BhaXJpbmcuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0luX1NlYXJjaF9vZl90aGVfUGVyZmVjdF9XaW5lX2FuZF9QaWNrbGVzX1BhaXJpbmcuanNvbg/001/"
     },
     {
       "id": "tomoes_way_of_the_gamer",
@@ -692,13 +692,13 @@
         "Syatey"
       ],
       "cover": "assets/covers/tomoes_way_of_the_gamer.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1730640127,
       "released_display": "November 3, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVG9tb2VzX1dheV9vZl90aGVfR2FtZXIuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVG9tb2VzX1dheV9vZl90aGVfR2FtZXIuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVG9tb2VzX1dheV9vZl90aGVfR2FtZXIuanNvbg/001/"
     },
     {
       "id": "fategrand_order_christopher_columbus_interlude_him",
@@ -712,13 +712,13 @@
         "Takenaka Hideo"
       ],
       "cover": "assets/covers/fategrand_order_christopher_columbus_interlude_him.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1730640057,
       "released_display": "November 3, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0NocmlzdG9waGVyX0NvbHVtYnVzX0ludGVybHVkZV9IaW0uanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0NocmlzdG9waGVyX0NvbHVtYnVzX0ludGVybHVkZV9IaW0uanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0NocmlzdG9waGVyX0NvbHVtYnVzX0ludGVybHVkZV9IaW0uanNvbg/001/"
     },
     {
       "id": "fategrand_order_qin_shi_huangs_interlude_the_melancholy_of_a_ruler",
@@ -732,13 +732,13 @@
         "Azuma Toh"
       ],
       "cover": "assets/covers/fategrand_order_qin_shi_huangs_interlude_the_melancholy_of_a_ruler.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1730639940,
       "released_display": "November 3, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1Fpbl9TaGlfSHVhbmdzX0ludGVybHVkZV9UaGVfTWVsYW5jaG9seV9vZl9hX1J1bGVyLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1Fpbl9TaGlfSHVhbmdzX0ludGVybHVkZV9UaGVfTWVsYW5jaG9seV9vZl9hX1J1bGVyLmpzb24/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1Fpbl9TaGlfSHVhbmdzX0ludGVybHVkZV9UaGVfTWVsYW5jaG9seV9vZl9hX1J1bGVyLmpzb24/001/"
     },
     {
       "id": "fategrand_order_penthesileas_interlude_the_phantom_of_troia",
@@ -752,13 +752,13 @@
         "Shinjirou"
       ],
       "cover": "assets/covers/fategrand_order_penthesileas_interlude_the_phantom_of_troia.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1726388084,
       "released_display": "September 15, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1BlbnRoZXNpbGVhc19JbnRlcmx1ZGVfVGhlX1BoYW50b21fb2ZfVHJvaWEuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1BlbnRoZXNpbGVhc19JbnRlcmx1ZGVfVGhlX1BoYW50b21fb2ZfVHJvaWEuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1BlbnRoZXNpbGVhc19JbnRlcmx1ZGVfVGhlX1BoYW50b21fb2ZfVHJvaWEuanNvbg/001/"
     },
     {
       "id": "fategrand_order_kamas_interlude_lovedepravity_is_ever_by_your_side",
@@ -772,13 +772,13 @@
         "ReDrop"
       ],
       "cover": "assets/covers/fategrand_order_kamas_interlude_lovedepravity_is_ever_by_your_side.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1725550673,
       "released_display": "September 5, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0thbWFzX0ludGVybHVkZV9Mb3ZlRGVwcmF2aXR5X0lzX0V2ZXJfYnlfWW91cl9TaWRlLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0thbWFzX0ludGVybHVkZV9Mb3ZlRGVwcmF2aXR5X0lzX0V2ZXJfYnlfWW91cl9TaWRlLmpzb24/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0thbWFzX0ludGVybHVkZV9Mb3ZlRGVwcmF2aXR5X0lzX0V2ZXJfYnlfWW91cl9TaWRlLmpzb24/001/"
     },
     {
       "id": "morning_scenery",
@@ -792,13 +792,13 @@
         "Nakatani"
       ],
       "cover": "assets/covers/morning_scenery.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1724834548,
       "released_display": "August 28, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTW9ybmluZ19TY2VuZXJ5Lmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTW9ybmluZ19TY2VuZXJ5Lmpzb24/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTW9ybmluZ19TY2VuZXJ5Lmpzb24/001/"
     },
     {
       "id": "fategrand_order_saber_wars_ii_side_story_jane_ishtar",
@@ -812,13 +812,13 @@
         "Moriyama Daisuke"
       ],
       "cover": "assets/covers/fategrand_order_saber_wars_ii_side_story_jane_ishtar.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "2.5",
       "latest_chapter_title": "",
       "released_at": 1723742760,
       "released_display": "August 16, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1NBQkVSX1dBUlNfSUlfU2lkZV9TdG9yeV9KYW5lX0lzaHRhci5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1NBQkVSX1dBUlNfSUlfU2lkZV9TdG9yeV9KYW5lX0lzaHRhci5qc29u/2.5/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX1NBQkVSX1dBUlNfSUlfU2lkZV9TdG9yeV9KYW5lX0lzaHRhci5qc29u/2.5/"
     },
     {
       "id": "witch_on_the_holy_night_comic_à_la_carte_nursery_rhyme",
@@ -845,13 +845,13 @@
         "Futaba Masumi"
       ],
       "cover": "assets/covers/witch_on_the_holy_night_comic_à_la_carte_nursery_rhyme.jpg",
+      "category": "anthology",
       "latest_chapter_number": "15",
       "latest_chapter_title": "Soujuurou and the Videotapes",
       "released_at": 1714917600,
       "released_display": "May 5, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfTnVyc2VyeV9SaHltZS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfTnVyc2VyeV9SaHltZS5qc29u/15/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfQ29taWNfw6BfTGFfQ2FydGVfTnVyc2VyeV9SaHltZS5qc29u/15/"
     },
     {
       "id": "fategrand_order_gouka_kenran_mugetsu_sakuhinshuu",
@@ -865,13 +865,13 @@
         "Mugetsu"
       ],
       "cover": "assets/covers/fategrand_order_gouka_kenran_mugetsu_sakuhinshuu.jpg",
+      "category": "anthology",
       "latest_chapter_number": "5",
       "latest_chapter_title": "Genji vs Dragon",
       "released_at": 1708943940,
       "released_display": "February 26, 2024",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0dvdWthX0tlbnJhbl9NdWdldHN1X1Nha3VoaW5zaHV1Lmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0dvdWthX0tlbnJhbl9NdWdldHN1X1Nha3VoaW5zaHV1Lmpzb24/5/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0dvdWthX0tlbnJhbl9NdWdldHN1X1Nha3VoaW5zaHV1Lmpzb24/5/"
     },
     {
       "id": "fate_samurai_remnant_prologue",
@@ -885,13 +885,13 @@
         "Mugetsu"
       ],
       "cover": "assets/covers/fate_samurai_remnant_prologue.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1693050248,
       "released_display": "August 26, 2023",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9TYW11cmFpX1JlbW5hbnRfUHJvbG9ndWUuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9TYW11cmFpX1JlbW5hbnRfUHJvbG9ndWUuanNvbg/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZV9TYW11cmFpX1JlbW5hbnRfUHJvbG9ndWUuanNvbg/001/"
     },
     {
       "id": "the_man_known_as_tsukiji_tobimaru",
@@ -905,13 +905,13 @@
         "Nakatani"
       ],
       "cover": "assets/covers/the_man_known_as_tsukiji_tobimaru.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1691145058,
       "released_display": "August 4, 2023",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX01hbl9rbm93bl9hc19Uc3VraWppX1RvYmltYXJ1Lmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX01hbl9rbm93bl9hc19Uc3VraWppX1RvYmltYXJ1Lmpzb24/001/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX01hbl9rbm93bl9hc19Uc3VraWppX1RvYmltYXJ1Lmpzb24/001/"
     },
     {
       "id": "dotsuki_manzai",
@@ -925,13 +925,13 @@
         "Takatou Rui"
       ],
       "cover": "assets/covers/dotsuki_manzai.jpg",
+      "category": "anthology",
       "latest_chapter_number": "004",
       "latest_chapter_title": "The Morning Star of the End",
       "released_at": 1682249880,
       "released_display": "April 23, 2023",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRG90c3VraV9NYW56YWkuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRG90c3VraV9NYW56YWkuanNvbg/004/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRG90c3VraV9NYW56YWkuanNvbg/004/"
     },
     {
       "id": "witch_on_the_holy_night",
@@ -945,13 +945,13 @@
         "Nakatani"
       ],
       "cover": "assets/covers/witch_on_the_holy_night.jpg",
+      "category": "oneshot",
       "latest_chapter_number": "3",
       "latest_chapter_title": "A Certain Day's Events",
       "released_at": 1673399757,
       "released_display": "January 11, 2023",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fVGhlX0hvbHlfTmlnaHQuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fVGhlX0hvbHlfTmlnaHQuanNvbg/3/",
-      "category": "oneshot"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fVGhlX0hvbHlfTmlnaHQuanNvbg/3/"
     },
     {
       "id": "tsukihime_a_piece_of_blue_glass_moon_comic_à_la_carte",
@@ -970,13 +970,13 @@
         "metalog"
       ],
       "cover": "assets/covers/tsukihime_a_piece_of_blue_glass_moon_comic_à_la_carte.jpg",
+      "category": "anthology",
       "latest_chapter_number": "10",
       "latest_chapter_title": "Promise",
       "released_at": 1660473540,
       "released_display": "August 14, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NPTUlDX8OgX2xhX2NhcnRlLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NPTUlDX8OgX2xhX2NhcnRlLmpzb24/10/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NPTUlDX8OgX2xhX2NhcnRlLmpzb24/10/"
     },
     {
       "id": "tsukihime_a_piece_of_blue_glass_moon_anthology_comic_star",
@@ -1000,13 +1000,13 @@
         "Uyuki"
       ],
       "cover": "assets/covers/tsukihime_a_piece_of_blue_glass_moon_anthology_comic_star.jpg",
+      "category": "anthology",
       "latest_chapter_number": "11",
       "latest_chapter_title": "Farewell, My First Love",
       "released_at": 1657380960,
       "released_display": "July 10, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0FudGhvbG9neV9Db21pY19TVEFSLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0FudGhvbG9neV9Db21pY19TVEFSLmpzb24/11/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0FudGhvbG9neV9Db21pY19TVEFSLmpzb24/11/"
     },
     {
       "id": "medorism_fate_short_works",
@@ -1020,13 +1020,13 @@
         "Medori"
       ],
       "cover": "assets/covers/medorism_fate_short_works.jpg",
+      "category": "anthology",
       "latest_chapter_number": "1",
       "latest_chapter_title": "Cava",
       "released_at": 1644775380,
       "released_display": "February 14, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVkb3Jpc21fRmF0ZV9TaG9ydF9Xb3Jrcy5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVkb3Jpc21fRmF0ZV9TaG9ydF9Xb3Jrcy5qc29u/1/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTWVkb3Jpc21fRmF0ZV9TaG9ydF9Xb3Jrcy5qc29u/1/"
     },
     {
       "id": "tale_of_the_25th",
@@ -1040,13 +1040,13 @@
         "Sasaki Shounen"
       ],
       "cover": "assets/covers/tale_of_the_25th.jpg",
+      "category": "doujin",
       "latest_chapter_number": "001",
       "latest_chapter_title": "",
       "released_at": 1642839699,
       "released_display": "January 22, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGFsZV9vZl90aGVfMjV0aC5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGFsZV9vZl90aGVfMjV0aC5qc29u/001/",
-      "category": "doujin"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGFsZV9vZl90aGVfMjV0aC5qc29u/001/"
     },
     {
       "id": "tsukihime_a_piece_of_blue_glass_moon_comic_anthology",
@@ -1073,13 +1073,13 @@
         "metalog"
       ],
       "cover": "assets/covers/tsukihime_a_piece_of_blue_glass_moon_comic_anthology.jpg",
+      "category": "anthology",
       "latest_chapter_number": "13",
       "latest_chapter_title": "Nevertheless, Tomorrow will Arrive",
       "released_at": 1642410076,
       "released_display": "January 17, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/13/",
-      "category": "anthology"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/13/"
     }
   ]
 }
