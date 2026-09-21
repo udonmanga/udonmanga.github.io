@@ -440,6 +440,36 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
     return clean, latest_releases
 
 
+def apply_mangadex_cache(titles: list[dict]) -> int:
+    """Fill blank released_at from data/mangadex_dates.json (MangaDex lookups)."""
+    path = ROOT / "data" / "mangadex_dates.json"
+    if not path.is_file():
+        return 0
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    cache = payload.get("titles") or {}
+    filled = 0
+    for t in titles:
+        if t.get("released_at"):
+            continue
+        row = cache.get(t["id"])
+        if not row:
+            continue
+        ra = int(row.get("released_at") or 0)
+        if not ra:
+            continue
+        t["released_at"] = ra
+        t["released_display"] = str(row.get("released_display") or display_date(ra))
+        filled += 1
+    titles.sort(
+        key=lambda x: (
+            0 if (x.get("released_at") or 0) else 1,
+            -(x.get("released_at") or 0),
+            x["title"].lower(),
+        )
+    )
+    return filled
+
+
 def build_catalog(site: dict) -> dict:
     titles = build_cubari_titles()
     try:
@@ -449,6 +479,9 @@ def build_catalog(site: dict) -> dict:
         print(f"WARNING: could not load sheet dates ({exc}); dates will be blank")
         releases = []
     titles, latest_releases = apply_sheet_dates(titles, releases)
+    filled = apply_mangadex_cache(titles)
+    if filled:
+        print(f"MangaDex date cache filled: {filled}")
     return {
         "generated_at": int(time.time()),
         "site": site,
