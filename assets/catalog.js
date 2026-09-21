@@ -22,6 +22,8 @@
     links: document.getElementById("header-links"),
     search: document.getElementById("search"),
     latest: document.getElementById("latest-releases"),
+    progress: document.getElementById("progress-list"),
+    progressEmpty: document.getElementById("progress-empty"),
     filters: document.getElementById("category-filters"),
     sort: document.getElementById("sort"),
     grid: document.getElementById("title-grid"),
@@ -119,6 +121,39 @@
             <span class="cta">Read</span>
           </a>
         `;
+      })
+      .join("");
+  }
+
+  function renderProgress(payload) {
+    const items = (payload && payload.items) || [];
+    if (!els.progress) return;
+    if (!items.length) {
+      els.progress.innerHTML = "";
+      if (els.progressEmpty) els.progressEmpty.hidden = false;
+      return;
+    }
+    if (els.progressEmpty) els.progressEmpty.hidden = true;
+
+    els.progress.innerHTML = items
+      .map((row) => {
+        const chapter = displayChapter(row.chapter);
+        const since = row.since ? ` · since ${escapeHtml(row.since)}` : "";
+        const body = `
+          <img src="${escapeHtml(coverSrc(row.cover))}" alt="" loading="lazy" width="48" height="48" />
+          <div>
+            <div class="series">${escapeHtml(row.series_title || row.sheet_series || "")}</div>
+            <div class="detail">
+              Chapter ${escapeHtml(chapter)} —
+              <span class="stage">${escapeHtml(row.stage || "")}</span>${since}
+            </div>
+          </div>
+        `;
+        const href = (row.cubari_series_url || "").trim();
+        if (href) {
+          return `<a class="progress-card" href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${body}</a>`;
+        }
+        return `<div class="progress-card">${body}</div>`;
       })
       .join("");
   }
@@ -237,14 +272,25 @@
     bind();
     renderFilters();
 
-    const res = await fetch("data/catalog.json", { cache: "no-cache" });
-    if (!res.ok) throw new Error(`Failed to load catalog.json (${res.status})`);
-    const catalog = await res.json();
+    const [catalogRes, progressRes] = await Promise.all([
+      fetch("data/catalog.json", { cache: "no-cache" }),
+      fetch("data/progress.json", { cache: "no-cache" }),
+    ]);
+    if (!catalogRes.ok) {
+      throw new Error(`Failed to load catalog.json (${catalogRes.status})`);
+    }
+    const catalog = await catalogRes.json();
     state.catalog = catalog;
 
     renderHeader(catalog.site || {});
     renderLatest(catalog.latest_releases || []);
     renderCards();
+
+    if (progressRes.ok) {
+      renderProgress(await progressRes.json());
+    } else {
+      renderProgress({ items: [] });
+    }
   }
 
   init().catch((err) => {
