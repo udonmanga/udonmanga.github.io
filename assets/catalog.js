@@ -61,7 +61,7 @@
   }
 
   function renderHeader(site) {
-    document.title = site.name || "UMD";
+    document.title = "UMD Translations";
     els.name.textContent = site.name || "UMD";
     els.subtitle.textContent =
       site.subtitle || "Type-Moon manga translations. Read on Cubari.";
