@@ -1,18 +1,18 @@
 (() => {
   "use strict";
 
-  const STATUS_LABELS = {
+  const CATEGORY_LABELS = {
     all: "All",
-    ongoing: "Ongoing",
-    completed: "Completed",
-    "indefinite-hiatus": "Indefinite Hiatus",
-    stalled: "Stalled",
+    series: "Series",
+    anthology: "Anthologies",
+    oneshot: "Oneshots",
+    doujin: "Doujins",
   };
 
   const state = {
     catalog: null,
     query: "",
-    status: "all",
+    category: "all",
     sort: "released",
   };
 
@@ -22,7 +22,7 @@
     links: document.getElementById("header-links"),
     search: document.getElementById("search"),
     latest: document.getElementById("latest-releases"),
-    filters: document.getElementById("status-filters"),
+    filters: document.getElementById("category-filters"),
     sort: document.getElementById("sort"),
     grid: document.getElementById("title-grid"),
     meta: document.getElementById("result-meta"),
@@ -46,8 +46,8 @@
       .toLowerCase();
   }
 
-  function statusLabel(status) {
-    return STATUS_LABELS[status] || status || "Ongoing";
+  function categoryLabel(category) {
+    return CATEGORY_LABELS[category] || category || "Series";
   }
 
   function coverSrc(path) {
@@ -69,10 +69,7 @@
 
     const links = [];
     if (site.discord_url) {
-      links.push([
-        "Discord",
-        site.discord_url,
-      ]);
+      links.push(["Discord", site.discord_url]);
     }
     if (site.recruitment_url) {
       links.push(["Recruitment", site.recruitment_url]);
@@ -124,11 +121,11 @@
   }
 
   function renderFilters() {
-    const keys = ["all", "ongoing", "completed", "indefinite-hiatus", "stalled"];
+    const keys = ["all", "series", "anthology", "oneshot", "doujin"];
     els.filters.innerHTML = keys
       .map((key) => {
-        const pressed = state.status === key ? "true" : "false";
-        return `<button type="button" class="filter-btn" data-status="${key}" aria-pressed="${pressed}">${escapeHtml(STATUS_LABELS[key])}</button>`;
+        const pressed = state.category === key ? "true" : "false";
+        return `<button type="button" class="filter-btn" data-category="${key}" aria-pressed="${pressed}">${escapeHtml(CATEGORY_LABELS[key])}</button>`;
       })
       .join("");
   }
@@ -140,6 +137,7 @@
       ...(title.alt_titles || []),
       ...(title.authors || []),
       ...(title.artists || []),
+      categoryLabel(title.category),
     ];
     return normalize(parts.filter(Boolean).join(" "));
   }
@@ -148,8 +146,8 @@
     const q = normalize(state.query.trim());
     let list = (state.catalog.titles || []).slice();
 
-    if (state.status !== "all") {
-      list = list.filter((t) => (t.status || "ongoing") === state.status);
+    if (state.category !== "all") {
+      list = list.filter((t) => (t.category || "series") === state.category);
     }
     if (q) {
       list = list.filter((t) => searchBlob(t).includes(q));
@@ -160,11 +158,47 @@
     } else if (state.sort === "title-desc") {
       list.sort((a, b) => b.title.localeCompare(a.title, undefined, { sensitivity: "base" }));
     } else {
-      list.sort(
-        (a, b) => (b.released_at || 0) - (a.released_at || 0)
-      );
+      list.sort((a, b) => (b.released_at || 0) - (a.released_at || 0));
     }
     return list;
+  }
+
+  function cardHtml(t) {
+    const category = t.category || "series";
+    const chapterLabel = t.latest_chapter_number
+      ? `Chapter ${escapeHtml(t.latest_chapter_number)}`
+      : "latest chapter";
+    const titleLine = t.latest_chapter_title
+      ? `${chapterLabel} — ${escapeHtml(t.latest_chapter_title)}`
+      : chapterLabel;
+    const seriesUrl = escapeHtml(t.cubari_series_url || "");
+    const latestUrl = escapeHtml(t.cubari_latest_url || t.cubari_series_url || "");
+    const canSeries = Boolean(t.cubari_series_url);
+    const canLatest = Boolean(t.cubari_latest_url || t.cubari_series_url);
+
+    return `
+      <article class="project-card">
+        <a class="cover-link" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "tabindex='-1' aria-disabled='true'"}>
+          <img src="${escapeHtml(coverSrc(t.cover))}" alt="" loading="lazy" width="300" height="450" />
+        </a>
+        <div class="card-body">
+          <span class="category ${escapeHtml(category)}">${escapeHtml(categoryLabel(category))}</span>
+          <h3>
+            <a href="${seriesUrl}" rel="noopener noreferrer" target="_blank">${escapeHtml(t.title)}</a>
+          </h3>
+          <p class="latest-line">Latest: ${titleLine}</p>
+          ${
+            t.released_display
+              ? `<p class="released-line">Released ${escapeHtml(t.released_display)}</p>`
+              : ""
+          }
+          <div class="card-actions">
+            <a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters on Cubari</a>
+            <a class="primary" href="${latestUrl}" rel="noopener noreferrer" target="_blank" ${canLatest ? "" : "aria-disabled='true'"}>Read ${chapterLabel} on Cubari</a>
+          </div>
+        </div>
+      </article>
+    `;
   }
 
   function renderCards() {
@@ -172,48 +206,8 @@
     els.meta.textContent = `${list.length} project${list.length === 1 ? "" : "s"}`;
     els.empty.hidden = list.length > 0;
     els.grid.hidden = list.length === 0;
-
-    els.grid.innerHTML = list
-      .map((t) => {
-        const status = t.status || "ongoing";
-        const latestLabel =
-          status === "completed" ? "Final release" : "Latest";
-        const chapterLabel = t.latest_chapter_number
-          ? `Chapter ${escapeHtml(t.latest_chapter_number)}`
-          : "latest chapter";
-        const titleLine = t.latest_chapter_title
-          ? `${chapterLabel} — ${escapeHtml(t.latest_chapter_title)}`
-          : chapterLabel;
-        const seriesUrl = escapeHtml(t.cubari_series_url || "");
-        const latestUrl = escapeHtml(t.cubari_latest_url || t.cubari_series_url || "");
-        const canSeries = Boolean(t.cubari_series_url);
-        const canLatest = Boolean(t.cubari_latest_url || t.cubari_series_url);
-
-        return `
-          <article class="project-card">
-            <a class="cover-link" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "tabindex='-1' aria-disabled='true'"}>
-              <img src="${escapeHtml(coverSrc(t.cover))}" alt="" loading="lazy" width="300" height="450" />
-            </a>
-            <div class="card-body">
-              <span class="status ${escapeHtml(status)}">${escapeHtml(statusLabel(status))}</span>
-              <h3>
-                <a href="${seriesUrl}" rel="noopener noreferrer" target="_blank">${escapeHtml(t.title)}</a>
-              </h3>
-              <p class="latest-line">${escapeHtml(latestLabel)}: ${titleLine}</p>
-              ${
-                t.released_display
-                  ? `<p class="released-line">Released ${escapeHtml(t.released_display)}</p>`
-                  : ""
-              }
-              <div class="card-actions">
-                <a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters on Cubari</a>
-                <a class="primary" href="${latestUrl}" rel="noopener noreferrer" target="_blank" ${canLatest ? "" : "aria-disabled='true'"}>Read ${chapterLabel} on Cubari</a>
-              </div>
-            </div>
-          </article>
-        `;
-      })
-      .join("");
+    els.grid.className = "card-grid";
+    els.grid.innerHTML = list.map(cardHtml).join("");
   }
 
   function bind() {
@@ -228,9 +222,9 @@
     });
 
     els.filters.addEventListener("click", (event) => {
-      const btn = event.target.closest("button[data-status]");
+      const btn = event.target.closest("button[data-category]");
       if (!btn) return;
-      state.status = btn.getAttribute("data-status") || "all";
+      state.category = btn.getAttribute("data-category") || "all";
       renderFilters();
       renderCards();
     });

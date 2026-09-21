@@ -250,6 +250,25 @@ def cubari_cover(data: dict) -> str:
     return str(data.get("cover") or "").strip()
 
 
+_CATEGORY_BY_ID: dict[str, str] | None = None
+
+
+def load_category_by_id() -> dict[str, str]:
+    path = ROOT / "data" / "categories.json"
+    if not path.is_file():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    by_id = payload.get("by_id") or {}
+    return {str(k): str(v) for k, v in by_id.items()}
+
+
+def series_category(title_id: str) -> str:
+    global _CATEGORY_BY_ID
+    if _CATEGORY_BY_ID is None:
+        _CATEGORY_BY_ID = load_category_by_id()
+    return _CATEGORY_BY_ID.get(title_id) or "series"
+
+
 def match_sheet_to_title(
     sheet_series: str, titles: list[dict]
 ) -> dict | None:
@@ -345,7 +364,7 @@ def build_cubari_titles() -> list[dict]:
                     "authors": split_people(data.get("author")),
                     "artists": split_people(data.get("artist")),
                     "cover": cover or "assets/placeholder-cover.svg",
-                    "status": "ongoing",
+                    "category": series_category(Path(name).stem.lower()),
                     "latest_chapter_number": ck,
                     "latest_chapter_title": ct,
                     # Dates ONLY from Progress.released_at

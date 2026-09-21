@@ -420,7 +420,7 @@ main,
   color: var(--accent);
 }
 
-.status {
+.category {
   display: inline-flex;
   align-self: start;
   padding: 0.15rem 0.5rem;
@@ -431,20 +431,24 @@ main,
   color: var(--muted);
 }
 
-.status.ongoing {
+.category.series {
   color: #d7e7c8;
   background: rgba(90, 140, 70, 0.2);
 }
 
-.status.completed {
+.category.anthology {
   color: #cfe0f5;
   background: rgba(70, 110, 160, 0.25);
 }
 
-.status.indefinite-hiatus,
-.status.stalled {
+.category.oneshot {
   color: #f0d8b0;
   background: rgba(160, 110, 40, 0.22);
+}
+
+.category.doujin {
+  color: #e5d0f0;
+  background: rgba(120, 80, 140, 0.22);
 }
 
 .latest-line,
