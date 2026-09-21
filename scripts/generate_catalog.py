@@ -48,7 +48,7 @@ SKIP_CUBARI_FILES = {
 }
 
 DEFAULT_SITE = {
-    "name": "Udon Mango Digital Translations",
+    "name": "Udon Mango D",
     "subtitle": "Translations of Type-Moon Works",
     "discord_url": "",
     "recruitment_url": "",

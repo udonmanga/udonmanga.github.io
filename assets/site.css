@@ -128,11 +128,10 @@ main,
 .brand {
   margin: 0;
   font-family: var(--font-display);
-  font-size: clamp(1.85rem, 4.8vw, 3.1rem);
+  font-size: clamp(2.6rem, 7vw, 4.5rem);
   font-weight: 700;
-  line-height: 1.05;
+  line-height: 0.98;
   letter-spacing: -0.03em;
-  max-width: 14ch;
 }
 
 .subtitle {

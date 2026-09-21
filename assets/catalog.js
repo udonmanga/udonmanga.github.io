@@ -62,7 +62,7 @@
 
   function renderHeader(site) {
     document.title = "UMD Translations";
-    els.name.textContent = site.name || "Udon Mango Digital Translations";
+    els.name.textContent = site.name || "Udon Mango D";
     els.subtitle.textContent =
       site.subtitle || "Translations of Type-Moon Works";
     applyAccent(site.accent);
