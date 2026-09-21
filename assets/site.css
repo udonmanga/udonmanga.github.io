@@ -240,9 +240,42 @@ main,
 .progress-list {
   display: grid;
   gap: 0.65rem;
-  max-height: min(36rem, 70vh);
-  overflow: auto;
-  padding-right: 0.25rem;
+}
+
+.progress-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.85rem;
+  margin-top: 0.85rem;
+}
+
+.progress-pager button {
+  appearance: none;
+  border: 1px solid var(--line);
+  background: rgba(0, 0, 0, 0.28);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 0.4rem 0.75rem;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.progress-pager button:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.progress-pager button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.progress-page-meta {
+  color: var(--muted);
+  font-size: 0.9rem;
+  min-width: 7.5rem;
+  text-align: center;
 }
 
 .progress-card {

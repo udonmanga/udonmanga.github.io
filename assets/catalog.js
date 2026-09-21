@@ -9,8 +9,12 @@
     doujin: "Doujins",
   };
 
+  const PROGRESS_PAGE_SIZE = 5;
+
   const state = {
     catalog: null,
+    progressItems: [],
+    progressPage: 0,
     query: "",
     category: "all",
     sort: "released",
@@ -24,6 +28,10 @@
     latest: document.getElementById("latest-releases"),
     progress: document.getElementById("progress-list"),
     progressEmpty: document.getElementById("progress-empty"),
+    progressPager: document.getElementById("progress-pager"),
+    progressPrev: document.getElementById("progress-prev"),
+    progressNext: document.getElementById("progress-next"),
+    progressPageMeta: document.getElementById("progress-page-meta"),
     filters: document.getElementById("category-filters"),
     sort: document.getElementById("sort"),
     grid: document.getElementById("title-grid"),
@@ -125,17 +133,27 @@
       .join("");
   }
 
-  function renderProgress(payload) {
-    const items = (payload && payload.items) || [];
+  function renderProgressPage() {
+    const items = state.progressItems || [];
     if (!els.progress) return;
+
     if (!items.length) {
       els.progress.innerHTML = "";
       if (els.progressEmpty) els.progressEmpty.hidden = false;
+      if (els.progressPager) els.progressPager.hidden = true;
       return;
     }
     if (els.progressEmpty) els.progressEmpty.hidden = true;
 
-    els.progress.innerHTML = items
+    const pageCount = Math.max(1, Math.ceil(items.length / PROGRESS_PAGE_SIZE));
+    if (state.progressPage >= pageCount) state.progressPage = pageCount - 1;
+    if (state.progressPage < 0) state.progressPage = 0;
+
+    const start = state.progressPage * PROGRESS_PAGE_SIZE;
+    const pageItems = items.slice(start, start + PROGRESS_PAGE_SIZE);
+    const end = start + pageItems.length;
+
+    els.progress.innerHTML = pageItems
       .map((row) => {
         const chapter = displayChapter(row.chapter);
         const since = row.since ? ` · since ${escapeHtml(row.since)}` : "";
@@ -156,6 +174,23 @@
         return `<div class="progress-card">${body}</div>`;
       })
       .join("");
+
+    if (els.progressPager) {
+      els.progressPager.hidden = items.length <= PROGRESS_PAGE_SIZE;
+    }
+    if (els.progressPageMeta) {
+      els.progressPageMeta.textContent = `${start + 1}–${end} of ${items.length}`;
+    }
+    if (els.progressPrev) els.progressPrev.disabled = state.progressPage <= 0;
+    if (els.progressNext) {
+      els.progressNext.disabled = state.progressPage >= pageCount - 1;
+    }
+  }
+
+  function renderProgress(payload) {
+    state.progressItems = (payload && payload.items) || [];
+    state.progressPage = 0;
+    renderProgressPage();
   }
 
   function renderFilters() {
@@ -258,6 +293,19 @@
       state.sort = els.sort.value;
       renderCards();
     });
+
+    if (els.progressPrev) {
+      els.progressPrev.addEventListener("click", () => {
+        state.progressPage -= 1;
+        renderProgressPage();
+      });
+    }
+    if (els.progressNext) {
+      els.progressNext.addEventListener("click", () => {
+        state.progressPage += 1;
+        renderProgressPage();
+      });
+    }
 
     els.filters.addEventListener("click", (event) => {
       const btn = event.target.closest("button[data-category]");
