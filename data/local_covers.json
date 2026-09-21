@@ -48,22 +48,14 @@
     "witch_on_the_holy_night_comic_à_la_carte_witchcraft": "assets/covers/witch_on_the_holy_night_comic_à_la_carte_witchcraft.jpg"
   },
   "by_remote": {
-    "https://i.imgur.com/4HDNkAr.jpg": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
-    "https://i.imgur.com/v3VLpmp.jpg": "assets/covers/fategrand_order_turas_réalta_.jpg",
-    "https://i.imgur.com/7ADwQpS.jpg": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
-    "https://i.imgur.com/ZXPD3yQ.jpg": "assets/covers/fatestay_night_heavens_feel.jpg",
-    "https://i.imgur.com/VEeGrIs.jpg": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
     "https://i.imgur.com/51Rdl4F.jpg": "assets/covers/fatestrange_fake.jpg",
-    "https://i.imgur.com/MJKWoiC.jpg": "assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg",
     "https://i.imgur.com/cItgjJ2.jpg": "assets/covers/melty_blood_type_lumina_piece_in_paradise.jpg",
-    "https://files.catbox.moe/8qn7h6.jpg": "assets/covers/fatetype_redline.jpg",
     "https://files.catbox.moe/seeoti.jpg": "assets/covers/avalon_tale.jpg",
     "https://i.imgur.com/tb3VuLB.jpg": "assets/covers/fatezero_kotomine.jpg",
     "https://i.imgur.com/naoWMWb.png": "assets/covers/cempasúchil.jpg",
     "https://i.imgur.com/YTywxWr.jpg": "assets/covers/melty_blood_back_alley_nightmare.jpg",
     "https://i.imgur.com/w7wZsBA.jpg": "assets/covers/fatezero_kiritsugu.jpg",
     "https://i.imgur.com/lUMxFE3.jpg": "assets/covers/fategrand_order_epic_of_remnant_seraph.jpg",
-    "https://i.imgur.com/qepr5M8.jpg": "assets/covers/fategrand_order_mortalisstella_.jpg",
     "https://i.imgur.com/D1losG5.jpg": "assets/covers/fateunlimited_codes_illyas_melancholy.jpg",
     "https://i.imgur.com/hnugXI5.jpg": "assets/covers/fatehollow_ataraxia.jpg",
     "https://i.imgur.com/uTGfbll.jpg": "assets/covers/tsukihime_a_piece_of_blue_glass_moon_moon_phase.jpg",
@@ -82,7 +74,6 @@
     "https://i.imgur.com/9v8gNC6.jpg": "assets/covers/fate_samurai_remnant_prologue.jpg",
     "https://i.imgur.com/xfFWEP6.jpg": "assets/covers/the_man_known_as_tsukiji_tobimaru.jpg",
     "https://i.imgur.com/xi4aqCz.jpg": "assets/covers/witch_on_the_holy_night_comic_à_la_carte_nursery_rhyme.jpg",
-    "https://i.imgur.com/DYk0Zp2.jpg": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
     "https://i.imgur.com/MqBESS8.jpg": "assets/covers/morning_scenery.jpg",
     "https://i.imgur.com/71kg0Kq.jpg": "assets/covers/fategrand_order_gouka_kenran_mugetsu_sakuhinshuu.jpg",
     "https://i.imgur.com/es7vZNU.jpg": "assets/covers/witch_on_the_holy_night.jpg",
@@ -93,6 +84,15 @@
     "https://i.imgur.com/gpJTIok.jpg": "assets/covers/medorism_fate_short_works.jpg",
     "https://i.imgur.com/V7zCgil.jpg": "assets/covers/tsukihime_a_piece_of_blue_glass_moon_comic_anthology.jpg",
     "https://i.imgur.com/vPv8UOO.jpg": "assets/covers/witch_on_the_holy_night_comic_à_la_carte_witchcraft.jpg",
-    "https://files.catbox.moe/ht5jnu.jpg": "assets/covers/fatesamurai_remnant.jpg"
+    "https://files.catbox.moe/ht5jnu.jpg": "assets/covers/fatesamurai_remnant.jpg",
+    "https://udonmango.github.io/assets/covers/fatestay_night_unlimited_blade_works.jpg": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
+    "https://udonmango.github.io/assets/covers/fatestay_night_heavens_feel.jpg": "assets/covers/fatestay_night_heavens_feel.jpg",
+    "https://udonmango.github.io/assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
+    "https://udonmango.github.io/assets/covers/fategrand_order_mortalisstella_.jpg": "assets/covers/fategrand_order_mortalisstella_.jpg",
+    "https://udonmango.github.io/assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
+    "https://udonmango.github.io/assets/covers/fatetype_redline.jpg": "assets/covers/fatetype_redline.jpg",
+    "https://udonmango.github.io/assets/covers/fategrand_order_turas_réalta_.jpg": "assets/covers/fategrand_order_turas_réalta_.jpg",
+    "https://udonmango.github.io/assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg": "assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg",
+    "https://udonmango.github.io/assets/covers/the_case_files_of_lord_melloi_ii.jpg": "assets/covers/the_case_files_of_lord_melloi_ii.jpg"
   }
 }
