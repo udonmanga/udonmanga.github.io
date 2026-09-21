@@ -62,9 +62,9 @@
 
   function renderHeader(site) {
     document.title = "UMD Translations";
-    els.name.textContent = site.name || "UMD";
+    els.name.textContent = site.name || "Udon Mango Digital Translations";
     els.subtitle.textContent =
-      site.subtitle || "Type-Moon manga translations. Read on Cubari.";
+      site.subtitle || "Translations of Type-Moon Works";
     applyAccent(site.accent);
 
     const links = [];
@@ -73,9 +73,6 @@
     }
     if (site.recruitment_url) {
       links.push(["Recruitment", site.recruitment_url]);
-    }
-    if (site.hub_url) {
-      links.push(["Beast's Lair hub", site.hub_url]);
     }
 
     if (!links.length) {
