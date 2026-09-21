@@ -224,7 +224,11 @@ def fetch_series(name: str) -> tuple[str, dict]:
 
 
 def latest_chapter_from_cubari(chapters: dict) -> tuple[int, str, str] | None:
-    best: tuple[int, float, str, str] | None = None
+    """Pick the highest Cubari chapter key (by number), not last_updated.
+
+    last_updated is often stale or out of order vs the actual newest chapter.
+    """
+    best: tuple[float, int, str, str] | None = None
     for k, v in (chapters or {}).items():
         if not isinstance(v, dict):
             continue
@@ -232,12 +236,13 @@ def latest_chapter_from_cubari(chapters: dict) -> tuple[int, str, str] | None:
             lu = int(v.get("last_updated") or 0)
         except (TypeError, ValueError):
             lu = 0
-        item = (lu, chapter_sort_key(str(k)), str(k), str(v.get("title") or "").strip())
+        # Chapter number first; last_updated only breaks ties.
+        item = (chapter_sort_key(str(k)), lu, str(k), str(v.get("title") or "").strip())
         if best is None or item[:2] > best[:2]:
             best = item
     if best is None:
         return None
-    return best[0], best[2], best[3]
+    return best[1], best[2], best[3]
 
 
 def cubari_cover(data: dict) -> str:
@@ -407,22 +412,9 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
         rel = latest_by_title_id.get(t["id"])
         if not rel:
             continue
+        # Sheet supplies release *dates* only. Latest chapter always stays Cubari's.
         t["released_at"] = rel["released_at"]
         t["released_display"] = rel["released_display"]
-        chapters = t.get("_chapters") or {}
-        ch_key = resolve_chapter_key(chapters, rel["chapter"])
-        t["latest_chapter_number"] = ch_key or rel["chapter"]
-        ch_meta = chapters.get(ch_key) if ch_key else None
-        if not isinstance(ch_meta, dict):
-            ch_meta = None
-        t["latest_chapter_title"] = (
-            str((ch_meta or {}).get("title") or "").strip() or rel.get("chapter_title") or ""
-        )
-        # Always rebuild from Cubari key — sheet release_link often omits zero-padding.
-        if ch_key:
-            t["cubari_latest_url"] = chapter_cubari_url(t["cubari_series_url"], ch_key)
-        else:
-            t["cubari_latest_url"] = t["cubari_series_url"]
 
     latest_releases: list[dict] = []
     for rel in releases:
