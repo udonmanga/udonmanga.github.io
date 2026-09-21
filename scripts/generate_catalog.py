@@ -296,6 +296,8 @@ def build_cubari_titles() -> list[dict]:
                     "status": "ongoing",
                     "latest_chapter_number": ck,
                     "latest_chapter_title": ct,
+                    "released_at": lu,
+                    "released_display": display_date(lu),
                     "last_updated": lu,
                     "last_updated_display": display_date(lu),
                     "cubari_series_url": series_url,
@@ -358,6 +360,8 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
         rel = latest_by_title_id.get(t["id"])
         if not rel:
             continue
+        t["released_at"] = rel["released_at"]
+        t["released_display"] = rel["released_display"]
         t["last_updated"] = rel["released_at"]
         t["last_updated_display"] = rel["released_display"]
         t["latest_chapter_number"] = rel["chapter"]
@@ -457,7 +461,9 @@ def apply_sheet_dates(titles: list[dict], releases: list[dict]) -> tuple[list[di
         # Expose Cubari cover as-is when present; placeholder only when Cubari has none
         clean.append(t)
 
-    clean.sort(key=lambda x: (-(x["last_updated"] or 0), x["title"].lower()))
+    clean.sort(
+        key=lambda x: (-(x.get("released_at") or x.get("last_updated") or 0), x["title"].lower())
+    )
     return clean, latest_releases
 
 
