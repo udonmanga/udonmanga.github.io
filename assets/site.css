@@ -131,15 +131,16 @@ main,
 }
 
 .brand-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
   align-items: center;
-  gap: 1rem 1.25rem;
+  column-gap: 1.25rem;
+  row-gap: 0;
 }
 
 .brand-logo {
   width: clamp(4.5rem, 12vw, 7rem);
   height: auto;
-  flex-shrink: 0;
   display: block;
   /* Opaque mark as-is — no cream fill, blend, or filter. */
   background: none;
