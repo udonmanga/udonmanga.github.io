@@ -6,8 +6,12 @@
       "cover": "https://i.imgur.com/0PqcQda.png",
       "links": [
         {
-          "label": "Read",
-          "url": "https://www.reddit.com/r/grandorder/comments/wncro0/garden_of_avalon_novel_full_human_translation/"
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1n5lQaR9NK3xZnstS3rF3PMDONM2EdXR2/view?usp=sharing"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/1Xgm6eYGahLr4E0w2gZuQsWdX-YkgeHYY/view?usp=sharing"
         }
       ]
     },
@@ -17,8 +21,12 @@
       "cover": "https://i.imgur.com/jqYawiq.png",
       "links": [
         {
-          "label": "Read",
-          "url": "https://forums.nrvnqsr.com/showthread.php/9806-Kara-no-Kyoukai-6-and-7-Translation"
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1_QruCE6yWbqBAVI4wbm9ETas058W6flj/view"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/1F5XqzH6AAJnJwpirn7Lu9DHIeqjS_ZwN/view"
         }
       ]
     },
@@ -28,8 +36,12 @@
       "cover": "https://i.imgur.com/veUeZXO.png",
       "links": [
         {
-          "label": "Read",
-          "url": "https://forums.nrvnqsr.com/showthread.php/9806-Kara-no-Kyoukai-6-and-7-Translation"
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1_QruCE6yWbqBAVI4wbm9ETas058W6flj/view"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/1F5XqzH6AAJnJwpirn7Lu9DHIeqjS_ZwN/view"
         }
       ]
     },
@@ -39,8 +51,12 @@
       "cover": "https://i.imgur.com/c3d391l.png",
       "links": [
         {
-          "label": "Read",
-          "url": "https://forums.nrvnqsr.com/showthread.php/9839-Fate-Lost-Einherjar-Translation"
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1iLO-FCIgoqDGmooOqIt2uO0giMKFOMe_/view"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/1btGUrO4k3tcovWr_X8bn8i7n-XhmNE5t/view"
         }
       ]
     },
@@ -50,8 +66,12 @@
       "cover": "https://i.imgur.com/uFjBh7Fl.png",
       "links": [
         {
-          "label": "Read",
-          "url": "https://forums.nrvnqsr.com/showthread.php/10020-Fate-Requiem-Complete-Translation"
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1hPJoBNoabgJJVixYXlMYS42OjK_dCNrs/view"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/15wYOKITqrK6i1hvjKX2PIRHRzs5PwJUy/view"
         }
       ]
     },
@@ -61,8 +81,12 @@
       "cover": "https://files.catbox.moe/30k3p6.png",
       "links": [
         {
-          "label": "Read",
-          "url": "https://forums.nrvnqsr.com/showthread.php/10322-Decoration-Disorder-Disconnection-Complete-Translation"
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1aWkb3NjU3654WjVmHjXmI0_inYkocfoo/view"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/1dk5dsPJQm5EL8mxWUQi89Q67DKeJ26Uc/view"
         }
       ]
     },
@@ -72,8 +96,27 @@
       "cover": "https://files.catbox.moe/ykq3yx.png",
       "links": [
         {
-          "label": "Read",
-          "url": "https://forums.nrvnqsr.com/showthread.php/10322-Decoration-Disorder-Disconnection-Complete-Translation"
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1mLLNeJ5FmPa58YU-Cl6coLLPRjC89oz5/view"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/1fqZe8-kbw-o9obeRnmWLMWHgN08alizi/view"
+        }
+      ]
+    },
+    {
+      "id": "beyond_the_cosmos",
+      "title": "Beyond the Cosmos",
+      "cover": "assets/placeholder-cover.svg",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://drive.google.com/file/d/1m3xQ71jICo_jOrs3W5DYr2PL_mjSWrC8/view"
+        },
+        {
+          "label": "EPUB",
+          "url": "https://drive.google.com/file/d/1m3xQ71jICo_jOrs3W5DYr2PL_mjSWrC8/view"
         }
       ]
     }
