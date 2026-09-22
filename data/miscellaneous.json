@@ -1,17 +1,6 @@
 {
   "items": [
     {
-      "id": "ddd_meta_timeline",
-      "title": "Decoration Disorder Disconnection Meta Timeline",
-      "cover": "assets/covers/ddd_meta_timeline.jpg",
-      "links": [
-        {
-          "label": "Open",
-          "url": "https://decoration-disorder-disconnection.pages.dev/"
-        }
-      ]
-    },
-    {
       "id": "solomon_screenplay",
       "title": "FGO Solomon Movie Original Screenplay",
       "cover": "https://i.imgur.com/nem7nVW.png",
@@ -85,6 +74,17 @@
         {
           "label": "Read",
           "url": "https://docs.google.com/document/d/e/2PACX-1vSYB1cTe8dKj8FdjRtnvjSuS9GC7tHkn60iJ_GOcmId202gTf9JeVcaQFBGzftYyQrkJEkkYIv0xr_7/pub"
+        }
+      ]
+    },
+    {
+      "id": "ddd_meta_timeline",
+      "title": "Decoration Disorder Disconnection Meta Timeline",
+      "cover": "assets/covers/ddd_meta_timeline.jpg",
+      "links": [
+        {
+          "label": "Open",
+          "url": "https://decoration-disorder-disconnection.pages.dev/"
         }
       ]
     }
