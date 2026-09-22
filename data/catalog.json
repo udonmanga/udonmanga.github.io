@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790043305,
+  "generated_at": 1790044669,
   "site": {
     "name": "Udon Mango D",
     "subtitle": "Translations of Type-Moon Works",
@@ -1080,6 +1080,42 @@
       "released_display": "January 17, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/13/"
+    },
+    {
+      "id": "beyond_the_cosmos",
+      "title": "Beyond the Cosmos",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Nasu Kinoko"
+      ],
+      "artists": [],
+      "cover": "assets/covers/beyond_the_cosmos.jpg",
+      "category": "oneshot",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "released_at": 0,
+      "released_display": "",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQmV5b25kX3RoZV9Db3Ntb3MuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vQmV5b25kX3RoZV9Db3Ntb3MuanNvbg/001/"
+    },
+    {
+      "id": "left_hand_0",
+      "title": "Left Hand ± 0",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [],
+      "cover": "assets/covers/left_hand_0.jpg",
+      "category": "oneshot",
+      "latest_chapter_number": "001",
+      "latest_chapter_title": "",
+      "released_at": 0,
+      "released_display": "",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/001/"
     }
   ]
 }

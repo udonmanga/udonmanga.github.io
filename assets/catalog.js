@@ -240,6 +240,7 @@
 
   function cardHtml(t) {
     const category = t.category || "series";
+    const isOneshot = category === "oneshot";
     const chapterLabel = t.latest_chapter_number
       ? `Chapter ${escapeHtml(displayChapter(t.latest_chapter_number))}`
       : "latest chapter";
@@ -248,18 +249,21 @@
       : chapterLabel;
     const seriesUrl = escapeHtml(t.cubari_series_url || "");
     const latestUrl = escapeHtml(t.cubari_latest_url || t.cubari_series_url || "");
-    const canSeries = Boolean(t.cubari_series_url);
+    // Oneshots: open the chapter directly (cover / title / read).
+    const primaryUrl = isOneshot ? latestUrl || seriesUrl : seriesUrl;
+    const canPrimary = Boolean(primaryUrl);
     const canLatest = Boolean(t.cubari_latest_url || t.cubari_series_url);
+    const canSeries = Boolean(t.cubari_series_url);
 
     return `
       <article class="project-card">
-        <a class="cover-link" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "tabindex='-1' aria-disabled='true'"}>
+        <a class="cover-link" href="${primaryUrl}" rel="noopener noreferrer" target="_blank" ${canPrimary ? "" : "tabindex='-1' aria-disabled='true'"}>
           <img src="${escapeHtml(coverSrc(t.cover))}" alt="" loading="lazy" width="300" height="450" />
         </a>
         <div class="card-body">
           <span class="category ${escapeHtml(category)}">${escapeHtml(categoryLabel(category))}</span>
           <h3>
-            <a href="${seriesUrl}" rel="noopener noreferrer" target="_blank">${escapeHtml(t.title)}</a>
+            <a href="${primaryUrl}" rel="noopener noreferrer" target="_blank">${escapeHtml(t.title)}</a>
           </h3>
           <p class="latest-line">Latest: ${titleLine}</p>
           ${
@@ -268,7 +272,11 @@
               : ""
           }
           <div class="card-actions">
-            <a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters</a>
+            ${
+              isOneshot
+                ? ""
+                : `<a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters</a>`
+            }
             <a class="primary" href="${latestUrl}" rel="noopener noreferrer" target="_blank" ${canLatest ? "" : "aria-disabled='true'"}>Read ${chapterLabel}</a>
           </div>
         </div>
