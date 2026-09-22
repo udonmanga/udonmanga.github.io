@@ -96,17 +96,14 @@
       links.push(["Recruitment", site.recruitment_url]);
     }
 
-    if (!links.length) {
-      els.links.hidden = true;
-      els.links.innerHTML = "";
-      return;
-    }
+    // Keep static HTML if site.json has no links (avoid wiping the header).
+    if (!els.links || !links.length) return;
 
     els.links.hidden = false;
     els.links.innerHTML = links
       .map(([label, href], i) => {
         const sep =
-          i > 0 ? '<span class="header-links-sep" aria-hidden="true">·</span>' : "";
+          i > 0 ? '<span class="nav-ext-sep" aria-hidden="true">·</span>' : "";
         return `${sep}<a href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${escapeHtml(label)}</a>`;
       })
       .join("");
