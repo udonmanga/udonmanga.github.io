@@ -1,5 +1,5 @@
 {
-  "generated_at": 1789990221,
+  "generated_at": 1790038098,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -556,9 +556,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
       "series_id": "fgoshowdown1",
       "chapter": "3",
-      "stage": "Proofreading",
-      "stage_key": "PR_MERGE",
-      "since": "September 12, 2026",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "September 22, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
     },
@@ -622,9 +622,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 2",
       "series_id": "fgoshowdown2",
       "chapter": "2",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "September 21, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "September 22, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_2.jpg",
       "cubari_series_url": ""
     },
