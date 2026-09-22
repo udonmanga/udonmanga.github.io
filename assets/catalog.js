@@ -340,9 +340,10 @@
     bind();
     renderFilters();
 
-    const [catalogRes, progressRes] = await Promise.all([
+    const [catalogRes, progressRes, siteRes] = await Promise.all([
       fetch("data/catalog.json", { cache: "no-cache" }),
       fetch("data/progress.json", { cache: "no-cache" }),
+      fetch("data/site.json", { cache: "no-cache" }),
     ]);
     if (!catalogRes.ok) {
       throw new Error(`Failed to load catalog.json (${catalogRes.status})`);
@@ -350,7 +351,16 @@
     const catalog = await catalogRes.json();
     state.catalog = catalog;
 
-    renderHeader(catalog.site || {});
+    let site = catalog.site || {};
+    if (siteRes.ok) {
+      try {
+        const fromFile = await siteRes.json();
+        if (fromFile && typeof fromFile === "object") site = { ...site, ...fromFile };
+      } catch (_) {
+        /* keep catalog.site */
+      }
+    }
+    renderHeader(site);
     renderLatest(catalog.latest_releases || []);
     renderCards();
 
