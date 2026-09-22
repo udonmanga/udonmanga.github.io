@@ -561,6 +561,7 @@ a.progress-card:hover {
   gap: 0.45rem;
   padding: 0.85rem 0.9rem 1rem;
   flex: 1;
+  min-height: 0;
 }
 
 .card-body h3 {
@@ -620,14 +621,17 @@ a.progress-card:hover {
 }
 
 .card-actions {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
   gap: 0.4rem;
-  margin-top: 0.55rem;
-  padding-top: 0;
+  margin-top: auto;
+  padding-top: 0.75rem;
 }
 
 .card-actions a {
   display: inline-flex;
+  flex: 1 1 auto;
   justify-content: center;
   align-items: center;
   min-height: 2.2rem;

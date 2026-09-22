@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790045880,
+  "generated_at": 1790046400,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -50,9 +50,9 @@
       "series_title": "The Case Files of Lord Melloi II",
       "series_id": "the_case_files_of_lord_melloi_ii",
       "chapter": "70.1",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "September 22, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
