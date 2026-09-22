@@ -86,8 +86,11 @@
     applyAccent(site.accent);
 
     const links = [];
+    if (site.hub_url) {
+      links.push(["BL", site.hub_url]);
+    }
     if (site.discord_url) {
-      links.push(["Discord", site.discord_url]);
+      links.push(["Releases Discord Server", site.discord_url]);
     }
     if (site.recruitment_url) {
       links.push(["Recruitment", site.recruitment_url]);

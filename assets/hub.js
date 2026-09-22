@@ -30,9 +30,30 @@
     grid: document.getElementById("hub-grid"),
     meta: document.getElementById("result-meta"),
     empty: document.getElementById("empty-state"),
+    links: document.getElementById("header-links"),
   };
 
   let items = [];
+
+  function renderHeaderLinks(site) {
+    if (!els.links) return;
+    const links = [];
+    if (site.hub_url) links.push(["BL", site.hub_url]);
+    if (site.discord_url) links.push(["Releases Discord Server", site.discord_url]);
+    if (site.recruitment_url) links.push(["Recruitment", site.recruitment_url]);
+    if (!links.length) {
+      els.links.hidden = true;
+      els.links.innerHTML = "";
+      return;
+    }
+    els.links.hidden = false;
+    els.links.innerHTML = links
+      .map(
+        ([label, href]) =>
+          `<a href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${escapeHtml(label)}</a>`
+      )
+      .join("");
+  }
 
   function cardHtml(item) {
     const links = (item.links || []).filter((l) => l && l.url);
@@ -81,10 +102,20 @@
     if (els.search) {
       els.search.addEventListener("input", render);
     }
-    const res = await fetch(dataUrl, { cache: "no-cache" });
-    if (!res.ok) throw new Error(`Failed to load ${dataUrl}`);
-    const payload = await res.json();
+    const [hubRes, siteRes] = await Promise.all([
+      fetch(dataUrl, { cache: "no-cache" }),
+      fetch("data/site.json", { cache: "no-cache" }),
+    ]);
+    if (!hubRes.ok) throw new Error(`Failed to load ${dataUrl}`);
+    const payload = await hubRes.json();
     items = payload.items || [];
+    if (siteRes.ok) {
+      try {
+        renderHeaderLinks(await siteRes.json());
+      } catch (_) {
+        /* ignore site.json parse errors */
+      }
+    }
     render();
   }
 
