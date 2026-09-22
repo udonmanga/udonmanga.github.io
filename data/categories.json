@@ -46,7 +46,7 @@
     "tomoes_way_of_the_gamer": "oneshot",
     "cempasúchil": "oneshot",
     "beyond_the_cosmos": "oneshot",
-    "left_hand_0": "oneshot",
+    "left_hand_0": "doujin",
     "tale_of_the_25th": "doujin"
   },
   "categories": {
@@ -100,11 +100,11 @@
       "fategrand_order_in_search_of_the_perfect_wine_and_pickles_pairing",
       "tomoes_way_of_the_gamer",
       "cempasúchil",
-      "beyond_the_cosmos",
-      "left_hand_0"
+      "beyond_the_cosmos"
     ],
     "doujin": [
-      "tale_of_the_25th"
+      "tale_of_the_25th",
+      "left_hand_0"
     ]
   }
 }
