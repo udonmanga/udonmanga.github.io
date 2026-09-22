@@ -518,6 +518,7 @@ a.progress-card:hover {
   display: grid;
   gap: 1rem;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  align-items: stretch;
 }
 
 @media (min-width: 1100px) {
@@ -526,9 +527,11 @@ a.progress-card:hover {
   }
 }
 
-.project-card {
+.project-card,
+.project-card.hub-card {
   display: flex;
   flex-direction: column;
+  height: 100%;
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(0, 0, 0, 0.2));
@@ -560,8 +563,12 @@ a.progress-card:hover {
   flex-direction: column;
   gap: 0.45rem;
   padding: 0.85rem 0.9rem 1rem;
-  flex: 1;
+  flex: 1 1 auto;
   min-height: 0;
+}
+
+.card-body > :not(.card-actions) {
+  flex: 0 0 auto;
 }
 
 .card-body h3 {
@@ -622,7 +629,8 @@ a.progress-card:hover {
 
 .card-actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
   align-items: stretch;
   gap: 0.4rem;
   margin-top: auto;
@@ -631,11 +639,12 @@ a.progress-card:hover {
 
 .card-actions a {
   display: inline-flex;
-  flex: 1 1 auto;
+  flex: 1 1 0;
   justify-content: center;
   align-items: center;
   min-height: 2.2rem;
-  padding: 0.35rem 0.6rem;
+  min-width: 0;
+  padding: 0.35rem 0.55rem;
   border-radius: 8px;
   text-decoration: none;
   font-size: 0.86rem;
