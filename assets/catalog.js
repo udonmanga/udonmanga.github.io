@@ -25,6 +25,8 @@
     subtitle: document.getElementById("site-subtitle"),
     links: document.getElementById("header-links"),
     search: document.getElementById("search"),
+    latestSection: document.querySelector("section.latest"),
+    progressSection: document.getElementById("in-progress"),
     latest: document.getElementById("latest-releases"),
     progress: document.getElementById("progress-list"),
     progressEmpty: document.getElementById("progress-empty"),
@@ -274,6 +276,12 @@
     `;
   }
 
+  function syncSearchLayout() {
+    const searching = Boolean(normalize(state.query.trim()));
+    if (els.latestSection) els.latestSection.hidden = searching;
+    if (els.progressSection) els.progressSection.hidden = searching;
+  }
+
   function renderCards() {
     const list = filteredTitles();
     els.meta.textContent = `${list.length} project${list.length === 1 ? "" : "s"}`;
@@ -281,6 +289,7 @@
     els.grid.hidden = list.length === 0;
     els.grid.className = "card-grid";
     els.grid.innerHTML = list.map(cardHtml).join("");
+    syncSearchLayout();
   }
 
   function bind() {
