@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "garden_of_avalon",
+      "title": "Garden of Avalon",
+      "cover": "https://i.imgur.com/0PqcQda.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://www.reddit.com/r/grandorder/comments/wncro0/garden_of_avalon_novel_full_human_translation/"
+        }
+      ]
+    },
+    {
+      "id": "kara_no_kyoukai_6",
+      "title": "Kara no Kyoukai 6",
+      "cover": "https://i.imgur.com/jqYawiq.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://forums.nrvnqsr.com/showthread.php/9806-Kara-no-Kyoukai-6-and-7-Translation"
+        }
+      ]
+    },
+    {
+      "id": "kara_no_kyoukai_7",
+      "title": "Kara no Kyoukai 7",
+      "cover": "https://i.imgur.com/veUeZXO.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://forums.nrvnqsr.com/showthread.php/9806-Kara-no-Kyoukai-6-and-7-Translation"
+        }
+      ]
+    },
+    {
+      "id": "fate_lost_einherjar_1",
+      "title": "Fate: Lost Einherjar Vol. 1",
+      "cover": "https://i.imgur.com/c3d391l.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://forums.nrvnqsr.com/showthread.php/9839-Fate-Lost-Einherjar-Translation"
+        }
+      ]
+    },
+    {
+      "id": "fate_requiem_2",
+      "title": "Fate/Requiem Vol. 2",
+      "cover": "https://i.imgur.com/uFjBh7Fl.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://forums.nrvnqsr.com/showthread.php/10020-Fate-Requiem-Complete-Translation"
+        }
+      ]
+    },
+    {
+      "id": "ddd_1",
+      "title": "Decoration Disorder Disconnection Vol. 1",
+      "cover": "https://files.catbox.moe/30k3p6.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://forums.nrvnqsr.com/showthread.php/10322-Decoration-Disorder-Disconnection-Complete-Translation"
+        }
+      ]
+    },
+    {
+      "id": "ddd_2",
+      "title": "Decoration Disorder Disconnection Vol. 2",
+      "cover": "https://files.catbox.moe/ykq3yx.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://forums.nrvnqsr.com/showthread.php/10322-Decoration-Disorder-Disconnection-Complete-Translation"
+        }
+      ]
+    }
+  ]
+}

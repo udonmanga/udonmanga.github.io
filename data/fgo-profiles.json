@@ -1,0 +1,435 @@
+{
+  "items": [
+    {
+      "id": "summer_gareth",
+      "title": "Summer Gareth",
+      "cover": "https://i.imgur.com/xohdjB3.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/wle5te/summer_gareths_profile_translation/"
+        },
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/1kxwnmd/gareth_summers_profile_from_fategrand_order/"
+        }
+      ]
+    },
+    {
+      "id": "summer_kiara",
+      "title": "Summer Kiara Sessyoin",
+      "cover": "https://i.imgur.com/USjdosz.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/11chz26/summer_kiara_sessyoins_servant_profile_from/"
+        }
+      ]
+    },
+    {
+      "id": "taira_no_kagekiyo",
+      "title": "Taira no Kagekiyo",
+      "cover": "https://i.imgur.com/4b6PmJf.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/13splno/taira_no_kagekiyos_servant_profile_from_fategrand/"
+        }
+      ]
+    },
+    {
+      "id": "daikokuten",
+      "title": "Daikokuten",
+      "cover": "https://i.imgur.com/zwzjXwD.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/1fbxzl2/daikokutens_profile_from_fategrand_order_material/"
+        }
+      ]
+    },
+    {
+      "id": "manannan_mac_lir",
+      "title": "Manannán mac Lir",
+      "cover": "https://i.imgur.com/wQV73GA.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/1fbhy1d/manann%C3%A1n_mac_lirs_profile_from_fategrand_order/"
+        }
+      ]
+    },
+    {
+      "id": "santa_martha",
+      "title": "Santa Martha",
+      "cover": "https://i.imgur.com/9pBQHYD.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/1fc1wzn/martha_santas_profile_from_fategrand_order/"
+        }
+      ]
+    },
+    {
+      "id": "santa_suzuka",
+      "title": "Santa Suzuka",
+      "cover": "https://i.imgur.com/AuCWdsa.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/1apcpov/suzuka_gozen_santa_servant_profile_from_fategrand/"
+        }
+      ]
+    },
+    {
+      "id": "summer_mhxx_alter",
+      "title": "Summer MHXX Alter",
+      "cover": "https://i.imgur.com/vz5qiFe.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1fav8hf/mysterious_heroine_xx_alters_profile/"
+        }
+      ]
+    },
+    {
+      "id": "summer_tenochtitlan",
+      "title": "Summer Tenochtitlán",
+      "cover": "https://i.imgur.com/2vWKFCr.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1f3dhmw/summer_tenochtitl%C3%A1ns_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1f4abx9/summer_tenochtitl%C3%A1ns_lines/"
+        }
+      ]
+    },
+    {
+      "id": "kazuradrop",
+      "title": "Kazuradrop",
+      "cover": "https://i.imgur.com/QKxWgwx.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1g51e2y/kazuradrops_profile/"
+        }
+      ]
+    },
+    {
+      "id": "tutankhamun",
+      "title": "Tutankhamun",
+      "cover": "https://i.imgur.com/YoYj22y.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1gqo58j/tutankhamuns_profile/"
+        }
+      ]
+    },
+    {
+      "id": "van_gogh_miner",
+      "title": "Van Gogh (Miner)",
+      "cover": "https://i.imgur.com/iihxOOb.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1gqrpl7/van_gogh_miners_profile/"
+        }
+      ]
+    },
+    {
+      "id": "ono_no_komachi",
+      "title": "Ono no Komachi",
+      "cover": "https://i.imgur.com/MGVV5gK.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1irazle/ono_no_komachis_profile/"
+        }
+      ]
+    },
+    {
+      "id": "king_ashoka",
+      "title": "King Ashoka",
+      "cover": "https://i.imgur.com/F8Dkmrl.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1kbmum9/king_ashokas_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1kjfosq/king_ashokas_lines/"
+        }
+      ]
+    },
+    {
+      "id": "archetype_earth",
+      "title": "Archetype: Earth",
+      "cover": "https://i.imgur.com/HCetRNE.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/wcmn7m/archetype_earths_profile/"
+        },
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/1i2ouz2/archetype_earths_profile_from_fategrand_order/"
+        }
+      ]
+    },
+    {
+      "id": "fairy_knight_tristan",
+      "title": "Fairy Knight Tristan",
+      "cover": "https://i.imgur.com/Ndt47dK.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/16e2gk9/fairy_knight_tristans_profile_from_fategrand/"
+        }
+      ]
+    },
+    {
+      "id": "yamato_takeru",
+      "title": "Yamato Takeru",
+      "cover": "https://i.imgur.com/WPpQdtM.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/18vvcp6/yamato_takerus_profile/"
+        }
+      ]
+    },
+    {
+      "id": "aozaki_aoko",
+      "title": "Aozaki Aoko",
+      "cover": "https://i.imgur.com/bFfOVEn.png",
+      "links": [
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1ce6643/aozaki_aokos_lines/"
+        }
+      ]
+    },
+    {
+      "id": "hibiki_chikagi",
+      "title": "Hibiki and Chikagi",
+      "cover": "https://i.imgur.com/Bx7I06a.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1dr5469/azuminoisora_hibiki_and_chikagis_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1dv1e43/azuminoisora_hibiki_and_chikagis_lines/"
+        }
+      ]
+    },
+    {
+      "id": "space_ereshkigal",
+      "title": "Space Ereshkigal",
+      "cover": "https://i.imgur.com/qsFE5gv.png",
+      "links": [
+        {
+          "label": "Profile 1",
+          "url": "https://www.reddit.com/r/grandorder/comments/1ejtunk/space_ereshkigal_profile/"
+        },
+        {
+          "label": "Profile 2",
+          "url": "https://www.reddit.com/r/grandorder/comments/1f8pmpe/space_ereshkigal_profile_2_unlocked_after_ordeal/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1en2ean/space_ereshkigals_lines/"
+        }
+      ]
+    },
+    {
+      "id": "ciel",
+      "title": "Ciel",
+      "cover": "https://i.imgur.com/7Q3y5T7.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1es2phr/ciels_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1et37v6/ciels_lines/"
+        }
+      ]
+    },
+    {
+      "id": "hephaestion",
+      "title": "Hephaestion",
+      "cover": "https://i.imgur.com/5rBqHvA.png",
+      "links": [
+        {
+          "label": "Material",
+          "url": "https://www.reddit.com/r/grandorder/comments/1fagdzw/hephaestions_profile_from_fategrand_order/"
+        }
+      ]
+    },
+    {
+      "id": "phantasmoon",
+      "title": "Phantasmoon",
+      "cover": "https://i.imgur.com/ZZahWcB.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1hlj2oq/phantasmoons_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1hlwljk/phantasmoons_lines/"
+        }
+      ]
+    },
+    {
+      "id": "kurohime",
+      "title": "Kurohime",
+      "cover": "https://i.imgur.com/2d0956V.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1i1wcyg/kurohimes_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1i2lbvb/kurohimes_lines/"
+        }
+      ]
+    },
+    {
+      "id": "paladin_mash",
+      "title": "Shielder Paladin Mash",
+      "cover": "https://i.imgur.com/RGy4lGb.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1kdng53/postoc4_mash_kyrielight_profile_additions/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1ke9lvq/postoc4_mash_kyrielight_voiceline_additions/"
+        }
+      ]
+    },
+    {
+      "id": "typhon_ephemeros",
+      "title": "Typhon Ephemeros",
+      "cover": "https://i.imgur.com/wpOyKQW.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1l3o2j6/typhon_ephemeros_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1l73gtc/typhon_ephemeros_lines/"
+        }
+      ]
+    },
+    {
+      "id": "summer_miyu",
+      "title": "Summer Miyu",
+      "cover": "https://files.catbox.moe/f0wrbq.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1mqxrzm/summer_miyu_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1mrv0vf/summer_miyu_lines/"
+        }
+      ]
+    },
+    {
+      "id": "summer_ryougi",
+      "title": "Summer Ryougi Shiki",
+      "cover": "https://files.catbox.moe/523q3z.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1mqu94k/summer_ryougi_shiki_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1mv7xsx/summer_ryougi_shiki_lines/"
+        }
+      ]
+    },
+    {
+      "id": "elizabeth_bathory",
+      "title": "Elizabeth Bathory",
+      "cover": "https://files.catbox.moe/ssc56p.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1od61n6/elizabeth_bathory_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1on1wg6/elizabeth_bathory_lines/"
+        }
+      ]
+    },
+    {
+      "id": "elizabeth_of_the_end",
+      "title": "Elizabeth of the End",
+      "cover": "https://files.catbox.moe/fnkysb.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1ohe954/elizabeth_of_the_end_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1okc3ht/elizabeth_of_the_end_lines/"
+        }
+      ]
+    },
+    {
+      "id": "maris_chaldeas",
+      "title": "Maris Chaldeas",
+      "cover": "https://files.catbox.moe/osh73h.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://forums.nrvnqsr.com/showthread.php/6031-Fate-Grand-Order-Story-and-Lore-%28CONTAINS-SPOILERS%29?p=3431980&viewfull=1#post3431980"
+        }
+      ]
+    },
+    {
+      "id": "summer_paladin_mash",
+      "title": "Summer Paladin Mash",
+      "cover": "https://i.imgur.com/kmIyi9n.png",
+      "links": [
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1vpptbj/mash_kyrielight_swimsuit_of_everlasting_summer/"
+        }
+      ]
+    },
+    {
+      "id": "summer_lilith",
+      "title": "Summer Lilith",
+      "cover": "https://i.imgur.com/zz6i307.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1vohb86/rider_liliths_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1vt26w9/rider_lilith_summers_lines/"
+        }
+      ]
+    }
+  ]
+}

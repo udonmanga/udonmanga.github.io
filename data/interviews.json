@@ -1,0 +1,81 @@
+{
+  "items": [
+    {
+      "id": "solomon_screenplay",
+      "title": "FGO Solomon Movie Original Screenplay",
+      "cover": "https://i.imgur.com/nem7nVW.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://forums.nrvnqsr.com/showthread.php/9861-The-Grand-Temple-Time-Solomon-Movie-s-Original-Screenplay"
+        }
+      ]
+    },
+    {
+      "id": "mahoyo_4gamer_2022",
+      "title": "Mahoyo Console Release 4Gamer Interview (Dec 2022)",
+      "cover": "https://i.imgur.com/cy8wlyX.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://www.reddit.com/r/grandorder/comments/158ej4b/mahoyo_console_port_4gamer_interview_translation/"
+        }
+      ]
+    },
+    {
+      "id": "tsukihime_4gamer_2021",
+      "title": "Tsukihime Remake 4Gamer Interview (Sept 2021)",
+      "cover": "https://i.imgur.com/gpBKIrw.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://docs.google.com/document/d/e/2PACX-1vQhTJEAHliZRx_lC8ScUcMvWc-GdUl95mIb3PERorAd3Mj1FPzVr2WnOHpoWuXGJgWxrYzL-TNrAP7P/pub"
+        }
+      ]
+    },
+    {
+      "id": "haga_tm_ace_17",
+      "title": "Haga Keita TM Ace 17 Interview (July 2025)",
+      "cover": "https://i.imgur.com/H7hspGt.png",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://docs.google.com/document/d/e/2PACX-1vQy0Wd_g3VLJwl59I9o60NNEatuQRJ57efMhFh3CDHmT1XJxBhIinVPJIVIMPFSfzMRL2xOo9arFNDa/pub"
+        }
+      ]
+    },
+    {
+      "id": "noco_tm_ace_17",
+      "title": "NOCO TM Ace 17 Interview (July 2025)",
+      "cover": "https://i.imgur.com/Gbz4nz8.jpg",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://docs.google.com/document/d/e/2PACX-1vT4SkpnmHEsif03gtx0hDeOHGCgkO2zcNG7nZ_FGZRfQhMnpQCESARk4zrO-6EP5KUavZnZz7cXD13L/pub"
+        }
+      ]
+    },
+    {
+      "id": "haga_july_2026",
+      "title": "Haga Keita Interview (July 2026)",
+      "cover": "https://files.catbox.moe/qhhms3.jpg",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://docs.google.com/document/d/e/2PACX-1vQ9EqD4tjTGILYKaw5vSNXvzpQVWHV0hHZOsYRrLZkXmY_hkZObn3GkEOXl-8YOEvC3Oz9b0X1wxuR2/pub"
+        }
+      ]
+    },
+    {
+      "id": "kanou_famitsu_2026",
+      "title": "Kanou Yoshiki 11th Anniversary Famitsu Interview (Aug 2026)",
+      "cover": "https://files.catbox.moe/a2mtvh.jpg",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://docs.google.com/document/d/e/2PACX-1vSYB1cTe8dKj8FdjRtnvjSuS9GC7tHkn60iJ_GOcmId202gTf9JeVcaQFBGzftYyQrkJEkkYIv0xr_7/pub"
+        }
+      ]
+    }
+  ]
+}
