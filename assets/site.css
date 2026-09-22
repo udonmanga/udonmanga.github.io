@@ -126,17 +126,22 @@ main,
 }
 
 .brand-block {
+  display: grid;
+  gap: 1rem;
+}
+
+.brand-row {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.85rem;
+  align-items: center;
+  gap: 1rem 1.25rem;
 }
 
 .brand-logo {
-  width: clamp(6rem, 20vw, 9rem);
+  width: clamp(4.5rem, 12vw, 7rem);
   height: auto;
+  flex-shrink: 0;
   display: block;
-  /* Keep the mark as a normal opaque image — no blend/filter/backdrop. */
+  /* Opaque mark as-is — no cream fill, blend, or filter. */
   background: none;
   border-radius: 0;
   box-shadow: none;
