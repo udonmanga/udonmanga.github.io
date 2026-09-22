@@ -619,8 +619,8 @@ a.progress-card:hover {
 .card-actions {
   display: grid;
   gap: 0.4rem;
-  margin-top: auto;
-  padding-top: 0.55rem;
+  margin-top: 0.55rem;
+  padding-top: 0;
 }
 
 .card-actions a {
