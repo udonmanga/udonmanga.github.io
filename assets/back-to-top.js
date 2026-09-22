@@ -4,12 +4,14 @@
   const btn = document.getElementById("back-to-top");
   if (!btn) return;
 
-  const SHOW_AFTER = 400;
+  const SHOW_AFTER = 280;
 
   function sync() {
-    const show = window.scrollY > SHOW_AFTER;
+    const y = window.scrollY || document.documentElement.scrollTop || 0;
+    const show = y > SHOW_AFTER;
     btn.classList.toggle("is-visible", show);
-    btn.toggleAttribute("hidden", !show);
+    if (show) btn.removeAttribute("hidden");
+    else btn.setAttribute("hidden", "");
   }
 
   btn.addEventListener("click", () => {
@@ -18,5 +20,6 @@
   });
 
   window.addEventListener("scroll", sync, { passive: true });
+  window.addEventListener("resize", sync, { passive: true });
   sync();
 })();
