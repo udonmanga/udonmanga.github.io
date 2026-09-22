@@ -87,10 +87,10 @@
 
     const links = [];
     if (site.hub_url) {
-      links.push(["BL", site.hub_url]);
+      links.push(["Beast’s Lair", site.hub_url]);
     }
     if (site.discord_url) {
-      links.push(["Releases Discord Server", site.discord_url]);
+      links.push(["Discord", site.discord_url]);
     }
     if (site.recruitment_url) {
       links.push(["Recruitment", site.recruitment_url]);
@@ -104,10 +104,11 @@
 
     els.links.hidden = false;
     els.links.innerHTML = links
-      .map(
-        ([label, href]) =>
-          `<a href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${escapeHtml(label)}</a>`
-      )
+      .map(([label, href], i) => {
+        const sep =
+          i > 0 ? '<span class="header-links-sep" aria-hidden="true">·</span>' : "";
+        return `${sep}<a href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${escapeHtml(label)}</a>`;
+      })
       .join("");
   }
 
