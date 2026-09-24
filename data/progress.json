@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790069651,
+  "generated_at": 1790255649,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -319,17 +319,6 @@
       "since": "",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/"
-    },
-    {
-      "sheet_series": "Samurai Remnant",
-      "series_title": "Fate/Samurai Remnant",
-      "series_id": "fatesamurai_remnant",
-      "chapter": "4.3",
-      "stage": "Quality Checking",
-      "stage_key": "QC",
-      "since": "September 21, 2026",
-      "cover": "assets/covers/fatesamurai_remnant.jpg",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/"
     },
     {
       "sheet_series": "Mahoyo DNA 1",
@@ -1040,9 +1029,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "38",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "September 8, 2026",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "September 23, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790045148,
+  "generated_at": 1790255646,
   "site": {
     "name": "Udon Mango D",
     "subtitle": "Translations of Type-Moon Works",
@@ -9,6 +9,16 @@
     "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub?p=3392307&viewfull=1#post3392307"
   },
   "latest_releases": [
+    {
+      "series_id": "fatesamurai_remnant",
+      "series_title": "Fate/Samurai Remnant",
+      "chapter_number": "004.3",
+      "chapter_title": "",
+      "released_at": 1790255580,
+      "released_display": "September 24, 2026",
+      "cover": "assets/covers/fatesamurai_remnant.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.3/"
+    },
     {
       "series_id": "fategrand_order_epic_of_remnant_shinjuku",
       "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
@@ -98,19 +108,29 @@
       "released_display": "August 3, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/110/"
-    },
-    {
-      "series_id": "fatestay_night_unlimited_blade_works",
-      "series_title": "Fate/stay night: Unlimited Blade Works",
-      "chapter_number": "034.1",
-      "chapter_title": "",
-      "released_at": 1785584400,
-      "released_display": "August 1, 2026",
-      "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.1/"
     }
   ],
   "titles": [
+    {
+      "id": "fatesamurai_remnant",
+      "title": "Fate/Samurai Remnant",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Mugetsu"
+      ],
+      "cover": "assets/covers/fatesamurai_remnant.jpg",
+      "category": "series",
+      "latest_chapter_number": "004.3",
+      "latest_chapter_title": "",
+      "released_at": 1790255580,
+      "released_display": "September 24, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.3/"
+    },
     {
       "id": "fategrand_order_epic_of_remnant_shinjuku",
       "title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
@@ -226,26 +246,6 @@
       "released_display": "August 14, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/001/"
-    },
-    {
-      "id": "fatesamurai_remnant",
-      "title": "Fate/Samurai Remnant",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Type-Moon"
-      ],
-      "artists": [
-        "Mugetsu"
-      ],
-      "cover": "assets/covers/fatesamurai_remnant.jpg",
-      "category": "series",
-      "latest_chapter_number": "004.2",
-      "latest_chapter_title": "",
-      "released_at": 1786322220,
-      "released_display": "August 10, 2026",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.2/"
     },
     {
       "id": "fatestay_night_unlimited_blade_works",
