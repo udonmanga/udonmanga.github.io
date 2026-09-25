@@ -79,8 +79,8 @@
   }
 
   function renderHeader(site) {
-    document.title = "UMD Translations";
-    els.name.textContent = site.name || "Udon Mango D";
+    document.title = site.name || "umd";
+    els.name.textContent = site.name || "umd";
     els.subtitle.textContent =
       site.subtitle || "Translations of Type-Moon Works";
     applyAccent(site.accent);
