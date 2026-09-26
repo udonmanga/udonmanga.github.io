@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790331883,
+  "generated_at": 1790383715,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -29,8 +29,8 @@
       "series_id": "the_case_files_of_lord_melloi_ii",
       "chapter": "69.1",
       "stage": "Quality Checking",
-      "stage_key": "QC",
-      "since": "September 25, 2026",
+      "stage_key": "QC_MERGE",
+      "since": "September 26, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
