@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790255671,
+  "generated_at": 1790384510,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -9,6 +9,16 @@
     "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub?p=3392307&viewfull=1#post3392307"
   },
   "latest_releases": [
+    {
+      "series_id": "fatestay_night_unlimited_blade_works",
+      "series_title": "Fate/stay night: Unlimited Blade Works",
+      "chapter_number": "034.2",
+      "chapter_title": "",
+      "released_at": 1790384460,
+      "released_display": "September 26, 2026",
+      "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.2/"
+    },
     {
       "series_id": "fatesamurai_remnant",
       "series_title": "Fate/Samurai Remnant",
@@ -98,19 +108,29 @@
       "released_display": "August 10, 2026",
       "cover": "assets/covers/fatesamurai_remnant.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.2/"
-    },
-    {
-      "series_id": "fatestay_night_heavens_feel",
-      "series_title": "Fate/stay night: Heaven's Feel",
-      "chapter_number": "110",
-      "chapter_title": "Day 10 - Steal (5)",
-      "released_at": 1785708480,
-      "released_display": "August 3, 2026",
-      "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/110/"
     }
   ],
   "titles": [
+    {
+      "id": "fatestay_night_unlimited_blade_works",
+      "title": "Fate/stay night: Unlimited Blade Works",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Moriyama Daisuke"
+      ],
+      "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
+      "category": "series",
+      "latest_chapter_number": "034.2",
+      "latest_chapter_title": "",
+      "released_at": 1790384460,
+      "released_display": "September 26, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.2/"
+    },
     {
       "id": "fatesamurai_remnant",
       "title": "Fate/Samurai Remnant",
@@ -246,26 +266,6 @@
       "released_display": "August 14, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/001/"
-    },
-    {
-      "id": "fatestay_night_unlimited_blade_works",
-      "title": "Fate/stay night: Unlimited Blade Works",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Type-Moon"
-      ],
-      "artists": [
-        "Moriyama Daisuke"
-      ],
-      "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
-      "category": "series",
-      "latest_chapter_number": "034.1",
-      "latest_chapter_title": "",
-      "released_at": 1785584400,
-      "released_display": "August 1, 2026",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.1/"
     },
     {
       "id": "fategrand_order_turas_réalta_",

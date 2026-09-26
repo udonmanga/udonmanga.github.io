@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790383843,
+  "generated_at": 1790384513,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -20,17 +20,6 @@
       "stage": "Quality Checking",
       "stage_key": "QC",
       "since": "September 14, 2026",
-      "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
-    },
-    {
-      "sheet_series": "Case Files",
-      "series_title": "The Case Files of Lord Melloi II",
-      "series_id": "the_case_files_of_lord_melloi_ii",
-      "chapter": "69.1",
-      "stage": "Quality Checking",
-      "stage_key": "QC_MERGE",
-      "since": "September 26, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
@@ -77,17 +66,6 @@
       "since": "September 10, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
-    },
-    {
-      "sheet_series": "Unlimited Blade Works",
-      "series_title": "Fate/stay night: Unlimited Blade Works",
-      "series_id": "fatestay_night_unlimited_blade_works",
-      "chapter": "34.2",
-      "stage": "Quality Checking",
-      "stage_key": "QC",
-      "since": "September 25, 2026",
-      "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
     },
     {
       "sheet_series": "Unlimited Blade Works",
