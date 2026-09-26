@@ -1,13 +1,13 @@
 {
-  "generated_at": 1790395681,
+  "generated_at": 1790415460,
   "items": [
     {
       "sheet_series": "Case Files",
       "series_title": "The Case Files of Lord Melloi II",
       "series_id": "the_case_files_of_lord_melloi_ii",
       "chapter": "68.1",
-      "stage": "Proofreading",
-      "stage_key": "PR_MERGE",
+      "stage": "Typesetting",
+      "stage_key": "TS",
       "since": "September 26, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
@@ -39,8 +39,8 @@
       "series_title": "The Case Files of Lord Melloi II",
       "series_id": "the_case_files_of_lord_melloi_ii",
       "chapter": "70.1",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
+      "stage": "Proofreading",
+      "stage_key": "PR",
       "since": "September 26, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
