@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790415460,
+  "generated_at": 1790768263,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -288,6 +288,17 @@
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
     },
     {
+      "sheet_series": "Mortalis Stella",
+      "series_title": "Fate/Grand Order -mortalis:stella-",
+      "series_id": "fategrand_order_mortalisstella_",
+      "chapter": "26.1",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "September 30, 2026",
+      "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/"
+    },
+    {
       "sheet_series": "Shimousa",
       "series_title": "Fate/Grand Order -Epic of Remnant- Shimousa",
       "series_id": "fategrand_order_epic_of_remnant_shimousa",
@@ -490,9 +501,9 @@
       "series_title": "Witch on the Holy Night - Comic Anthology DNA 2",
       "series_id": "mahoyodna2",
       "chapter": "2",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "September 21, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "September 30, 2026",
       "cover": "assets/covers/witch_on_the_holy_night_comic_anthology_dna_2.jpg",
       "cubari_series_url": ""
     },
@@ -501,9 +512,9 @@
       "series_title": "Witch on the Holy Night - Comic Anthology DNA 2",
       "series_id": "mahoyodna2",
       "chapter": "3",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "September 21, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "September 30, 2026",
       "cover": "assets/covers/witch_on_the_holy_night_comic_anthology_dna_2.jpg",
       "cubari_series_url": ""
     },
@@ -1043,6 +1054,17 @@
       "stage": "Proofreading",
       "stage_key": "PR",
       "since": "September 21, 2026",
+      "cover": "assets/covers/lunar_legend_tsukihime.jpg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "Tsukihime",
+      "series_title": "Lunar Legend Tsukihime",
+      "series_id": "tsukihime",
+      "chapter": "40",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "September 30, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     }
