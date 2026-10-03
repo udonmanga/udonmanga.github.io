@@ -39,7 +39,7 @@ body {
   min-height: 100vh;
   font-family: var(--font-body);
   color: var(--ink);
-  background: #140e0a;
+  background: #121416;
 }
 
 body::before {
@@ -49,8 +49,8 @@ body::before {
   pointer-events: none;
   z-index: 0;
   background:
-    linear-gradient(180deg, rgba(28, 14, 8, 0.55), rgba(18, 8, 4, 0.64)),
-    url("site-bg.jpg") center / cover no-repeat;
+    linear-gradient(180deg, rgba(12, 14, 16, 0.5), rgba(8, 10, 12, 0.58)),
+    url("site-bg.jpg?v=34") center / cover no-repeat;
 }
 
 body > * {
