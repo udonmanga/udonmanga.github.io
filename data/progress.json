@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790768263,
+  "generated_at": 1790987842,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -64,6 +64,17 @@
       "stage": "Translating",
       "stage_key": "TL",
       "since": "September 10, 2026",
+      "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
+    },
+    {
+      "sheet_series": "Case Files",
+      "series_title": "The Case Files of Lord Melloi II",
+      "series_id": "the_case_files_of_lord_melloi_ii",
+      "chapter": "71.2",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "October 3, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
@@ -170,21 +181,10 @@
       "sheet_series": "Unlimited Blade Works",
       "series_title": "Fate/stay night: Unlimited Blade Works",
       "series_id": "fatestay_night_unlimited_blade_works",
-      "chapter": "39.3",
+      "chapter": "40",
       "stage": "Translating",
       "stage_key": "TL",
-      "since": "September 25, 2026",
-      "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
-    },
-    {
-      "sheet_series": "Unlimited Blade Works",
-      "series_title": "Fate/stay night: Unlimited Blade Works",
-      "series_id": "fatestay_night_unlimited_blade_works",
-      "chapter": "39.4",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "September 25, 2026",
+      "since": "October 3, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
     },
@@ -218,6 +218,17 @@
       "stage": "Typesetting",
       "stage_key": "TS",
       "since": "September 13, 2026",
+      "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
+    },
+    {
+      "sheet_series": "Heaven's Feel",
+      "series_title": "Fate/stay night: Heaven's Feel",
+      "series_id": "fatestay_night_heavens_feel",
+      "chapter": "116",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "October 3, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
     },
@@ -297,6 +308,17 @@
       "since": "September 30, 2026",
       "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/"
+    },
+    {
+      "sheet_series": "Shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "chapter": "30.1",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "October 3, 2026",
+      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/"
     },
     {
       "sheet_series": "Shimousa",
@@ -567,9 +589,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
       "series_id": "fgoshowdown1",
       "chapter": "4",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "October 3, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
     },
@@ -1062,9 +1084,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "40",
-      "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "September 30, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "October 1, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     }

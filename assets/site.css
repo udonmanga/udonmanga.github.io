@@ -179,6 +179,14 @@ main,
   text-decoration: none;
 }
 
+html.boot-hub #view-manga {
+  display: none !important;
+}
+
+html.boot-hub #view-hub[hidden] {
+  display: block !important;
+}
+
 .site-nav {
   display: flex;
   flex-wrap: wrap;
@@ -197,6 +205,8 @@ main,
   color: var(--muted);
   text-decoration: none;
   background: transparent;
+  font: inherit;
+  cursor: pointer;
   transition: border-color 0.2s ease, color 0.2s ease, background 0.2s ease;
 }
 
@@ -274,16 +284,9 @@ main,
 .progress,
 .projects {
   padding: 1.5rem 0 0.5rem;
-  animation: rise 0.8s ease both;
-  animation-delay: 0.08s;
-}
-
-.progress {
-  animation-delay: 0.12s;
 }
 
 .projects {
-  animation-delay: 0.16s;
   padding-bottom: 3rem;
 }
 
@@ -369,6 +372,52 @@ a.progress-card:hover {
 
 .progress-card .stage {
   color: #e8d3b0;
+}
+
+.progress-series .series a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.progress-series .series a:hover {
+  color: var(--focus);
+}
+
+.progress-chapters {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  margin-top: 0.45rem;
+}
+
+.progress-chapter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.25rem 0.7rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.progress-chapter .ch {
+  color: var(--ink);
+}
+
+.progress-more {
+  align-self: flex-start;
+  margin-top: 0.15rem;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.progress-more:hover {
+  text-decoration: underline;
 }
 
 .latest-scroll {

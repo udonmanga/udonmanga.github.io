@@ -9,15 +9,53 @@
     doujin: "Doujins",
   };
 
-  const PROGRESS_PAGE_SIZE = 5;
+  const PROGRESS_PAGE_SIZE = 6;
+  const PROGRESS_CHAPTERS_SHOWN = 4;
+
+  const SECTIONS = {
+    manga: {
+      search: "Search titles…",
+      searchLabel: "Search titles",
+    },
+    "light-novels": {
+      title: "Light Novels",
+      blurb: "Completed novel translations.",
+      data: "data/light-novels.json",
+      search: "Search light novels…",
+      searchLabel: "Search light novels",
+      empty: "No light novels match your search.",
+      noun: "light novel",
+    },
+    "fgo-profiles": {
+      title: "FGO Profiles",
+      blurb: "Servant profiles, materials, and lines translations.",
+      data: "data/fgo-profiles.json",
+      search: "Search profiles…",
+      searchLabel: "Search profiles",
+      empty: "No profiles match your search.",
+      noun: "profile",
+    },
+    miscellaneous: {
+      title: "Miscellaneous",
+      blurb: "Interviews, timelines, screenplays, and other translations.",
+      data: "data/miscellaneous.json",
+      search: "Search miscellaneous…",
+      searchLabel: "Search miscellaneous",
+      empty: "No items match your search.",
+      noun: "item",
+    },
+  };
 
   const state = {
     catalog: null,
-    progressItems: [],
+    progressGroups: [],
     progressPage: 0,
+    expandedSeries: new Set(),
     query: "",
     category: "all",
     sort: "released",
+    section: "manga",
+    hubCache: {},
   };
 
   const els = {
@@ -28,6 +66,15 @@
     latestSection: document.querySelector("section.latest"),
     progressSection: document.getElementById("in-progress"),
     latest: document.getElementById("latest-releases"),
+    viewManga: document.getElementById("view-manga"),
+    viewHub: document.getElementById("view-hub"),
+    hubHeading: document.getElementById("hub-heading"),
+    hubBlurb: document.getElementById("hub-blurb"),
+    hubGrid: document.getElementById("hub-grid"),
+    hubMeta: document.getElementById("hub-meta"),
+    hubEmpty: document.getElementById("hub-empty"),
+    nav: document.getElementById("site-nav"),
+    searchLabel: document.getElementById("search-label"),
     progress: document.getElementById("progress-list"),
     progressEmpty: document.getElementById("progress-empty"),
     progressPager: document.getElementById("progress-pager"),
@@ -136,11 +183,69 @@
       .join("");
   }
 
+  function chapterSortValue(raw) {
+    const n = parseFloat(String(raw ?? "").replace(/^0+(?=\d)/, ""));
+    return Number.isFinite(n) ? n : 0;
+  }
+
+  function groupProgress(items) {
+    const groups = new Map();
+    for (const row of items || []) {
+      const id = String(row.series_id || row.series_title || row.sheet_series || "unknown");
+      if (!groups.has(id)) {
+        groups.set(id, {
+          id,
+          title: row.series_title || row.sheet_series || "",
+          cover: row.cover,
+          url: (row.cubari_series_url || "").trim(),
+          chapters: [],
+        });
+      }
+      groups.get(id).chapters.push(row);
+    }
+    const list = [...groups.values()];
+    for (const group of list) {
+      group.chapters.sort((a, b) => chapterSortValue(a.chapter) - chapterSortValue(b.chapter));
+    }
+    return list;
+  }
+
+  function progressChapterRows(group) {
+    const expanded = state.expandedSeries.has(group.id);
+    const chapters = group.chapters;
+    const visible =
+      expanded || chapters.length <= PROGRESS_CHAPTERS_SHOWN
+        ? chapters
+        : chapters.slice(0, PROGRESS_CHAPTERS_SHOWN);
+    const rows = visible
+      .map((row) => {
+        const since = row.since
+          ? `<span class="since">since ${escapeHtml(row.since)}</span>`
+          : "";
+        return `
+          <div class="progress-chapter">
+            <span class="ch">Chapter ${escapeHtml(displayChapter(row.chapter))}</span>
+            <span class="stage">${escapeHtml(row.stage || "")}</span>
+            ${since}
+          </div>
+        `;
+      })
+      .join("");
+    const hiddenCount = chapters.length - visible.length;
+    const toggle =
+      chapters.length > PROGRESS_CHAPTERS_SHOWN
+        ? `<button type="button" class="progress-more" data-series="${escapeHtml(group.id)}">${
+            expanded ? "Show less" : `Show ${hiddenCount} more`
+          }</button>`
+        : "";
+    return rows + toggle;
+  }
+
   function renderProgressPage() {
-    const items = state.progressItems || [];
+    const groups = state.progressGroups || [];
     if (!els.progress) return;
 
-    if (!items.length) {
+    if (!groups.length) {
       els.progress.innerHTML = "";
       if (els.progressEmpty) els.progressEmpty.hidden = false;
       if (els.progressPager) els.progressPager.hidden = true;
@@ -148,41 +253,39 @@
     }
     if (els.progressEmpty) els.progressEmpty.hidden = true;
 
-    const pageCount = Math.max(1, Math.ceil(items.length / PROGRESS_PAGE_SIZE));
+    const pageCount = Math.max(1, Math.ceil(groups.length / PROGRESS_PAGE_SIZE));
     if (state.progressPage >= pageCount) state.progressPage = pageCount - 1;
     if (state.progressPage < 0) state.progressPage = 0;
 
     const start = state.progressPage * PROGRESS_PAGE_SIZE;
-    const pageItems = items.slice(start, start + PROGRESS_PAGE_SIZE);
+    const pageItems = groups.slice(start, start + PROGRESS_PAGE_SIZE);
     const end = start + pageItems.length;
 
     els.progress.innerHTML = pageItems
-      .map((row) => {
-        const chapter = displayChapter(row.chapter);
-        const since = row.since ? ` · since ${escapeHtml(row.since)}` : "";
-        const body = `
-          <img src="${escapeHtml(coverSrc(row.cover))}" alt="" loading="lazy" width="48" height="48" />
-          <div>
-            <div class="series">${escapeHtml(row.series_title || row.sheet_series || "")}</div>
-            <div class="detail">
-              Chapter ${escapeHtml(chapter)} —
-              <span class="stage">${escapeHtml(row.stage || "")}</span>${since}
+      .map((group) => {
+        const title = escapeHtml(group.title);
+        const titleHtml = group.url
+          ? `<a href="${escapeHtml(group.url)}" rel="noopener noreferrer" target="_blank">${title}</a>`
+          : title;
+        const count = group.chapters.length;
+        return `
+          <article class="progress-card progress-series">
+            <img src="${escapeHtml(coverSrc(group.cover))}" alt="" loading="lazy" width="52" height="52" />
+            <div>
+              <div class="series">${titleHtml}</div>
+              <div class="detail">${count} chapter${count === 1 ? "" : "s"} in progress</div>
+              <div class="progress-chapters">${progressChapterRows(group)}</div>
             </div>
-          </div>
+          </article>
         `;
-        const href = (row.cubari_series_url || "").trim();
-        if (href) {
-          return `<a class="progress-card" href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${body}</a>`;
-        }
-        return `<div class="progress-card">${body}</div>`;
       })
       .join("");
 
     if (els.progressPager) {
-      els.progressPager.hidden = items.length <= PROGRESS_PAGE_SIZE;
+      els.progressPager.hidden = groups.length <= PROGRESS_PAGE_SIZE;
     }
     if (els.progressPageMeta) {
-      els.progressPageMeta.textContent = `${start + 1}–${end} of ${items.length}`;
+      els.progressPageMeta.textContent = `${start + 1}–${end} of ${groups.length}`;
     }
     if (els.progressPrev) els.progressPrev.disabled = state.progressPage <= 0;
     if (els.progressNext) {
@@ -191,8 +294,9 @@
   }
 
   function renderProgress(payload) {
-    state.progressItems = (payload && payload.items) || [];
+    state.progressGroups = groupProgress((payload && payload.items) || []);
     state.progressPage = 0;
+    state.expandedSeries = new Set();
     renderProgressPage();
   }
 
@@ -287,8 +391,116 @@
 
   function syncSearchLayout() {
     const searching = Boolean(normalize(state.query.trim()));
-    if (els.latestSection) els.latestSection.hidden = searching;
-    if (els.progressSection) els.progressSection.hidden = searching;
+    const onManga = state.section === "manga";
+    if (els.latestSection) els.latestSection.hidden = !onManga || searching;
+    if (els.progressSection) els.progressSection.hidden = !onManga || searching;
+  }
+
+  function sectionFromHash() {
+    const key = (location.hash || "").replace(/^#/, "");
+    return SECTIONS[key] ? key : "manga";
+  }
+
+  function hubCardHtml(item) {
+    const links = (item.links || []).filter((l) => l && l.url);
+    const primary = links[0];
+    const coverHref = primary ? primary.url : "#";
+    const actions = links
+      .map((link, i) => {
+        const cls = i === 0 ? "primary" : "secondary";
+        return `<a class="${cls}" href="${escapeHtml(link.url)}" rel="noopener noreferrer" target="_blank">${escapeHtml(link.label || "Open")}</a>`;
+      })
+      .join("");
+    return `
+      <article class="project-card hub-card">
+        <a class="cover-link" href="${escapeHtml(coverHref)}" rel="noopener noreferrer" target="_blank">
+          <img src="${escapeHtml(coverSrc(item.cover))}" alt="" loading="lazy" width="300" height="450" />
+        </a>
+        <div class="card-body">
+          <h3>
+            <a href="${escapeHtml(coverHref)}" rel="noopener noreferrer" target="_blank">${escapeHtml(item.title)}</a>
+          </h3>
+          <div class="card-actions">${actions}</div>
+        </div>
+      </article>
+    `;
+  }
+
+  function renderHub() {
+    const spec = SECTIONS[state.section];
+    if (!spec || state.section === "manga" || !els.hubGrid) return;
+    const items = state.hubCache[state.section] || [];
+    const q = normalize(state.query.trim());
+    const list = q
+      ? items.filter((item) => normalize(item.title).includes(q))
+      : items.slice();
+    if (els.hubHeading) els.hubHeading.textContent = spec.title;
+    if (els.hubBlurb) els.hubBlurb.textContent = spec.blurb;
+    if (els.hubMeta) {
+      const noun = list.length === 1 ? spec.noun : `${spec.noun}s`;
+      els.hubMeta.textContent = `${list.length} ${noun}`;
+    }
+    if (els.hubEmpty) {
+      els.hubEmpty.hidden = list.length > 0;
+      els.hubEmpty.textContent = spec.empty;
+    }
+    els.hubGrid.hidden = list.length === 0;
+    els.hubGrid.innerHTML = list.map(hubCardHtml).join("");
+  }
+
+  async function ensureHub(section) {
+    if (state.hubCache[section]) return;
+    const spec = SECTIONS[section];
+    if (!spec || !spec.data) return;
+    const res = await fetch(spec.data, { cache: "no-cache" });
+    if (!res.ok) throw new Error(`Failed to load ${spec.data}`);
+    const payload = await res.json();
+    state.hubCache[section] = payload.items || [];
+  }
+
+  function applySectionChrome() {
+    const spec = SECTIONS[state.section] || SECTIONS.manga;
+    const onManga = state.section === "manga";
+    if (els.viewManga) els.viewManga.hidden = !onManga;
+    if (els.viewHub) els.viewHub.hidden = onManga;
+    if (els.search) els.search.placeholder = spec.search;
+    if (els.searchLabel) els.searchLabel.textContent = spec.searchLabel;
+    if (els.nav) {
+      for (const link of els.nav.querySelectorAll("[data-section]")) {
+        const current = link.getAttribute("data-section") === state.section;
+        if (current) link.setAttribute("aria-current", "page");
+        else link.removeAttribute("aria-current");
+      }
+    }
+    document.title =
+      onManga || !spec.title ? "UMD Translations" : `${spec.title} — UMD Translations`;
+    document.documentElement.classList.remove("boot-hub");
+    syncSearchLayout();
+  }
+
+  async function showSection(section, { updateHash = true } = {}) {
+    const next = SECTIONS[section] ? section : "manga";
+    state.section = next;
+    if (updateHash) {
+      const hash = next === "manga" ? "#manga" : `#${next}`;
+      if (location.hash !== hash) history.pushState(null, "", hash);
+    }
+    applySectionChrome();
+    if (next === "manga") {
+      renderCards();
+      return;
+    }
+    try {
+      await ensureHub(next);
+      renderHub();
+    } catch (err) {
+      console.error(err);
+      if (els.hubGrid) els.hubGrid.innerHTML = "";
+      if (els.hubEmpty) {
+        els.hubEmpty.hidden = false;
+        els.hubEmpty.textContent = "Could not load this section.";
+      }
+    }
   }
 
   function renderCards() {
@@ -304,12 +516,39 @@
   function bind() {
     els.search.addEventListener("input", () => {
       state.query = els.search.value;
-      renderCards();
+      if (state.section === "manga") renderCards();
+      else renderHub();
     });
 
     els.sort.addEventListener("change", () => {
       state.sort = els.sort.value;
       renderCards();
+    });
+
+    if (els.progress) {
+      els.progress.addEventListener("click", (event) => {
+        const btn = event.target.closest("button.progress-more");
+        if (!btn) return;
+        const id = btn.getAttribute("data-series") || "";
+        if (!id) return;
+        if (state.expandedSeries.has(id)) state.expandedSeries.delete(id);
+        else state.expandedSeries.add(id);
+        renderProgressPage();
+      });
+    }
+
+    if (els.nav) {
+      els.nav.addEventListener("click", (event) => {
+        const link = event.target.closest("[data-section]");
+        if (!link) return;
+        event.preventDefault();
+        showSection(link.getAttribute("data-section") || "manga");
+      });
+    }
+
+    window.addEventListener("hashchange", () => {
+      const next = sectionFromHash();
+      if (next !== state.section) showSection(next, { updateHash: false });
     });
 
     if (els.progressPrev) {
@@ -367,6 +606,8 @@
     } else {
       renderProgress({ items: [] });
     }
+
+    await showSection(sectionFromHash(), { updateHash: false });
   }
 
   init().catch((err) => {
