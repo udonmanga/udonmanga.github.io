@@ -30,11 +30,7 @@ body {
   min-height: 100vh;
   font-family: var(--font-body);
   color: var(--ink);
-  background:
-    radial-gradient(ellipse 80% 50% at 10% -10%, rgba(196, 92, 38, 0.18), transparent 55%),
-    radial-gradient(ellipse 60% 40% at 100% 0%, rgba(80, 110, 140, 0.12), transparent 50%),
-    linear-gradient(180deg, var(--bg0), var(--bg1) 40%, #0c0a09);
-  background-attachment: fixed;
+  background: #071018;
 }
 
 body::before {
@@ -42,9 +38,10 @@ body::before {
   position: fixed;
   inset: 0;
   pointer-events: none;
-  opacity: 0.04;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cpath d='M0 60H120M60 0V120' stroke='%23fff' stroke-width='1'/%3E%3C/svg%3E");
   z-index: 0;
+  background:
+    linear-gradient(180deg, rgba(6, 16, 28, 0.5), rgba(4, 14, 24, 0.58)),
+    url("site-bg.jpg") center / cover no-repeat;
 }
 
 body > * {
