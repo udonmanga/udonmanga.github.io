@@ -210,6 +210,24 @@
     return list;
   }
 
+  const PROGRESS_STEPS = [
+    "Translating",
+    "Translation Checking",
+    "Proofreading",
+    "Typesetting",
+    "Quality Checking",
+  ];
+
+  function stageBar(stage) {
+    const index = PROGRESS_STEPS.indexOf(stage);
+    if (index < 0) return "";
+    const segs = PROGRESS_STEPS.map((name, i) => {
+      const cls = i < index ? "done" : i === index ? "current" : "";
+      return `<span class="stage-seg ${cls}" title="${escapeHtml(name)}"></span>`;
+    }).join("");
+    return `<div class="stage-bar" role="progressbar" aria-valuemin="1" aria-valuemax="${PROGRESS_STEPS.length}" aria-valuenow="${index + 1}" aria-valuetext="${escapeHtml(stage)}">${segs}</div>`;
+  }
+
   function progressChapterRows(group) {
     const expanded = state.expandedSeries.has(group.id);
     const chapters = group.chapters;
@@ -219,13 +237,17 @@
         : chapters.slice(0, PROGRESS_CHAPTERS_SHOWN);
     const rows = visible
       .map((row) => {
+        const stage = row.stage || "";
         const since = row.since
           ? `<span class="since">since ${escapeHtml(row.since)}</span>`
           : "";
         return `
           <div class="progress-chapter">
-            <span class="ch">Chapter ${escapeHtml(displayChapter(row.chapter))}</span>
-            <span class="stage">${escapeHtml(row.stage || "")}</span>
+            <div class="progress-chapter-top">
+              <span class="ch">Chapter ${escapeHtml(displayChapter(row.chapter))}</span>
+              <span class="stage">${escapeHtml(stage)}</span>
+            </div>
+            ${stageBar(stage)}
             ${since}
           </div>
         `;
