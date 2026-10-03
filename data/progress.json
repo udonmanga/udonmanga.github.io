@@ -1,14 +1,14 @@
 {
-  "generated_at": 1790992898,
+  "generated_at": 1791056262,
   "items": [
     {
       "sheet_series": "Case Files",
       "series_title": "The Case Files of Lord Melloi II",
       "series_id": "the_case_files_of_lord_melloi_ii",
       "chapter": "68.1",
-      "stage": "Typesetting",
-      "stage_key": "TS",
-      "since": "September 26, 2026",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
+      "since": "October 4, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
@@ -721,8 +721,8 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
       "series_id": "fgoshowdown1",
       "chapter": "4",
-      "stage": "Typesetting",
-      "stage_key": "TS",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
       "since": "October 3, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
