@@ -391,10 +391,10 @@ a.progress-card:hover {
 }
 
 .progress-chapter {
-  display: grid;
-  grid-template-columns: auto minmax(0, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 0.65rem 1.25rem;
+  gap: 0.35rem 1rem;
   min-width: 0;
   color: var(--muted);
   font-size: 0.9rem;
@@ -423,7 +423,6 @@ a.progress-card:hover {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  justify-self: end;
   align-items: center;
   gap: 0.35rem;
   width: max-content;
@@ -437,18 +436,6 @@ a.progress-card:hover {
   line-height: 1.35;
   overflow-x: auto;
   scrollbar-width: none;
-}
-
-@media (max-width: 720px) {
-  .progress-chapter {
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
-  }
-
-  .stage-pill {
-    justify-self: stretch;
-    width: 100%;
-  }
 }
 
 .stage-pill::-webkit-scrollbar {
