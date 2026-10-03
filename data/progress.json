@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790988061,
+  "generated_at": 1790988268,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -28,9 +28,9 @@
       "series_title": "The Case Files of Lord Melloi II",
       "series_id": "the_case_files_of_lord_melloi_ii",
       "chapter": "69.1",
-      "stage": "Ready for release",
-      "stage_key": "RELEASE",
-      "since": "",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
+      "since": "September 25, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
@@ -248,8 +248,8 @@
       "series_title": "Fate/Grand Order -turas réalta-",
       "series_id": "fategrand_order_turas_réalta_",
       "chapter": "99",
-      "stage": "Ready for release",
-      "stage_key": "RELEASE",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
       "since": "",
       "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
@@ -380,8 +380,8 @@
       "series_title": "Fate/Zero",
       "series_id": "fatezero",
       "chapter": "52",
-      "stage": "Ready for release",
-      "stage_key": "RELEASE",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
       "since": "",
       "cover": "assets/covers/fatezero.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/"
@@ -611,8 +611,8 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
       "series_id": "fgoshowdown1",
       "chapter": "2",
-      "stage": "Ready for release",
-      "stage_key": "RELEASE",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
       "since": "",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
