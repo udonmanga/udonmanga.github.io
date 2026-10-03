@@ -10,7 +10,7 @@
   };
 
   const PROGRESS_PAGE_SIZE = 6;
-  const PROGRESS_CHAPTERS_SHOWN = 4;
+  const PROGRESS_CHAPTERS_SHOWN = 3;
 
   const SECTIONS = {
     manga: {
