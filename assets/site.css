@@ -7,16 +7,16 @@
    Body: warm radial gradients, grid overlay, no site-bg.jpg.
 */
 :root {
-  --bg0: #071018;
-  --bg1: #0c1a24;
-  --bg2: #143044;
-  --ink: #eef6f8;
-  --muted: #93aebc;
-  --line: rgba(186, 224, 236, 0.16);
-  --accent: #5ec8e0;
-  --accent-soft: rgba(94, 200, 224, 0.2);
-  --focus: #c8f3ff;
-  --panel: rgba(6, 22, 34, 0.66);
+  --bg0: #140e0a;
+  --bg1: #1c1410;
+  --bg2: #2c2018;
+  --ink: #f6efe4;
+  --muted: #c4b09a;
+  --line: rgba(243, 220, 190, 0.16);
+  --accent: #d4a24a;
+  --accent-soft: rgba(212, 162, 74, 0.2);
+  --focus: #f0d7a2;
+  --panel: rgba(28, 16, 10, 0.72);
   --radius: 10px;
   --shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
   --font-display: "Fraunces", Georgia, serif;
@@ -39,7 +39,7 @@ body {
   min-height: 100vh;
   font-family: var(--font-body);
   color: var(--ink);
-  background: #071018;
+  background: #140e0a;
 }
 
 body::before {
@@ -49,7 +49,7 @@ body::before {
   pointer-events: none;
   z-index: 0;
   background:
-    linear-gradient(180deg, rgba(6, 16, 28, 0.5), rgba(4, 14, 24, 0.58)),
+    linear-gradient(180deg, rgba(28, 14, 8, 0.55), rgba(18, 8, 4, 0.64)),
     url("site-bg.jpg") center / cover no-repeat;
 }
 
@@ -63,7 +63,7 @@ a {
 }
 
 a:hover {
-  color: #9ae4f5;
+  color: #f0d7a2;
 }
 
 :focus-visible {
@@ -224,7 +224,7 @@ html.boot-hub #view-hub[hidden] {
 .site-nav a[aria-current="page"] {
   background: var(--accent);
   border-color: var(--accent);
-  color: #f4fbff;
+  color: #fff8ee;
 }
 
 .brand-text .nav-ext,
@@ -239,7 +239,7 @@ html.boot-hub #view-hub[hidden] {
 .nav-ext a {
   color: var(--ink);
   text-decoration: none;
-  border-bottom: 1px solid rgba(186, 224, 236, 0.4);
+  border-bottom: 1px solid rgba(243, 220, 190, 0.4);
   font-size: 0.95rem;
   line-height: 1.2;
   transition: color 0.2s ease, border-color 0.2s ease;
@@ -261,7 +261,7 @@ html.boot-hub #view-hub[hidden] {
   padding: 0.7rem 1rem;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  background: rgba(6, 22, 34, 0.72);
+  background: rgba(28, 16, 10, 0.78);
   color: var(--ink);
   font: inherit;
 }
@@ -352,8 +352,8 @@ html.boot-hub #view-hub[hidden] {
 }
 
 a.progress-card:hover {
-  border-color: rgba(94, 200, 224, 0.5);
-  background: rgba(94, 200, 224, 0.12);
+  border-color: rgba(212, 162, 74, 0.5);
+  background: rgba(212, 162, 74, 0.14);
 }
 
 .progress-card > div {
@@ -421,7 +421,7 @@ a.progress-card:hover {
 }
 
 .progress-chapter .since {
-  color: #8eacba;
+  color: #b5a08c;
   font-size: 0.8rem;
   font-style: italic;
 }
@@ -437,7 +437,7 @@ a.progress-card:hover {
   margin-left: auto;
   min-width: 0;
   padding: 0.38rem 0.9rem;
-  border: 1px solid rgba(186, 224, 236, 0.22);
+  border: 1px solid rgba(243, 220, 190, 0.22);
   border-radius: 999px;
   background: var(--panel);
   font-size: 0.78rem;
@@ -451,7 +451,7 @@ a.progress-card:hover {
 }
 
 .stage-step {
-  color: #8eacba;
+  color: #b5a08c;
   white-space: nowrap;
 }
 
@@ -475,7 +475,7 @@ a.progress-card:hover {
 }
 
 .stage-sep {
-  color: #64808c;
+  color: #7a6858;
   font-size: 0.72rem;
 }
 
@@ -614,7 +614,7 @@ a.progress-card:hover {
 .filter-btn[aria-pressed="true"] {
   background: var(--accent);
   border-color: var(--accent);
-  color: #f4fbff;
+  color: #fff8ee;
 }
 
 .filter-btn:hover {
@@ -627,7 +627,7 @@ a.progress-card:hover {
   padding: 0.35rem 0.7rem;
   border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(6, 22, 34, 0.72);
+  background: rgba(28, 16, 10, 0.78);
   color: var(--ink);
   font: inherit;
 }
@@ -666,7 +666,7 @@ a.progress-card:hover {
 
 .project-card:hover {
   transform: translateY(-3px);
-  border-color: rgba(94, 200, 224, 0.5);
+  border-color: rgba(212, 162, 74, 0.5);
 }
 
 .cover-link {
@@ -777,7 +777,7 @@ a.progress-card:hover {
 
 .card-actions .primary {
   background: var(--accent);
-  color: #f4fbff;
+  color: #fff8ee;
 }
 
 .card-actions .primary:hover {
@@ -828,10 +828,10 @@ body > .back-to-top {
   height: auto;
   min-height: 3.1rem;
   padding: 0.45rem 0.7rem 0.4rem;
-  border: 1px solid rgba(186, 224, 236, 0.4);
+  border: 1px solid rgba(243, 220, 190, 0.4);
   border-radius: 999px;
   background: var(--accent);
-  color: #f4fbff;
+  color: #fff8ee;
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   opacity: 0;
