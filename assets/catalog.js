@@ -9,7 +9,7 @@
     doujin: "Doujins",
   };
 
-  const PROGRESS_PAGE_SIZE = 6;
+  const PROGRESS_CHAPTERS_PER_VIEW = 9;
   const PROGRESS_CHAPTERS_SHOWN = 3;
 
   const SECTIONS = {
@@ -275,6 +275,28 @@
     return rows + toggle;
   }
 
+  function shownChapterCount(group) {
+    return Math.min(group.chapters.length, PROGRESS_CHAPTERS_SHOWN);
+  }
+
+  function progressPages(groups) {
+    const pages = [];
+    let page = [];
+    let used = 0;
+    for (const group of groups) {
+      const shown = shownChapterCount(group);
+      if (page.length && used + shown > PROGRESS_CHAPTERS_PER_VIEW) {
+        pages.push(page);
+        page = [];
+        used = 0;
+      }
+      page.push(group);
+      used += shown;
+    }
+    if (page.length) pages.push(page);
+    return pages;
+  }
+
   function renderProgressPage() {
     const groups = state.progressGroups || [];
     if (!els.progress) return;
@@ -287,12 +309,13 @@
     }
     if (els.progressEmpty) els.progressEmpty.hidden = true;
 
-    const pageCount = Math.max(1, Math.ceil(groups.length / PROGRESS_PAGE_SIZE));
+    const pages = progressPages(groups);
+    const pageCount = pages.length;
     if (state.progressPage >= pageCount) state.progressPage = pageCount - 1;
     if (state.progressPage < 0) state.progressPage = 0;
 
-    const start = state.progressPage * PROGRESS_PAGE_SIZE;
-    const pageItems = groups.slice(start, start + PROGRESS_PAGE_SIZE);
+    const pageItems = pages[state.progressPage] || [];
+    const start = pages.slice(0, state.progressPage).reduce((sum, page) => sum + page.length, 0);
     const end = start + pageItems.length;
 
     els.progress.innerHTML = pageItems
@@ -316,7 +339,7 @@
       .join("");
 
     if (els.progressPager) {
-      els.progressPager.hidden = groups.length <= PROGRESS_PAGE_SIZE;
+      els.progressPager.hidden = pageCount <= 1;
     }
     if (els.progressPageMeta) {
       els.progressPageMeta.textContent = `${start + 1}–${end} of ${groups.length}`;

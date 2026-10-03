@@ -394,7 +394,8 @@ a.progress-card:hover {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.35rem 1rem;
+  justify-content: space-between;
+  gap: 0.35rem 1.25rem;
   min-width: 0;
   color: var(--muted);
   font-size: 0.9rem;
@@ -427,6 +428,7 @@ a.progress-card:hover {
   gap: 0.35rem;
   width: max-content;
   max-width: 100%;
+  margin-left: auto;
   min-width: 0;
   padding: 0.38rem 0.9rem;
   border: 1px solid rgba(243, 235, 224, 0.16);
