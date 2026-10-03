@@ -1,5 +1,5 @@
 {
-  "generated_at": 1790987925,
+  "generated_at": 1790988061,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -20,6 +20,17 @@
       "stage": "Quality Checking",
       "stage_key": "QC",
       "since": "September 14, 2026",
+      "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
+    },
+    {
+      "sheet_series": "Case Files",
+      "series_title": "The Case Files of Lord Melloi II",
+      "series_id": "the_case_files_of_lord_melloi_ii",
+      "chapter": "69.1",
+      "stage": "Ready for release",
+      "stage_key": "RELEASE",
+      "since": "",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
@@ -236,6 +247,17 @@
       "sheet_series": "Turas Realta",
       "series_title": "Fate/Grand Order -turas réalta-",
       "series_id": "fategrand_order_turas_réalta_",
+      "chapter": "99",
+      "stage": "Ready for release",
+      "stage_key": "RELEASE",
+      "since": "",
+      "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
+    },
+    {
+      "sheet_series": "Turas Realta",
+      "series_title": "Fate/Grand Order -turas réalta-",
+      "series_id": "fategrand_order_turas_réalta_",
       "chapter": "100",
       "stage": "Typesetting",
       "stage_key": "TS",
@@ -352,6 +374,17 @@
       "since": "",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/"
+    },
+    {
+      "sheet_series": "Zero",
+      "series_title": "Fate/Zero",
+      "series_id": "fatezero",
+      "chapter": "52",
+      "stage": "Ready for release",
+      "stage_key": "RELEASE",
+      "since": "",
+      "cover": "assets/covers/fatezero.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVplcm8uanNvbg/"
     },
     {
       "sheet_series": "Mahoyo DNA 1",
@@ -571,6 +604,17 @@
       "stage_key": "TL",
       "since": "",
       "cover": "assets/covers/witch_on_the_holy_night_comic_anthology_dna_2.jpg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "FGO Showdown 1",
+      "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
+      "series_id": "fgoshowdown1",
+      "chapter": "2",
+      "stage": "Ready for release",
+      "stage_key": "RELEASE",
+      "since": "",
+      "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
     },
     {
