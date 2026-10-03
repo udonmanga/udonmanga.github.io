@@ -391,39 +391,45 @@ a.progress-card:hover {
 }
 
 .progress-chapter {
-  display: flex;
-  flex-direction: column;
-  gap: 0.28rem;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: center;
+  gap: 0.65rem 1.25rem;
   min-width: 0;
   color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.35;
 }
 
-.progress-chapter-top {
+.progress-chapter-meta {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 0.5rem 0.75rem;
+  flex-direction: column;
+  gap: 0.05rem;
+  min-width: 0;
 }
 
 .progress-chapter .ch {
-  color: var(--ink);
+  color: #e07a45;
+  font-weight: 700;
 }
 
 .progress-chapter .since {
+  color: #8f8478;
   font-size: 0.8rem;
+  font-style: italic;
 }
 
 .stage-pill {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: safe center;
+  justify-content: center;
+  justify-self: end;
   align-items: center;
   gap: 0.35rem;
-  width: 100%;
+  width: max-content;
+  max-width: 100%;
   min-width: 0;
-  padding: 0.38rem 0.85rem;
+  padding: 0.38rem 0.9rem;
   border: 1px solid rgba(243, 235, 224, 0.16);
   border-radius: 999px;
   background: rgba(0, 0, 0, 0.28);
@@ -431,6 +437,18 @@ a.progress-card:hover {
   line-height: 1.35;
   overflow-x: auto;
   scrollbar-width: none;
+}
+
+@media (max-width: 720px) {
+  .progress-chapter {
+    grid-template-columns: 1fr;
+    gap: 0.4rem;
+  }
+
+  .stage-pill {
+    justify-self: stretch;
+    width: 100%;
+  }
 }
 
 .stage-pill::-webkit-scrollbar {

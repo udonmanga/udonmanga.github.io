@@ -218,6 +218,17 @@
     ["Quality Checking", "QC"],
   ];
 
+  function updatedLine(since) {
+    if (!since) return "";
+    const today = new Date().toLocaleDateString("en-US", {
+      month: "long",
+      day: "numeric",
+      year: "numeric",
+    });
+    const label = since === today ? "Updated Today" : `Updated ${since}`;
+    return `<span class="since">${escapeHtml(label)}</span>`;
+  }
+
   function stagePill(stage) {
     const index = PROGRESS_STEPS.findIndex((step) => step[0] === stage);
     if (index < 0) return "";
@@ -242,14 +253,12 @@
     const rows = visible
       .map((row) => {
         const stage = row.stage || "";
-        const since = row.since
-          ? `<span class="since">since ${escapeHtml(row.since)}</span>`
-          : "";
+        const updated = updatedLine(row.since);
         return `
           <div class="progress-chapter">
-            <div class="progress-chapter-top">
+            <div class="progress-chapter-meta">
               <span class="ch">Chapter ${escapeHtml(displayChapter(row.chapter))}</span>
-              ${since}
+              ${updated}
             </div>
             ${stagePill(stage)}
           </div>
