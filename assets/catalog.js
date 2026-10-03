@@ -393,11 +393,9 @@
       : chapterLabel;
     const seriesUrl = escapeHtml(t.cubari_series_url || "");
     const latestUrl = escapeHtml(t.cubari_latest_url || t.cubari_series_url || "");
-    // Oneshots: open the chapter directly (cover / title / read).
+    // Oneshots open the chapter. Everything else opens the series, where the chapter is chosen.
     const primaryUrl = isOneshot ? latestUrl || seriesUrl : seriesUrl;
     const canPrimary = Boolean(primaryUrl);
-    const canLatest = Boolean(t.cubari_latest_url || t.cubari_series_url);
-    const canSeries = Boolean(t.cubari_series_url);
 
     return `
       <article class="project-card">
@@ -416,12 +414,7 @@
               : ""
           }
           <div class="card-actions">
-            ${
-              isOneshot
-                ? ""
-                : `<a class="secondary" href="${seriesUrl}" rel="noopener noreferrer" target="_blank" ${canSeries ? "" : "aria-disabled='true'"}>View all chapters</a>`
-            }
-            <a class="primary" href="${latestUrl}" rel="noopener noreferrer" target="_blank" ${canLatest ? "" : "aria-disabled='true'"}>Read ${chapterLabel}</a>
+            <a class="primary" href="${primaryUrl}" rel="noopener noreferrer" target="_blank" ${canPrimary ? "" : "aria-disabled='true'"}>Read</a>
           </div>
         </div>
       </article>
