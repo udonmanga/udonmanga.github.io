@@ -350,6 +350,10 @@ a.progress-card:hover {
   background: rgba(196, 92, 38, 0.08);
 }
 
+.progress-card > div {
+  min-width: 0;
+}
+
 .progress-card img {
   width: 3rem;
   height: 3rem;
@@ -368,10 +372,6 @@ a.progress-card:hover {
   color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.4;
-}
-
-.progress-card .stage {
-  color: #e8d3b0;
 }
 
 .progress-series .series a {
@@ -394,6 +394,7 @@ a.progress-card:hover {
   display: flex;
   flex-direction: column;
   gap: 0.28rem;
+  min-width: 0;
   color: var(--muted);
   font-size: 0.9rem;
   line-height: 1.35;
@@ -410,28 +411,59 @@ a.progress-card:hover {
   color: var(--ink);
 }
 
-.stage-bar {
-  display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 0.22rem;
-  height: 0.42rem;
-}
-
-.stage-seg {
-  border-radius: 99px;
-  background: rgba(243, 235, 224, 0.14);
-}
-
-.stage-seg.done {
-  background: rgba(196, 92, 38, 0.72);
-}
-
-.stage-seg.current {
-  background: var(--focus);
-}
-
 .progress-chapter .since {
   font-size: 0.8rem;
+}
+
+.stage-pill {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: safe center;
+  align-items: center;
+  gap: 0.35rem;
+  width: 100%;
+  min-width: 0;
+  padding: 0.38rem 0.85rem;
+  border: 1px solid rgba(243, 235, 224, 0.16);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.28);
+  font-size: 0.78rem;
+  line-height: 1.35;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.stage-pill::-webkit-scrollbar {
+  display: none;
+}
+
+.stage-step {
+  color: #8f8478;
+  white-space: nowrap;
+}
+
+.stage-short {
+  display: none;
+}
+
+@media (max-width: 640px) {
+  .stage-long {
+    display: none;
+  }
+
+  .stage-short {
+    display: inline;
+  }
+}
+
+.stage-step.current {
+  color: #e07a45;
+  font-weight: 700;
+}
+
+.stage-sep {
+  color: #6d645b;
+  font-size: 0.72rem;
 }
 
 .progress-more {

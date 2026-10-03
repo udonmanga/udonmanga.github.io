@@ -211,21 +211,25 @@
   }
 
   const PROGRESS_STEPS = [
-    "Translating",
-    "Translation Checking",
-    "Proofreading",
-    "Typesetting",
-    "Quality Checking",
+    ["Translating", "Translate"],
+    ["Translation Checking", "Check"],
+    ["Proofreading", "Proof"],
+    ["Typesetting", "Typeset"],
+    ["Quality Checking", "QC"],
   ];
 
-  function stageBar(stage) {
-    const index = PROGRESS_STEPS.indexOf(stage);
+  function stagePill(stage) {
+    const index = PROGRESS_STEPS.findIndex((step) => step[0] === stage);
     if (index < 0) return "";
-    const segs = PROGRESS_STEPS.map((name, i) => {
-      const cls = i < index ? "done" : i === index ? "current" : "";
-      return `<span class="stage-seg ${cls}" title="${escapeHtml(name)}"></span>`;
-    }).join("");
-    return `<div class="stage-bar" role="progressbar" aria-valuemin="1" aria-valuemax="${PROGRESS_STEPS.length}" aria-valuenow="${index + 1}" aria-valuetext="${escapeHtml(stage)}">${segs}</div>`;
+    const parts = [];
+    PROGRESS_STEPS.forEach(([name, short], i) => {
+      if (i > 0) parts.push(`<span class="stage-sep" aria-hidden="true">&gt;</span>`);
+      const cls = i === index ? "stage-step current" : "stage-step";
+      parts.push(
+        `<span class="${cls}"><span class="stage-long">${escapeHtml(name)}</span><span class="stage-short">${escapeHtml(short)}</span></span>`
+      );
+    });
+    return `<div class="stage-pill" role="progressbar" aria-valuemin="1" aria-valuemax="${PROGRESS_STEPS.length}" aria-valuenow="${index + 1}" aria-valuetext="${escapeHtml(stage)}">${parts.join("")}</div>`;
   }
 
   function progressChapterRows(group) {
@@ -245,10 +249,9 @@
           <div class="progress-chapter">
             <div class="progress-chapter-top">
               <span class="ch">Chapter ${escapeHtml(displayChapter(row.chapter))}</span>
-              <span class="stage">${escapeHtml(stage)}</span>
+              ${since}
             </div>
-            ${stageBar(stage)}
-            ${since}
+            ${stagePill(stage)}
           </div>
         `;
       })
@@ -313,6 +316,11 @@
     if (els.progressNext) {
       els.progressNext.disabled = state.progressPage >= pageCount - 1;
     }
+    els.progress.querySelectorAll(".stage-step.current").forEach((step) => {
+      const pill = step.parentElement;
+      if (!pill || pill.scrollWidth <= pill.clientWidth) return;
+      pill.scrollLeft = Math.max(0, step.offsetLeft - (pill.clientWidth - step.offsetWidth) / 2);
+    });
   }
 
   function renderProgress(payload) {
