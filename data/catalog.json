@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791075274,
+  "generated_at": 1791075912,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -12,12 +12,12 @@
     {
       "series_id": "the_case_files_of_lord_melloi_ii",
       "series_title": "The Case Files of Lord Melloi II",
-      "chapter_number": "68.2",
+      "chapter_number": "068.2",
       "chapter_title": "",
       "released_at": 1791075240,
       "released_display": "October 4, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/068.2/"
     },
     {
       "series_id": "the_case_files_of_lord_melloi_ii",
@@ -124,12 +124,12 @@
       ],
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
       "category": "series",
-      "latest_chapter_number": "068.1",
+      "latest_chapter_number": "068.2",
       "latest_chapter_title": "",
       "released_at": 1791075240,
       "released_display": "October 4, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/068.1/"
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/068.2/"
     },
     {
       "id": "fatestay_night_unlimited_blade_works",
