@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791075096,
+  "generated_at": 1791075274,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -9,6 +9,16 @@
     "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub?p=3392307&viewfull=1#post3392307"
   },
   "latest_releases": [
+    {
+      "series_id": "the_case_files_of_lord_melloi_ii",
+      "series_title": "The Case Files of Lord Melloi II",
+      "chapter_number": "68.2",
+      "chapter_title": "",
+      "released_at": 1791075240,
+      "released_display": "October 4, 2026",
+      "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
+    },
     {
       "series_id": "the_case_files_of_lord_melloi_ii",
       "series_title": "The Case Files of Lord Melloi II",
@@ -98,16 +108,6 @@
       "released_display": "August 16, 2026",
       "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/025.3/"
-    },
-    {
-      "series_id": "the_case_files_of_lord_melloi_ii",
-      "series_title": "The Case Files of Lord Melloi II",
-      "chapter_number": "067.2",
-      "chapter_title": "",
-      "released_at": 1786843860,
-      "released_display": "August 16, 2026",
-      "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/067.2/"
     }
   ],
   "titles": [
@@ -126,7 +126,7 @@
       "category": "series",
       "latest_chapter_number": "068.1",
       "latest_chapter_title": "",
-      "released_at": 1791075060,
+      "released_at": 1791075240,
       "released_display": "October 4, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/068.1/"
