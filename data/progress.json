@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791396731,
+  "generated_at": 1791555130,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -215,9 +215,9 @@
       "series_title": "Fate/Grand Order -turas réalta-",
       "series_id": "fategrand_order_turas_réalta_",
       "chapter": "100",
-      "stage": "Typesetting",
-      "stage_key": "TS",
-      "since": "",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
+      "since": "October 9, 2026",
       "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
     },
@@ -1018,9 +1018,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "21",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "October 8, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     },
