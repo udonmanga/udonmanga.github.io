@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791238221,
+  "generated_at": 1791684066,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -9,6 +9,36 @@
     "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub?p=3392307&viewfull=1#post3392307"
   },
   "latest_releases": [
+    {
+      "series_id": "witch_on_the_holy_night_witch_records",
+      "series_title": "Witch on the Holy Night: Witch Records",
+      "chapter_number": "3",
+      "chapter_title": "The Man Known as Tsukiji Tobimaru",
+      "released_at": 1791684000,
+      "released_display": "October 11, 2026",
+      "cover": "https://cdn.imgchest.com/files/eb29ecf0b69b.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/3/"
+    },
+    {
+      "series_id": "witch_on_the_holy_night_witch_records",
+      "series_title": "Witch on the Holy Night: Witch Records",
+      "chapter_number": "2",
+      "chapter_title": "Morning Scenery",
+      "released_at": 1791683940,
+      "released_display": "October 11, 2026",
+      "cover": "https://cdn.imgchest.com/files/eb29ecf0b69b.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/2/"
+    },
+    {
+      "series_id": "witch_on_the_holy_night_witch_records",
+      "series_title": "Witch on the Holy Night: Witch Records",
+      "chapter_number": "1",
+      "chapter_title": "A Certain Day's Events",
+      "released_at": 1791683880,
+      "released_display": "October 11, 2026",
+      "cover": "https://cdn.imgchest.com/files/eb29ecf0b69b.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/1/"
+    },
     {
       "series_id": "fatestay_night_heavens_feel",
       "series_title": "Fate/stay night: Heaven's Feel",
@@ -78,39 +108,29 @@
       "released_display": "September 20, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
-    },
-    {
-      "series_id": "fatestay_night_heavens_feel",
-      "series_title": "Fate/stay night: Heaven's Feel",
-      "chapter_number": "112",
-      "chapter_title": "Day 11 - Bad News (1)",
-      "released_at": 1789184460,
-      "released_display": "September 12, 2026",
-      "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/112/"
-    },
-    {
-      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
-      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
-      "chapter_number": "029.4",
-      "chapter_title": "",
-      "released_at": 1787365620,
-      "released_display": "August 22, 2026",
-      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.4/"
-    },
-    {
-      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
-      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
-      "chapter_number": "029.3",
-      "chapter_title": "",
-      "released_at": 1787005440,
-      "released_display": "August 18, 2026",
-      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.3/"
     }
   ],
   "titles": [
+    {
+      "id": "witch_on_the_holy_night_witch_records",
+      "title": "Witch on the Holy Night: Witch Records",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nakatani"
+      ],
+      "cover": "https://cdn.imgchest.com/files/eb29ecf0b69b.jpg",
+      "category": "series",
+      "latest_chapter_number": "3",
+      "latest_chapter_title": "The Man Known as Tsukiji Tobimaru",
+      "released_at": 1791684000,
+      "released_display": "October 11, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/3/"
+    },
     {
       "id": "fatestay_night_heavens_feel",
       "title": "Fate/stay night: Heaven's Feel",
