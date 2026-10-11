@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791679493,
+  "generated_at": 1791683094,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -791,6 +791,39 @@
       "stage_key": "TL",
       "since": "",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_2.jpg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "Witch Records",
+      "series_title": "Witch Records",
+      "series_id": "witchrecords",
+      "chapter": "1",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
+      "since": "",
+      "cover": "assets/placeholder-cover.svg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "Witch Records",
+      "series_title": "Witch Records",
+      "series_id": "witchrecords",
+      "chapter": "2",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
+      "since": "",
+      "cover": "assets/placeholder-cover.svg",
+      "cubari_series_url": ""
+    },
+    {
+      "sheet_series": "Witch Records",
+      "series_title": "Witch Records",
+      "series_id": "witchrecords",
+      "chapter": "3",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
+      "since": "",
+      "cover": "assets/placeholder-cover.svg",
       "cubari_series_url": ""
     },
     {
