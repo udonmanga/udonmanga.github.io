@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791765895,
+  "generated_at": 1791771677,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -194,8 +194,8 @@
       "series_id": "fatestay_night_heavens_feel",
       "chapter": "116",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "October 8, 2026",
+      "stage_key": "TL_MERGE",
+      "since": "October 12, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
     },
@@ -282,7 +282,7 @@
       "series_id": "fategrand_order_mortalisstella_",
       "chapter": "26.1",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
+      "stage_key": "TL_MERGE",
       "since": "October 12, 2026",
       "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/"
