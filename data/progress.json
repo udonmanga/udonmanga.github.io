@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791686694,
+  "generated_at": 1791765895,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -281,9 +281,9 @@
       "series_title": "Fate/Grand Order -mortalis:stella-",
       "series_id": "fategrand_order_mortalisstella_",
       "chapter": "26.1",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "September 30, 2026",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "October 12, 2026",
       "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/"
     },
