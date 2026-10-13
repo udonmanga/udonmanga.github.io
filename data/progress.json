@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791898741,
+  "generated_at": 1791934741,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -193,9 +193,9 @@
       "series_title": "Fate/stay night: Heaven's Feel",
       "series_id": "fatestay_night_heavens_feel",
       "chapter": "116",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "October 12, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "October 14, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
     },
@@ -699,9 +699,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
       "series_id": "fgoshowdown1",
       "chapter": "5",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "October 14, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
     },
