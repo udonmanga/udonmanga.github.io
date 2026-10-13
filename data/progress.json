@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791772738,
+  "generated_at": 1791898741,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -273,6 +273,17 @@
       "stage": "Translating",
       "stage_key": "TL",
       "since": "September 10, 2026",
+      "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
+    },
+    {
+      "sheet_series": "Turas Realta",
+      "series_title": "Fate/Grand Order -turas réalta-",
+      "series_id": "fategrand_order_turas_réalta_",
+      "chapter": "106",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "October 13, 2026",
       "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
     },
