@@ -1,5 +1,5 @@
 {
-  "generated_at": 1792042742,
+  "generated_at": 1792247941,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -292,9 +292,9 @@
       "series_title": "Fate/Grand Order -mortalis:stella-",
       "series_id": "fategrand_order_mortalisstella_",
       "chapter": "26.1",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "October 12, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "October 17, 2026",
       "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/"
     },
@@ -710,9 +710,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
       "series_id": "fgoshowdown1",
       "chapter": "6",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "October 17, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
     },
@@ -754,9 +754,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 2",
       "series_id": "fgoshowdown2",
       "chapter": "3",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
+      "stage": "Translation Checking",
+      "stage_key": "TL_MERGE",
+      "since": "October 17, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_2.jpg",
       "cubari_series_url": ""
     },
@@ -1260,9 +1260,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "42",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
+      "stage": "Translation Checking",
+      "stage_key": "TL_MERGE",
+      "since": "October 17, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     },
