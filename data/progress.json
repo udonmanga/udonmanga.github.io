@@ -1,5 +1,5 @@
 {
-  "generated_at": 1792525140,
+  "generated_at": 1792647540,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -194,8 +194,8 @@
       "series_id": "fatestay_night_heavens_feel",
       "chapter": "116",
       "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "October 14, 2026",
+      "stage_key": "PR_MERGE",
+      "since": "October 22, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
     },
