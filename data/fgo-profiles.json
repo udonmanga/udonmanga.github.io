@@ -430,6 +430,21 @@
           "url": "https://www.reddit.com/r/grandorder/comments/1vt26w9/rider_lilith_summers_lines/"
         }
       ]
+    },
+    {
+      "id": "tamamo_aria",
+      "title": "Tamamo Aria",
+      "cover": "https://i.imgur.com/YvdxJ5n.png",
+      "links": [
+        {
+          "label": "Profile",
+          "url": "https://www.reddit.com/r/grandorder/comments/1xdbth9/tamamo_aria_profile/"
+        },
+        {
+          "label": "Lines",
+          "url": "https://www.reddit.com/r/grandorder/comments/1xdzrg2/tamamo_aria_lines/"
+        }
+      ]
     }
   ]
 }
