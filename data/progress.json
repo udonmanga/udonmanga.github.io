@@ -1,5 +1,5 @@
 {
-  "generated_at": 1792647540,
+  "generated_at": 1792805941,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -304,8 +304,8 @@
       "series_id": "fategrand_order_epic_of_remnant_shinjuku",
       "chapter": "30.1",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "October 15, 2026",
+      "stage_key": "TL_MERGE",
+      "since": "October 24, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/"
     },
