@@ -1,5 +1,5 @@
 {
-  "generated_at": 1792910340,
+  "generated_at": 1792971540,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -341,6 +341,17 @@
       "since": "",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/"
+    },
+    {
+      "sheet_series": "Prisma Illya",
+      "series_title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
+      "series_id": "fatekaleid_liner_prisma_illya_3rei",
+      "chapter": "78.1",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "October 26, 2026",
+      "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/"
     },
     {
       "sheet_series": "Zero",
