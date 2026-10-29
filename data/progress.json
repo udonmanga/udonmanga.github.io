@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793176742,
+  "generated_at": 1793317140,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -306,6 +306,17 @@
       "stage": "Typesetting",
       "stage_key": "TS",
       "since": "October 25, 2026",
+      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/"
+    },
+    {
+      "sheet_series": "Shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "chapter": "30.2",
+      "stage": "Translating",
+      "stage_key": "TL",
+      "since": "October 30, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/"
     },
@@ -743,9 +754,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 1",
       "series_id": "fgoshowdown1",
       "chapter": "7",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "October 29, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_1.jpg",
       "cubari_series_url": ""
     },
@@ -1293,9 +1304,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "43",
-      "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "October 25, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "October 29, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     },
