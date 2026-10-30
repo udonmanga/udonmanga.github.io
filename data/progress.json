@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793317140,
+  "generated_at": 1793392740,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -369,9 +369,9 @@
       "series_title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
       "series_id": "fatekaleid_liner_prisma_illya_3rei",
       "chapter": "78.1",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "October 26, 2026",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "October 31, 2026",
       "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/"
     },
