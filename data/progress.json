@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793392740,
+  "generated_at": 1793507941,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -292,9 +292,9 @@
       "series_title": "Fate/Grand Order -mortalis:stella-",
       "series_id": "fategrand_order_mortalisstella_",
       "chapter": "26.1",
-      "stage": "Typesetting",
-      "stage_key": "TS",
-      "since": "October 27, 2026",
+      "stage": "Quality Checking",
+      "stage_key": "QC",
+      "since": "November 1, 2026",
       "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/"
     },
@@ -545,9 +545,9 @@
       "series_title": "Witch on the Holy Night - Comic Anthology DNA 2",
       "series_id": "mahoyodna2",
       "chapter": "1",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "September 21, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "November 1, 2026",
       "cover": "assets/covers/witch_on_the_holy_night_comic_anthology_dna_2.jpg",
       "cubari_series_url": ""
     },
