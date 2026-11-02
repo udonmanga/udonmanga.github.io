@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793618605,
+  "generated_at": 1793636320,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -359,8 +359,8 @@
       "series_id": "fatekaleid_liner_prisma_illya_3rei",
       "chapter": "78.1",
       "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "November 1, 2026",
+      "stage_key": "PR_MERGE",
+      "since": "November 3, 2026",
       "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/"
     },
