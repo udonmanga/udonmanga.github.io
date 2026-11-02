@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793551141,
+  "generated_at": 1793605141,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -216,8 +216,8 @@
       "series_id": "fategrand_order_turas_réalta_",
       "chapter": "100",
       "stage": "Quality Checking",
-      "stage_key": "QC_MERGE",
-      "since": "October 28, 2026",
+      "stage_key": "QC",
+      "since": "October 9, 2026",
       "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
     },
@@ -809,9 +809,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 2",
       "series_id": "fgoshowdown2",
       "chapter": "4",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "November 2, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_2.jpg",
       "cubari_series_url": ""
     },
