@@ -1,5 +1,5 @@
 {
-  "generated_at": 1791684212,
+  "generated_at": 1793618601,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -9,6 +9,26 @@
     "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub?p=3392307&viewfull=1#post3392307"
   },
   "latest_releases": [
+    {
+      "series_id": "fategrand_order_turas_réalta_",
+      "series_title": "Fate/Grand Order -turas réalta-",
+      "chapter_number": "100",
+      "chapter_title": "",
+      "released_at": 1793618580,
+      "released_display": "November 2, 2026",
+      "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/100/"
+    },
+    {
+      "series_id": "fategrand_order_turas_réalta_",
+      "series_title": "Fate/Grand Order -turas réalta-",
+      "chapter_number": "099",
+      "chapter_title": "",
+      "released_at": 1793618340,
+      "released_display": "November 2, 2026",
+      "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/099/"
+    },
     {
       "series_id": "witch_on_the_holy_night_witch_records",
       "series_title": "Witch on the Holy Night: Witch Records",
@@ -88,29 +108,29 @@
       "released_display": "September 26, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.2/"
-    },
-    {
-      "series_id": "fatesamurai_remnant",
-      "series_title": "Fate/Samurai Remnant",
-      "chapter_number": "004.3",
-      "chapter_title": "",
-      "released_at": 1790255640,
-      "released_display": "September 24, 2026",
-      "cover": "assets/covers/fatesamurai_remnant.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.3/"
-    },
-    {
-      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
-      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
-      "chapter_number": "029.5",
-      "chapter_title": "",
-      "released_at": 1789864980,
-      "released_display": "September 20, 2026",
-      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
     }
   ],
   "titles": [
+    {
+      "id": "fategrand_order_turas_réalta_",
+      "title": "Fate/Grand Order -turas réalta-",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Kawaguchi Takeshi"
+      ],
+      "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
+      "category": "series",
+      "latest_chapter_number": "100",
+      "latest_chapter_title": "",
+      "released_at": 1793618580,
+      "released_display": "November 2, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/100/"
+    },
     {
       "id": "witch_on_the_holy_night_witch_records",
       "title": "Witch on the Holy Night: Witch Records",
@@ -286,26 +306,6 @@
       "released_display": "August 14, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vTGVmdF9IYW5kXzAuanNvbg/001/"
-    },
-    {
-      "id": "fategrand_order_turas_réalta_",
-      "title": "Fate/Grand Order -turas réalta-",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Type-Moon"
-      ],
-      "artists": [
-        "Kawaguchi Takeshi"
-      ],
-      "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
-      "category": "series",
-      "latest_chapter_number": "098",
-      "latest_chapter_title": "Seventh Singularity Finale 4",
-      "released_at": 1784974440,
-      "released_display": "July 25, 2026",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/098/"
     },
     {
       "id": "fategrand_order_epic_of_remnant_seraph",
