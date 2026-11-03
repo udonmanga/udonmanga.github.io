@@ -33,7 +33,6 @@
     "fatezero_kiritsugu": "oneshot",
     "fate_samurai_remnant_prologue": "oneshot",
     "hazakura_romantic": "oneshot",
-    "witch_on_the_holy_night": "oneshot",
     "the_man_known_as_tsukiji_tobimaru": "oneshot",
     "morning_scenery": "oneshot",
     "fategrand_order_christopher_columbus_interlude_him": "oneshot",
@@ -48,7 +47,8 @@
     "cempasúchil": "oneshot",
     "beyond_the_cosmos": "oneshot",
     "left_hand_0": "doujin",
-    "tale_of_the_25th": "doujin"
+    "tale_of_the_25th": "doujin",
+    "witch_on_the_holy_night_oneshots": "oneshot"
   },
   "categories": {
     "series": [
@@ -89,7 +89,7 @@
       "fatezero_kiritsugu",
       "fate_samurai_remnant_prologue",
       "hazakura_romantic",
-      "witch_on_the_holy_night",
+      "witch_on_the_holy_night_oneshots",
       "the_man_known_as_tsukiji_tobimaru",
       "morning_scenery",
       "fategrand_order_christopher_columbus_interlude_him",

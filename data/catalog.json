@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793618601,
+  "generated_at": 1793709458,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -23,7 +23,7 @@
       "series_id": "fategrand_order_turas_réalta_",
       "series_title": "Fate/Grand Order -turas réalta-",
       "chapter_number": "099",
-      "chapter_title": "",
+      "chapter_title": "Seek Once More the Verses of the Gods",
       "released_at": 1793618340,
       "released_display": "November 2, 2026",
       "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
@@ -990,8 +990,8 @@
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRG90c3VraV9NYW56YWkuanNvbg/004/"
     },
     {
-      "id": "witch_on_the_holy_night",
-      "title": "Witch on the Holy Night",
+      "id": "witch_on_the_holy_night_oneshots",
+      "title": "Witch on the Holy Night Oneshots",
       "original_title": "",
       "alt_titles": [],
       "authors": [
@@ -1006,8 +1006,8 @@
       "latest_chapter_title": "A Certain Day's Events",
       "released_at": 1673399757,
       "released_display": "January 11, 2023",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fVGhlX0hvbHlfTmlnaHQuanNvbg/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fVGhlX0hvbHlfTmlnaHQuanNvbg/3/"
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfT25lc2hvdHMuanNvbg/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfT25lc2hvdHMuanNvbg/3/"
     },
     {
       "id": "tsukihime_a_piece_of_blue_glass_moon_comic_à_la_carte",

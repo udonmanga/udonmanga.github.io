@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793657922,
+  "generated_at": 1793709461,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -788,8 +788,8 @@
       "series_id": "fgoshowdown2",
       "chapter": "4",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "November 2, 2026",
+      "stage_key": "TL_MERGE",
+      "since": "November 3, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_2.jpg",
       "cubari_series_url": ""
     },
