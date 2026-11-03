@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793709458,
+  "generated_at": 1793710361,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -13,6 +13,7 @@
       "series_id": "fategrand_order_turas_réalta_",
       "series_title": "Fate/Grand Order -turas réalta-",
       "chapter_number": "100",
+      "chapter_label": "Chapters 99–100",
       "chapter_title": "",
       "released_at": 1793618580,
       "released_display": "November 2, 2026",
@@ -20,49 +21,21 @@
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/100/"
     },
     {
-      "series_id": "fategrand_order_turas_réalta_",
-      "series_title": "Fate/Grand Order -turas réalta-",
-      "chapter_number": "099",
-      "chapter_title": "Seek Once More the Verses of the Gods",
-      "released_at": 1793618340,
-      "released_display": "November 2, 2026",
-      "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/099/"
-    },
-    {
       "series_id": "witch_on_the_holy_night_witch_records",
       "series_title": "Witch on the Holy Night: Witch Records",
       "chapter_number": "3",
-      "chapter_title": "The Man Known as Tsukiji Tobimaru",
+      "chapter_label": "Chapters 1–3",
+      "chapter_title": "",
       "released_at": 1791684000,
       "released_display": "October 11, 2026",
       "cover": "https://cdn.imgchest.com/files/eb29ecf0b69b.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/3/"
     },
     {
-      "series_id": "witch_on_the_holy_night_witch_records",
-      "series_title": "Witch on the Holy Night: Witch Records",
-      "chapter_number": "2",
-      "chapter_title": "Morning Scenery",
-      "released_at": 1791683940,
-      "released_display": "October 11, 2026",
-      "cover": "https://cdn.imgchest.com/files/eb29ecf0b69b.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/2/"
-    },
-    {
-      "series_id": "witch_on_the_holy_night_witch_records",
-      "series_title": "Witch on the Holy Night: Witch Records",
-      "chapter_number": "1",
-      "chapter_title": "A Certain Day's Events",
-      "released_at": 1791683880,
-      "released_display": "October 11, 2026",
-      "cover": "https://cdn.imgchest.com/files/eb29ecf0b69b.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/1/"
-    },
-    {
       "series_id": "fatestay_night_heavens_feel",
       "series_title": "Fate/stay night: Heaven's Feel",
       "chapter_number": "113",
+      "chapter_label": "Chapter 113",
       "chapter_title": "Day 11 - Bad News (2)",
       "released_at": 1791238080,
       "released_display": "October 6, 2026",
@@ -73,6 +46,7 @@
       "series_id": "the_case_files_of_lord_melloi_ii",
       "series_title": "The Case Files of Lord Melloi II",
       "chapter_number": "069.1",
+      "chapter_label": "Chapters 68.1, 68.2, 69.1",
       "chapter_title": "",
       "released_at": 1791075960,
       "released_display": "October 4, 2026",
@@ -80,34 +54,70 @@
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/069.1/"
     },
     {
-      "series_id": "the_case_files_of_lord_melloi_ii",
-      "series_title": "The Case Files of Lord Melloi II",
-      "chapter_number": "068.2",
-      "chapter_title": "",
-      "released_at": 1791075240,
-      "released_display": "October 4, 2026",
-      "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/068.2/"
-    },
-    {
-      "series_id": "the_case_files_of_lord_melloi_ii",
-      "series_title": "The Case Files of Lord Melloi II",
-      "chapter_number": "068.1",
-      "chapter_title": "",
-      "released_at": 1791075060,
-      "released_display": "October 4, 2026",
-      "cover": "assets/covers/the_case_files_of_lord_melloi_ii.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/068.1/"
-    },
-    {
       "series_id": "fatestay_night_unlimited_blade_works",
       "series_title": "Fate/stay night: Unlimited Blade Works",
       "chapter_number": "034.2",
+      "chapter_label": "Chapter 34.2",
       "chapter_title": "",
       "released_at": 1790384460,
       "released_display": "September 26, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.2/"
+    },
+    {
+      "series_id": "fatesamurai_remnant",
+      "series_title": "Fate/Samurai Remnant",
+      "chapter_number": "004.3",
+      "chapter_label": "Chapter 4.3",
+      "chapter_title": "",
+      "released_at": 1790255640,
+      "released_display": "September 24, 2026",
+      "cover": "assets/covers/fatesamurai_remnant.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.3/"
+    },
+    {
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "chapter_number": "029.5",
+      "chapter_label": "Chapter 29.5",
+      "chapter_title": "",
+      "released_at": 1789864980,
+      "released_display": "September 20, 2026",
+      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
+    },
+    {
+      "series_id": "fatestay_night_heavens_feel",
+      "series_title": "Fate/stay night: Heaven's Feel",
+      "chapter_number": "112",
+      "chapter_label": "Chapter 112",
+      "chapter_title": "Day 11 - Bad News (1)",
+      "released_at": 1789184460,
+      "released_display": "September 12, 2026",
+      "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/112/"
+    },
+    {
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "chapter_number": "029.4",
+      "chapter_label": "Chapter 29.4",
+      "chapter_title": "",
+      "released_at": 1787365620,
+      "released_display": "August 22, 2026",
+      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.4/"
+    },
+    {
+      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
+      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
+      "chapter_number": "029.3",
+      "chapter_label": "Chapter 29.3",
+      "chapter_title": "",
+      "released_at": 1787005440,
+      "released_display": "August 18, 2026",
+      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.3/"
     }
   ],
   "titles": [

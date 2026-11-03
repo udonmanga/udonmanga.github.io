@@ -11,10 +11,6 @@
     const show = y > SHOW_AFTER;
     btn.classList.toggle("is-visible", show);
     btn.hidden = !show;
-    // Belt-and-suspenders in case CSS specificity fights us.
-    btn.style.opacity = show ? "1" : "0";
-    btn.style.visibility = show ? "visible" : "hidden";
-    btn.style.pointerEvents = show ? "auto" : "none";
   }
 
   btn.addEventListener("click", () => {

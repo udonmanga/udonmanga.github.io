@@ -166,7 +166,10 @@
 
     els.latest.innerHTML = rows
       .map((row) => {
-        const chapterBits = [`Chapter ${escapeHtml(displayChapter(row.chapter_number))}`];
+        const chapterLabel =
+          row.chapter_label ||
+          `Chapter ${displayChapter(row.chapter_number)}`;
+        const chapterBits = [escapeHtml(chapterLabel)];
         if (row.chapter_title) chapterBits.push(escapeHtml(row.chapter_title));
         return `
           <a class="latest-row" href="${escapeHtml(row.cubari_url)}" rel="noopener noreferrer" target="_blank">
@@ -219,7 +222,9 @@
   ];
 
   function updatedLine(since) {
-    if (!since) return "";
+    if (!since) {
+      return `<span class="since since-empty">No recent update</span>`;
+    }
     const today = new Date().toLocaleDateString("en-US", {
       month: "long",
       day: "numeric",
@@ -422,7 +427,7 @@
 
     return `
       <article class="project-card">
-        <a class="cover-link" href="${primaryUrl}" rel="noopener noreferrer" target="_blank" ${canPrimary ? "" : "tabindex='-1' aria-disabled='true'"}>
+        <a class="cover-link" href="${primaryUrl}" rel="noopener noreferrer" target="_blank" tabindex="-1" ${canPrimary ? "aria-hidden='true'" : "aria-disabled='true'"}>
           <img src="${escapeHtml(coverSrc(t.cover))}" alt="" loading="lazy" width="300" height="450" />
         </a>
         <div class="card-body">
@@ -468,7 +473,7 @@
       .join("");
     return `
       <article class="project-card hub-card">
-        <a class="cover-link" href="${escapeHtml(coverHref)}" rel="noopener noreferrer" target="_blank">
+        <a class="cover-link" href="${escapeHtml(coverHref)}" rel="noopener noreferrer" target="_blank" tabindex="-1" aria-hidden="true">
           <img src="${escapeHtml(coverSrc(item.cover))}" alt="" loading="lazy" width="300" height="450" />
         </a>
         <div class="card-body">
