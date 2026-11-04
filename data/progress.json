@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793710606,
+  "generated_at": 1793827120,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -314,9 +314,9 @@
       "series_title": "Fate/Grand Order -Epic of Remnant- SE.RA.PH",
       "series_id": "fategrand_order_epic_of_remnant_seraph",
       "chapter": "38.1",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "October 27, 2026",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "November 5, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_seraph.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/"
     },
@@ -787,9 +787,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 2",
       "series_id": "fgoshowdown2",
       "chapter": "4",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "November 3, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "November 4, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_2.jpg",
       "cubari_series_url": ""
     },
@@ -1304,9 +1304,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "44",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "November 5, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     },
