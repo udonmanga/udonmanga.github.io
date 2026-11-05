@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793710602,
+  "generated_at": 1793871431,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -9,6 +9,17 @@
     "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub?p=3392307&viewfull=1#post3392307"
   },
   "latest_releases": [
+    {
+      "series_id": "fatekaleid_liner_prisma_illya_3rei",
+      "series_title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
+      "chapter_number": "078",
+      "chapter_label": "Chapter 78",
+      "chapter_title": "The Key Maidens",
+      "released_at": 1793871420,
+      "released_display": "November 5, 2026",
+      "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/078/"
+    },
     {
       "series_id": "fategrand_order_turas_réalta_",
       "series_title": "Fate/Grand Order -turas réalta-",
@@ -107,20 +118,29 @@
       "released_display": "August 22, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.4/"
-    },
-    {
-      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
-      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
-      "chapter_number": "029.3",
-      "chapter_label": "Chapter 29.3",
-      "chapter_title": "",
-      "released_at": 1787005440,
-      "released_display": "August 18, 2026",
-      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.3/"
     }
   ],
   "titles": [
+    {
+      "id": "fatekaleid_liner_prisma_illya_3rei",
+      "title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Hiroyama Hiroshi"
+      ],
+      "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
+      "category": "series",
+      "latest_chapter_number": "078",
+      "latest_chapter_title": "The Key Maidens",
+      "released_at": 1793871420,
+      "released_display": "November 5, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/078/"
+    },
     {
       "id": "fategrand_order_turas_réalta_",
       "title": "Fate/Grand Order -turas réalta-",
@@ -356,26 +376,6 @@
       "released_display": "July 25, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/021/"
-    },
-    {
-      "id": "fatekaleid_liner_prisma_illya_3rei",
-      "title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Type-Moon"
-      ],
-      "artists": [
-        "Hiroyama Hiroshi"
-      ],
-      "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
-      "category": "series",
-      "latest_chapter_number": "077.2",
-      "latest_chapter_title": "A Tale of Friendship",
-      "released_at": 1784974260,
-      "released_display": "July 25, 2026",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/077.2/"
     },
     {
       "id": "fatetype_redline",

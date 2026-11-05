@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793863121,
+  "generated_at": 1793871434,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -352,17 +352,6 @@
       "since": "",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shimousa.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGltb3VzYS5qc29u/"
-    },
-    {
-      "sheet_series": "Prisma Illya",
-      "series_title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
-      "series_id": "fatekaleid_liner_prisma_illya_3rei",
-      "chapter": "78",
-      "stage": "Quality Checking",
-      "stage_key": "QC",
-      "since": "November 5, 2026",
-      "cover": "assets/covers/fatekaleid_liner_prisma_illya_3rei.jpg",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZWthbGVpZF9saW5lcl9QUklTTUFfSUxMWUFfM3JlaS5qc29u/"
     },
     {
       "sheet_series": "Zero",
