@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793969345,
+  "generated_at": 1793969745,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -160,6 +160,27 @@
       "released_display": "November 2, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/100/"
+    },
+    {
+      "id": "fateextra_ccc_fox_tail",
+      "title": "Fate/EXTRA CCC Fox Tail",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "TYPE-MOON",
+        "Marvelous"
+      ],
+      "artists": [
+        "Takenoko Seijin"
+      ],
+      "cover": "assets/covers/fateextra_ccc_fox_tail.jpg",
+      "category": "series",
+      "latest_chapter_number": "098",
+      "latest_chapter_title": "The Night Before 2",
+      "released_at": 1793019301,
+      "released_display": "October 26, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/098/"
     },
     {
       "id": "witch_on_the_holy_night_witch_records",
@@ -1146,27 +1167,6 @@
       "released_display": "January 17, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/13/"
-    },
-    {
-      "id": "fateextra_ccc_fox_tail",
-      "title": "Fate/EXTRA CCC Fox Tail",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "TYPE-MOON",
-        "Marvelous"
-      ],
-      "artists": [
-        "Takenoko Seijin"
-      ],
-      "cover": "assets/covers/fateextra_ccc_fox_tail.jpg",
-      "category": "series",
-      "latest_chapter_number": "098",
-      "latest_chapter_title": "The Night Before 2",
-      "released_at": 0,
-      "released_display": "",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/098/"
     }
   ]
 }
