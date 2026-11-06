@@ -17,6 +17,7 @@
     "melty_blood_back_alley_nightmare": "series",
     "fatetype_redline": "series",
     "fateextra_ccc_fox_tail": "series",
+    "fateprototype_fragments_of_sky_silver": "series",
     "tsukihime_a_piece_of_blue_glass_moon_moon_phase": "anthology",
     "tsukihime_a_piece_of_blue_glass_moon_comic_anthology": "anthology",
     "tsukihime_a_piece_of_blue_glass_moon_comic_à_la_carte": "anthology",
@@ -69,7 +70,8 @@
       "fatesamurai_remnant",
       "melty_blood_back_alley_nightmare",
       "fatetype_redline",
-      "fateextra_ccc_fox_tail"
+      "fateextra_ccc_fox_tail",
+      "fateprototype_fragments_of_sky_silver"
     ],
     "anthology": [
       "tsukihime_a_piece_of_blue_glass_moon_moon_phase",

@@ -435,7 +435,7 @@
           <h3>
             <a href="${primaryUrl}" rel="noopener noreferrer" target="_blank">${escapeHtml(t.title)}</a>
           </h3>
-          <p class="latest-line">Latest: ${titleLine}</p>
+          ${t.latest_chapter_number ? `<p class="latest-line">Latest: ${titleLine}</p>` : ""}
           ${
             t.released_display
               ? `<p class="released-line">Released ${escapeHtml(t.released_display)}</p>`
