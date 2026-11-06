@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793970279,
+  "generated_at": 1793972120,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -397,6 +397,27 @@
       "released_display": "July 25, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVN0cmFuZ2VfRmFrZS5qc29u/021/"
+    },
+    {
+      "id": "fateprototype_fragments_of_sky_silver",
+      "title": "Fate/Prototype: Fragments of Sky Silver",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Hikaru Sakurai",
+        "TYPE-MOON"
+      ],
+      "artists": [
+        "Tsuta Suzuki"
+      ],
+      "cover": "assets/covers/fateprototype_fragments_of_sky_silver.jpg",
+      "category": "series",
+      "latest_chapter_number": "010",
+      "latest_chapter_title": "",
+      "released_at": 1778295600,
+      "released_display": "May 9, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVByb3RvdHlwZV9GcmFnbWVudHNfb2ZfU2t5X1NpbHZlci5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVByb3RvdHlwZV9GcmFnbWVudHNfb2ZfU2t5X1NpbHZlci5qc29u/010/"
     },
     {
       "id": "fatetype_redline",
@@ -1167,27 +1188,6 @@
       "released_display": "January 17, 2022",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVHN1a2loaW1lX0FfcGllY2Vfb2ZfYmx1ZV9nbGFzc19tb29uX0NvbWljX0FudGhvbG9neS5qc29u/13/"
-    },
-    {
-      "id": "fateprototype_fragments_of_sky_silver",
-      "title": "Fate/Prototype: Fragments of Sky Silver",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Hikaru Sakurai",
-        "TYPE-MOON"
-      ],
-      "artists": [
-        "Tsuta Suzuki"
-      ],
-      "cover": "assets/covers/fateprototype_fragments_of_sky_silver.jpg",
-      "category": "series",
-      "latest_chapter_number": "",
-      "latest_chapter_title": "",
-      "released_at": 0,
-      "released_display": "",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVByb3RvdHlwZV9GcmFnbWVudHNfb2ZfU2t5X1NpbHZlci5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVByb3RvdHlwZV9GcmFnbWVudHNfb2ZfU2t5X1NpbHZlci5qc29u/"
     }
   ]
 }
