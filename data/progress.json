@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794017881,
+  "generated_at": 1794025120,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -18,8 +18,8 @@
       "series_id": "the_case_files_of_lord_melloi_ii",
       "chapter": "70.2",
       "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "October 24, 2026",
+      "stage_key": "PR_MERGE",
+      "since": "November 7, 2026",
       "cover": "assets/covers/the_case_files_of_lord_melloi_ii.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vVGhlX0Nhc2VfRmlsZXNfb2ZfTG9yZF9NZWxsb2lfSUkuanNvbg/"
     },
@@ -1272,8 +1272,8 @@
       "series_id": "tsukihime",
       "chapter": "44",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "November 5, 2026",
+      "stage_key": "TL_MERGE",
+      "since": "November 7, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.webp",
       "cubari_series_url": ""
     },
