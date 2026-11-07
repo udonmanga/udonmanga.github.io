@@ -33,6 +33,10 @@ body {
   font-family: var(--font-body);
   color: var(--ink);
   background: #140e0a;
+  /* No-op on desktop; keeps notched phones clear of the home indicator. */
+  padding-left: env(safe-area-inset-left, 0px);
+  padding-right: env(safe-area-inset-right, 0px);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
 }
 
 body::before {
@@ -870,8 +874,8 @@ a.progress-card:hover {
 
 .back-to-top {
   position: fixed;
-  right: 1.25rem;
-  bottom: 1.25rem;
+  right: max(1.25rem, calc(env(safe-area-inset-right, 0px) + 0.75rem));
+  bottom: max(1.25rem, calc(env(safe-area-inset-bottom, 0px) + 0.75rem));
   z-index: 100;
   display: none;
   flex-direction: column;
@@ -932,6 +936,74 @@ a.progress-card:hover {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+/* Mobile polish only — desktop rules above stay unchanged.
+   Cap at 719px so it never overlaps the existing min-width: 720px desktop rules. */
+@media (max-width: 719px) {
+  .site-nav a {
+    min-height: 2.75rem;
+    padding: 0.45rem 1rem;
+  }
+
+  .nav-ext a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.75rem;
+    padding: 0.35rem 0.2rem;
+  }
+
+  .progress-toggle {
+    min-height: 2.75rem;
+    padding: 0.25rem 0;
+  }
+
+  .filters {
+    flex-wrap: wrap;
+    overflow-x: visible;
+    row-gap: 0.45rem;
+  }
+
+  .filter-btn {
+    min-height: 2.75rem;
+    padding: 0.45rem 0.95rem;
+  }
+
+  .sort-wrap select {
+    min-height: 2.75rem;
+  }
+
+  .progress-pager button {
+    min-height: 2.75rem;
+    padding: 0.5rem 0.9rem;
+  }
+
+  .card-actions a {
+    min-height: 2.75rem;
+  }
+
+  /* Free horizontal space for titles: date under meta instead of a side column. */
+  .latest-row {
+    grid-template-columns: 3rem minmax(0, 1fr);
+    align-items: start;
+    padding-top: 0.65rem;
+    padding-bottom: 0.65rem;
+  }
+
+  .latest-row img {
+    align-self: center;
+  }
+
+  .latest-row .date {
+    grid-column: 2;
+    text-align: left;
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+
+  .stage-pill {
+    -webkit-overflow-scrolling: touch;
   }
 }
 
