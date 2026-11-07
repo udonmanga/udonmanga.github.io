@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794068320,
+  "generated_at": 1794075520,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -810,8 +810,8 @@
       "series_id": "witch_on_the_holy_night_witch_records",
       "chapter": "5",
       "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "November 7, 2026",
+      "stage_key": "PR_MERGE",
+      "since": "November 8, 2026",
       "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/"
     },
