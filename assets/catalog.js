@@ -56,7 +56,8 @@
     sort: "released",
     section: "manga",
     latestOpen: true,
-    progressOpen: false,
+    progressOpen: true,
+    projectsOpen: true,
     hubCache: {},
     syncingUrl: false,
   };
@@ -74,6 +75,10 @@
     progressBody: document.getElementById("progress-body"),
     progressToggle: document.getElementById("progress-toggle"),
     progressSummary: document.getElementById("progress-summary"),
+    projectsSection: document.getElementById("projects"),
+    projectsBody: document.getElementById("projects-body"),
+    projectsToggle: document.getElementById("projects-toggle"),
+    projectsSummary: document.getElementById("projects-summary"),
     latest: document.getElementById("latest-releases"),
     viewManga: document.getElementById("view-manga"),
     viewHub: document.getElementById("view-hub"),
@@ -128,29 +133,31 @@
     return SECTIONS[key] ? key : "manga";
   }
 
+  function sectionOpenFromParam(raw) {
+    // All manga panels default open; only collapse when explicitly closed.
+    const value = String(raw || "").toLowerCase();
+    return !(
+      value === "0" ||
+      value === "closed" ||
+      value === "false" ||
+      value === "collapse" ||
+      value === "collapsed"
+    );
+  }
+
   function readUrlState() {
     const params = new URLSearchParams(location.search);
     const q = params.get("q") || "";
     const category = params.get("category") || "all";
     const sort = params.get("sort") || "released";
-    const progressRaw = (params.get("progress") || "").toLowerCase();
-    const progressOpen = progressRaw === "1" || progressRaw === "open" || progressRaw === "true";
-    const latestRaw = (params.get("latest") || "").toLowerCase();
-    // Default open; only collapse when explicitly closed in the URL.
-    const latestOpen = !(
-      latestRaw === "0" ||
-      latestRaw === "closed" ||
-      latestRaw === "false" ||
-      latestRaw === "collapse" ||
-      latestRaw === "collapsed"
-    );
     return {
       section: sectionFromLocation(),
       query: q,
       category: CATEGORY_LABELS[category] ? category : "all",
       sort: ["released", "title-asc", "title-desc"].includes(sort) ? sort : "released",
-      latestOpen,
-      progressOpen,
+      latestOpen: sectionOpenFromParam(params.get("latest")),
+      progressOpen: sectionOpenFromParam(params.get("progress")),
+      projectsOpen: sectionOpenFromParam(params.get("projects")),
     };
   }
 
@@ -163,7 +170,8 @@
       if (state.category && state.category !== "all") params.set("category", state.category);
       if (state.sort && state.sort !== "released") params.set("sort", state.sort);
       if (!state.latestOpen) params.set("latest", "0");
-      if (state.progressOpen) params.set("progress", "1");
+      if (!state.progressOpen) params.set("progress", "0");
+      if (!state.projectsOpen) params.set("projects", "0");
     }
     const qs = params.toString();
     const hash = `#${state.section === "manga" ? "manga" : state.section}`;
@@ -199,6 +207,18 @@
     }
   }
 
+  function applyProjectsOpen() {
+    if (els.projectsSection) {
+      els.projectsSection.classList.toggle("is-collapsed", !state.projectsOpen);
+    }
+    if (els.projectsToggle) {
+      els.projectsToggle.setAttribute("aria-expanded", state.projectsOpen ? "true" : "false");
+    }
+    if (els.projectsBody) {
+      els.projectsBody.hidden = !state.projectsOpen;
+    }
+  }
+
   function updateLatestSummary(count) {
     if (!els.latestSummary) return;
     const n = Number(count) || 0;
@@ -207,6 +227,16 @@
       return;
     }
     els.latestSummary.textContent = `${n} release${n === 1 ? "" : "s"}`;
+  }
+
+  function updateProjectsSummary(count) {
+    if (!els.projectsSummary) return;
+    const n = Number(count) || 0;
+    if (!n) {
+      els.projectsSummary.textContent = "No projects";
+      return;
+    }
+    els.projectsSummary.textContent = `${n} project${n === 1 ? "" : "s"}`;
   }
 
   function updateProgressSummary() {
@@ -669,6 +699,7 @@
   function renderCards() {
     const list = filteredTitles();
     els.meta.textContent = `${list.length} project${list.length === 1 ? "" : "s"}`;
+    updateProjectsSummary(list.length);
     els.empty.hidden = list.length > 0;
     els.grid.hidden = list.length === 0;
     els.grid.className = "card-grid";
@@ -682,6 +713,7 @@
     renderFilters();
     applyLatestOpen();
     applyProgressOpen();
+    applyProjectsOpen();
   }
 
   async function hydrateFromUrl({ push = false } = {}) {
@@ -691,6 +723,7 @@
     state.sort = next.sort;
     state.latestOpen = next.latestOpen;
     state.progressOpen = next.progressOpen;
+    state.projectsOpen = next.projectsOpen;
     applyUrlStateToUi();
     await showSection(next.section, { updateUrl: true, push });
   }
@@ -721,6 +754,14 @@
       els.progressToggle.addEventListener("click", () => {
         state.progressOpen = !state.progressOpen;
         applyProgressOpen();
+        writeUrlState();
+      });
+    }
+
+    if (els.projectsToggle) {
+      els.projectsToggle.addEventListener("click", () => {
+        state.projectsOpen = !state.projectsOpen;
+        applyProjectsOpen();
         writeUrlState();
       });
     }
@@ -791,6 +832,7 @@
     state.sort = boot.sort;
     state.latestOpen = boot.latestOpen;
     state.progressOpen = boot.progressOpen;
+    state.projectsOpen = boot.projectsOpen;
     state.section = boot.section;
     applyUrlStateToUi();
 

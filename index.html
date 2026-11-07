@@ -24,7 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/site.css?v=12f9a202" />
+    <link rel="stylesheet" href="assets/site.css?v=aae33938" />
     <script>
       (function () {
         var section = (location.hash || "").replace(/^#/, "");
@@ -119,7 +119,7 @@
             type="button"
             class="progress-toggle"
             id="progress-toggle"
-            aria-expanded="false"
+            aria-expanded="true"
             aria-controls="progress-body"
           >
             <span class="progress-toggle-text">
@@ -130,7 +130,7 @@
           </button>
           <p>Chapters currently being worked on.</p>
         </div>
-        <div id="progress-body" hidden>
+        <div id="progress-body">
           <div class="progress-list" id="progress-list"></div>
           <div class="progress-pager" id="progress-pager" hidden>
             <button type="button" id="progress-prev" aria-label="Previous chapters">Previous</button>
@@ -142,31 +142,45 @@
       </section>
 
       <section class="projects" id="projects" aria-labelledby="projects-heading">
-        <div class="section-head">
-          <h2 id="projects-heading">Projects</h2>
+        <div class="section-head progress-head">
+          <button
+            type="button"
+            class="progress-toggle"
+            id="projects-toggle"
+            aria-expanded="true"
+            aria-controls="projects-body"
+          >
+            <span class="progress-toggle-text">
+              <h2 id="projects-heading">Projects</h2>
+              <span class="progress-summary" id="projects-summary"></span>
+            </span>
+            <span class="progress-chevron" aria-hidden="true"></span>
+          </button>
           <p>Open a series on Cubari.</p>
         </div>
 
-        <div class="controls">
-          <div
-            class="filters"
-            id="category-filters"
-            role="toolbar"
-            aria-label="Filter by category"
-          ></div>
-          <label class="sort-wrap">
-            <span class="visually-hidden">Sort projects</span>
-            <select id="sort" aria-label="Sort projects">
-              <option value="released">Recently released</option>
-              <option value="title-asc">Title A–Z</option>
-              <option value="title-desc">Title Z–A</option>
-            </select>
-          </label>
-        </div>
+        <div id="projects-body">
+          <div class="controls">
+            <div
+              class="filters"
+              id="category-filters"
+              role="toolbar"
+              aria-label="Filter by category"
+            ></div>
+            <label class="sort-wrap">
+              <span class="visually-hidden">Sort projects</span>
+              <select id="sort" aria-label="Sort projects">
+                <option value="released">Recently released</option>
+                <option value="title-asc">Title A–Z</option>
+                <option value="title-desc">Title Z–A</option>
+              </select>
+            </label>
+          </div>
 
-        <p class="result-meta" id="result-meta" aria-live="polite"></p>
-        <div class="card-grid" id="title-grid"></div>
-        <p class="empty" id="empty-state" hidden>No projects match your search.</p>
+          <p class="result-meta" id="result-meta" aria-live="polite"></p>
+          <div class="card-grid" id="title-grid"></div>
+          <p class="empty" id="empty-state" hidden>No projects match your search.</p>
+        </div>
       </section>
       </div>
 
@@ -183,7 +197,7 @@
       </div>
     </main>
 
-    <script src="assets/catalog.js?v=dcd680a7" defer></script>
+    <script src="assets/catalog.js?v=5ac993a9" defer></script>
     <button type="button" class="back-to-top" id="back-to-top" hidden aria-label="Back to top" title="Back to top">
       <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
         <path fill="currentColor" d="M12 4.5 5.8 10.2l1.4 1.5L12 7.3l4.8 4.4 1.4-1.5L12 4.5Zm0 6.2L5.8 16.4l1.4 1.5L12 13.5l4.8 4.4 1.4-1.5L12 10.7Z"/>

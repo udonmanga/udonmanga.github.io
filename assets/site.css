@@ -338,7 +338,9 @@ html.boot-hub #view-hub[hidden] {
 .latest.is-collapsed .progress-head > p,
 .latest.is-collapsed #latest-body,
 .progress.is-collapsed .progress-head > p,
-.progress.is-collapsed #progress-body {
+.progress.is-collapsed #progress-body,
+.projects.is-collapsed .progress-head > p,
+.projects.is-collapsed #projects-body {
   display: none;
 }
 
