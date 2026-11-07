@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793972123,
+  "generated_at": 1794011039,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -264,17 +264,6 @@
       "since": "October 13, 2026",
       "cover": "assets/covers/fategrand_order_turas_réalta_.jpg",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
-    },
-    {
-      "sheet_series": "Mortalis Stella",
-      "series_title": "Fate/Grand Order -mortalis:stella-",
-      "series_id": "fategrand_order_mortalisstella_",
-      "chapter": "26.1",
-      "stage": "Quality Checking",
-      "stage_key": "QC",
-      "since": "November 1, 2026",
-      "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/"
     },
     {
       "sheet_series": "Mortalis Stella",
@@ -1051,9 +1040,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "22",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "November 7, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.jpg",
       "cubari_series_url": ""
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": 1793972120,
+  "generated_at": 1794011035,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -9,6 +9,17 @@
     "hub_url": "https://forums.nrvnqsr.com/showthread.php/10069-UMD-Translations-Hub?p=3392307&viewfull=1#post3392307"
   },
   "latest_releases": [
+    {
+      "series_id": "fategrand_order_mortalisstella_",
+      "series_title": "Fate/Grand Order -mortalis:stella-",
+      "chapter_number": "026.1",
+      "chapter_label": "Chapter 26.1",
+      "chapter_title": "Beyond Good and Evil - Fragment Two (Part 1)",
+      "released_at": 1794010980,
+      "released_display": "November 7, 2026",
+      "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/026.1/"
+    },
     {
       "series_id": "fatekaleid_liner_prisma_illya_3rei",
       "series_title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
@@ -107,20 +118,29 @@
       "released_display": "September 12, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.jpg",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/112/"
-    },
-    {
-      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
-      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
-      "chapter_number": "029.4",
-      "chapter_label": "Chapter 29.4",
-      "chapter_title": "",
-      "released_at": 1787365620,
-      "released_display": "August 22, 2026",
-      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.jpg",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.4/"
     }
   ],
   "titles": [
+    {
+      "id": "fategrand_order_mortalisstella_",
+      "title": "Fate/Grand Order -mortalis:stella-",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Shiramine"
+      ],
+      "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
+      "category": "series",
+      "latest_chapter_number": "026.1",
+      "latest_chapter_title": "Beyond Good and Evil - Fragment Two (Part 1)",
+      "released_at": 1794010980,
+      "released_display": "November 7, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/026.1/"
+    },
     {
       "id": "fatekaleid_liner_prisma_illya_3rei",
       "title": "Fate/kaleid liner PRISMA ILLYA 3rei!",
@@ -301,26 +321,6 @@
       "released_display": "September 20, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
-    },
-    {
-      "id": "fategrand_order_mortalisstella_",
-      "title": "Fate/Grand Order -mortalis:stella-",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Type-Moon"
-      ],
-      "artists": [
-        "Shiramine"
-      ],
-      "cover": "assets/covers/fategrand_order_mortalisstella_.jpg",
-      "category": "series",
-      "latest_chapter_number": "025.3",
-      "latest_chapter_title": "Beyond Good and Evil - Fragment One (Part 3)",
-      "released_at": 1786846140,
-      "released_display": "August 16, 2026",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX21vcnRhbGlzc3RlbGxhXy5qc29u/025.3/"
     },
     {
       "id": "beyond_the_cosmos",
