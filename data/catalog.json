@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794017847,
+  "generated_at": 1794017878,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -61,7 +61,7 @@
       "chapter_title": "",
       "released_at": 1791684000,
       "released_display": "October 11, 2026",
-      "cover": "https://udonmanga.github.io/assets/covers/witch_on_the_holy_night_witch_records.webp",
+      "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/1/"
     },
     {
@@ -233,7 +233,7 @@
       "artists": [
         "Nakatani"
       ],
-      "cover": "https://udonmanga.github.io/assets/covers/witch_on_the_holy_night_witch_records.webp",
+      "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
       "category": "anthology",
       "latest_chapter_number": "3",
       "latest_chapter_title": "The Man Known as Tsukiji Tobimaru",
