@@ -55,6 +55,7 @@
     category: "all",
     sort: "released",
     section: "manga",
+    latestOpen: true,
     progressOpen: false,
     hubCache: {},
     syncingUrl: false,
@@ -66,6 +67,9 @@
     links: document.getElementById("header-links"),
     search: document.getElementById("search"),
     latestSection: document.querySelector("section.latest"),
+    latestBody: document.getElementById("latest-body"),
+    latestToggle: document.getElementById("latest-toggle"),
+    latestSummary: document.getElementById("latest-summary"),
     progressSection: document.getElementById("in-progress"),
     progressBody: document.getElementById("progress-body"),
     progressToggle: document.getElementById("progress-toggle"),
@@ -131,11 +135,21 @@
     const sort = params.get("sort") || "released";
     const progressRaw = (params.get("progress") || "").toLowerCase();
     const progressOpen = progressRaw === "1" || progressRaw === "open" || progressRaw === "true";
+    const latestRaw = (params.get("latest") || "").toLowerCase();
+    // Default open; only collapse when explicitly closed in the URL.
+    const latestOpen = !(
+      latestRaw === "0" ||
+      latestRaw === "closed" ||
+      latestRaw === "false" ||
+      latestRaw === "collapse" ||
+      latestRaw === "collapsed"
+    );
     return {
       section: sectionFromLocation(),
       query: q,
       category: CATEGORY_LABELS[category] ? category : "all",
       sort: ["released", "title-asc", "title-desc"].includes(sort) ? sort : "released",
+      latestOpen,
       progressOpen,
     };
   }
@@ -148,6 +162,7 @@
     if (state.section === "manga") {
       if (state.category && state.category !== "all") params.set("category", state.category);
       if (state.sort && state.sort !== "released") params.set("sort", state.sort);
+      if (!state.latestOpen) params.set("latest", "0");
       if (state.progressOpen) params.set("progress", "1");
     }
     const qs = params.toString();
@@ -160,6 +175,18 @@
     else history.replaceState(null, "", url);
   }
 
+  function applyLatestOpen() {
+    if (els.latestSection) {
+      els.latestSection.classList.toggle("is-collapsed", !state.latestOpen);
+    }
+    if (els.latestToggle) {
+      els.latestToggle.setAttribute("aria-expanded", state.latestOpen ? "true" : "false");
+    }
+    if (els.latestBody) {
+      els.latestBody.hidden = !state.latestOpen;
+    }
+  }
+
   function applyProgressOpen() {
     if (els.progressSection) {
       els.progressSection.classList.toggle("is-collapsed", !state.progressOpen);
@@ -170,6 +197,16 @@
     if (els.progressBody) {
       els.progressBody.hidden = !state.progressOpen;
     }
+  }
+
+  function updateLatestSummary(count) {
+    if (!els.latestSummary) return;
+    const n = Number(count) || 0;
+    if (!n) {
+      els.latestSummary.textContent = "No recent releases";
+      return;
+    }
+    els.latestSummary.textContent = `${n} release${n === 1 ? "" : "s"}`;
   }
 
   function updateProgressSummary() {
@@ -229,6 +266,7 @@
 
   function renderLatest(releases) {
     const rows = (releases || []).slice(0, 10);
+    updateLatestSummary(rows.length);
     if (!rows.length) {
       els.latest.innerHTML =
         '<p class="empty" style="padding:1rem">No releases listed yet.</p>';
@@ -642,6 +680,7 @@
     if (els.search && els.search.value !== state.query) els.search.value = state.query;
     if (els.sort && els.sort.value !== state.sort) els.sort.value = state.sort;
     renderFilters();
+    applyLatestOpen();
     applyProgressOpen();
   }
 
@@ -650,6 +689,7 @@
     state.query = next.query;
     state.category = next.category;
     state.sort = next.sort;
+    state.latestOpen = next.latestOpen;
     state.progressOpen = next.progressOpen;
     applyUrlStateToUi();
     await showSection(next.section, { updateUrl: true, push });
@@ -668,6 +708,14 @@
       writeUrlState();
       renderCards();
     });
+
+    if (els.latestToggle) {
+      els.latestToggle.addEventListener("click", () => {
+        state.latestOpen = !state.latestOpen;
+        applyLatestOpen();
+        writeUrlState();
+      });
+    }
 
     if (els.progressToggle) {
       els.progressToggle.addEventListener("click", () => {
@@ -741,6 +789,7 @@
     state.query = boot.query;
     state.category = boot.category;
     state.sort = boot.sort;
+    state.latestOpen = boot.latestOpen;
     state.progressOpen = boot.progressOpen;
     state.section = boot.section;
     applyUrlStateToUi();

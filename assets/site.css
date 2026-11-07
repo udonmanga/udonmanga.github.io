@@ -335,6 +335,8 @@ html.boot-hub #view-hub[hidden] {
   margin-top: 0.35rem;
 }
 
+.latest.is-collapsed .progress-head > p,
+.latest.is-collapsed #latest-body,
 .progress.is-collapsed .progress-head > p,
 .progress.is-collapsed #progress-body {
   display: none;
