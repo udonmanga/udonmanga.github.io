@@ -55,7 +55,9 @@
     category: "all",
     sort: "released",
     section: "manga",
+    progressOpen: false,
     hubCache: {},
+    syncingUrl: false,
   };
 
   const els = {
@@ -65,6 +67,9 @@
     search: document.getElementById("search"),
     latestSection: document.querySelector("section.latest"),
     progressSection: document.getElementById("in-progress"),
+    progressBody: document.getElementById("progress-body"),
+    progressToggle: document.getElementById("progress-toggle"),
+    progressSummary: document.getElementById("progress-summary"),
     latest: document.getElementById("latest-releases"),
     viewManga: document.getElementById("view-manga"),
     viewHub: document.getElementById("view-hub"),
@@ -112,6 +117,72 @@
     const raw = String(path || "").trim();
     if (!raw) return "assets/placeholder-cover.svg";
     return raw;
+  }
+
+  function sectionFromLocation() {
+    const key = (location.hash || "").replace(/^#/, "").split("?")[0];
+    return SECTIONS[key] ? key : "manga";
+  }
+
+  function readUrlState() {
+    const params = new URLSearchParams(location.search);
+    const q = params.get("q") || "";
+    const category = params.get("category") || "all";
+    const sort = params.get("sort") || "released";
+    const progressRaw = (params.get("progress") || "").toLowerCase();
+    const progressOpen = progressRaw === "1" || progressRaw === "open" || progressRaw === "true";
+    return {
+      section: sectionFromLocation(),
+      query: q,
+      category: CATEGORY_LABELS[category] ? category : "all",
+      sort: ["released", "title-asc", "title-desc"].includes(sort) ? sort : "released",
+      progressOpen,
+    };
+  }
+
+  function writeUrlState({ push = false } = {}) {
+    if (state.syncingUrl) return;
+    const params = new URLSearchParams();
+    const q = state.query.trim();
+    if (q) params.set("q", q);
+    if (state.section === "manga") {
+      if (state.category && state.category !== "all") params.set("category", state.category);
+      if (state.sort && state.sort !== "released") params.set("sort", state.sort);
+      if (state.progressOpen) params.set("progress", "1");
+    }
+    const qs = params.toString();
+    const hash = `#${state.section === "manga" ? "manga" : state.section}`;
+    const next = `${qs ? `?${qs}` : ""}${hash}`;
+    const current = `${location.search}${location.hash || "#manga"}`;
+    if (next === current) return;
+    const url = `${location.pathname}${next}`;
+    if (push) history.pushState(null, "", url);
+    else history.replaceState(null, "", url);
+  }
+
+  function applyProgressOpen() {
+    if (els.progressSection) {
+      els.progressSection.classList.toggle("is-collapsed", !state.progressOpen);
+    }
+    if (els.progressToggle) {
+      els.progressToggle.setAttribute("aria-expanded", state.progressOpen ? "true" : "false");
+    }
+    if (els.progressBody) {
+      els.progressBody.hidden = !state.progressOpen;
+    }
+  }
+
+  function updateProgressSummary() {
+    if (!els.progressSummary) return;
+    const groups = state.progressGroups || [];
+    const chapters = groups.reduce((sum, group) => sum + (group.chapters || []).length, 0);
+    if (!groups.length) {
+      els.progressSummary.textContent = "Nothing in the pipeline";
+      return;
+    }
+    const seriesLabel = `${groups.length} series`;
+    const chapterLabel = `${chapters} chapter${chapters === 1 ? "" : "s"}`;
+    els.progressSummary.textContent = `${seriesLabel} · ${chapterLabel}`;
   }
 
   /** Display-only: 029.5 → 29.5, 004 → 4. Cubari URLs keep padded keys. */
@@ -364,6 +435,8 @@
     state.progressGroups = groupProgress((payload && payload.items) || []);
     state.progressPage = 0;
     state.expandedSeries = new Set();
+    updateProgressSummary();
+    applyProgressOpen();
     renderProgressPage();
   }
 
@@ -456,11 +529,6 @@
     if (els.progressSection) els.progressSection.hidden = !onManga || searching;
   }
 
-  function sectionFromHash() {
-    const key = (location.hash || "").replace(/^#/, "");
-    return SECTIONS[key] ? key : "manga";
-  }
-
   function hubCardHtml(item) {
     const links = (item.links || []).filter((l) => l && l.url);
     const primary = links[0];
@@ -538,14 +606,11 @@
     syncSearchLayout();
   }
 
-  async function showSection(section, { updateHash = true } = {}) {
+  async function showSection(section, { updateUrl = true, push = true } = {}) {
     const next = SECTIONS[section] ? section : "manga";
     state.section = next;
-    if (updateHash) {
-      const hash = next === "manga" ? "#manga" : `#${next}`;
-      if (location.hash !== hash) history.pushState(null, "", hash);
-    }
     applySectionChrome();
+    if (updateUrl) writeUrlState({ push });
     if (next === "manga") {
       renderCards();
       return;
@@ -573,17 +638,44 @@
     syncSearchLayout();
   }
 
+  function applyUrlStateToUi() {
+    if (els.search && els.search.value !== state.query) els.search.value = state.query;
+    if (els.sort && els.sort.value !== state.sort) els.sort.value = state.sort;
+    renderFilters();
+    applyProgressOpen();
+  }
+
+  async function hydrateFromUrl({ push = false } = {}) {
+    const next = readUrlState();
+    state.query = next.query;
+    state.category = next.category;
+    state.sort = next.sort;
+    state.progressOpen = next.progressOpen;
+    applyUrlStateToUi();
+    await showSection(next.section, { updateUrl: true, push });
+  }
+
   function bind() {
     els.search.addEventListener("input", () => {
       state.query = els.search.value;
+      writeUrlState();
       if (state.section === "manga") renderCards();
       else renderHub();
     });
 
     els.sort.addEventListener("change", () => {
       state.sort = els.sort.value;
+      writeUrlState();
       renderCards();
     });
+
+    if (els.progressToggle) {
+      els.progressToggle.addEventListener("click", () => {
+        state.progressOpen = !state.progressOpen;
+        applyProgressOpen();
+        writeUrlState();
+      });
+    }
 
     if (els.progress) {
       els.progress.addEventListener("click", (event) => {
@@ -602,13 +694,21 @@
         const link = event.target.closest("[data-section]");
         if (!link) return;
         event.preventDefault();
-        showSection(link.getAttribute("data-section") || "manga");
+        showSection(link.getAttribute("data-section") || "manga", { push: true });
       });
     }
 
     window.addEventListener("hashchange", () => {
-      const next = sectionFromHash();
-      if (next !== state.section) showSection(next, { updateHash: false });
+      if (state.syncingUrl) return;
+      const next = sectionFromLocation();
+      if (next !== state.section) showSection(next, { updateUrl: true, push: false });
+    });
+
+    window.addEventListener("popstate", () => {
+      state.syncingUrl = true;
+      hydrateFromUrl({ push: false }).finally(() => {
+        state.syncingUrl = false;
+      });
     });
 
     if (els.progressPrev) {
@@ -629,13 +729,21 @@
       if (!btn) return;
       state.category = btn.getAttribute("data-category") || "all";
       renderFilters();
+      writeUrlState();
       renderCards();
     });
   }
 
   async function init() {
     bind();
-    renderFilters();
+
+    const boot = readUrlState();
+    state.query = boot.query;
+    state.category = boot.category;
+    state.sort = boot.sort;
+    state.progressOpen = boot.progressOpen;
+    state.section = boot.section;
+    applyUrlStateToUi();
 
     const [catalogRes, progressRes, siteRes] = await Promise.all([
       fetch("data/catalog.json", { cache: "no-cache" }),
@@ -659,7 +767,6 @@
     }
     renderHeader(site);
     renderLatest(catalog.latest_releases || []);
-    renderCards();
 
     if (progressRes.ok) {
       renderProgress(await progressRes.json());
@@ -667,7 +774,7 @@
       renderProgress({ items: [] });
     }
 
-    await showSection(sectionFromHash(), { updateHash: false });
+    await showSection(state.section, { updateUrl: true, push: false });
   }
 
   init().catch((err) => {

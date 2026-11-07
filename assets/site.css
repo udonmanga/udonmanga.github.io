@@ -279,6 +279,63 @@ html.boot-hub #view-hub[hidden] {
   color: var(--muted);
 }
 
+.progress-head p {
+  margin-top: 0.45rem;
+}
+
+.progress-toggle {
+  appearance: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.progress-toggle-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.55rem 0.85rem;
+  min-width: 0;
+}
+
+.progress-toggle h2 {
+  margin: 0;
+}
+
+.progress-summary {
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.progress-chevron {
+  flex: 0 0 auto;
+  width: 0.65rem;
+  height: 0.65rem;
+  border-right: 2px solid var(--muted);
+  border-bottom: 2px solid var(--muted);
+  transform: rotate(45deg);
+  transition: transform 0.18s ease;
+}
+
+.progress-toggle[aria-expanded="true"] .progress-chevron {
+  transform: rotate(225deg);
+  margin-top: 0.35rem;
+}
+
+.progress.is-collapsed .progress-head > p,
+.progress.is-collapsed #progress-body {
+  display: none;
+}
+
 .latest,
 .progress,
 .projects {

@@ -3,7 +3,7 @@
     {
       "id": "solomon_screenplay",
       "title": "FGO Solomon Movie Original Screenplay",
-      "cover": "https://i.imgur.com/nem7nVW.png",
+      "cover": "assets/covers/hub_misc_solomon_screenplay.webp",
       "links": [
         {
           "label": "Read",
@@ -14,7 +14,7 @@
     {
       "id": "mahoyo_4gamer_2022",
       "title": "Mahoyo Console Release 4Gamer Interview (Dec 2022)",
-      "cover": "https://i.imgur.com/cy8wlyX.png",
+      "cover": "assets/covers/hub_misc_mahoyo_4gamer_2022.webp",
       "links": [
         {
           "label": "Read",
@@ -25,7 +25,7 @@
     {
       "id": "tsukihime_4gamer_2021",
       "title": "Tsukihime Remake 4Gamer Interview (Sept 2021)",
-      "cover": "https://i.imgur.com/gpBKIrw.png",
+      "cover": "assets/covers/hub_misc_tsukihime_4gamer_2021.webp",
       "links": [
         {
           "label": "Read",
@@ -36,7 +36,7 @@
     {
       "id": "haga_tm_ace_17",
       "title": "Haga Keita TM Ace 17 Interview (July 2025)",
-      "cover": "https://i.imgur.com/H7hspGt.png",
+      "cover": "assets/covers/hub_misc_haga_tm_ace_17.webp",
       "links": [
         {
           "label": "Read",
@@ -47,7 +47,7 @@
     {
       "id": "noco_tm_ace_17",
       "title": "NOCO TM Ace 17 Interview (July 2025)",
-      "cover": "https://i.imgur.com/Gbz4nz8.jpg",
+      "cover": "assets/covers/hub_misc_noco_tm_ace_17.webp",
       "links": [
         {
           "label": "Read",
@@ -58,7 +58,7 @@
     {
       "id": "haga_july_2026",
       "title": "Haga Keita Interview (July 2026)",
-      "cover": "https://files.catbox.moe/qhhms3.jpg",
+      "cover": "assets/covers/hub_misc_haga_july_2026.webp",
       "links": [
         {
           "label": "Read",
@@ -69,7 +69,7 @@
     {
       "id": "kanou_famitsu_2026",
       "title": "Kanou Yoshiki 11th Anniversary Famitsu Interview (Aug 2026)",
-      "cover": "https://files.catbox.moe/a2mtvh.jpg",
+      "cover": "assets/covers/hub_misc_kanou_famitsu_2026.webp",
       "links": [
         {
           "label": "Read",
@@ -80,7 +80,7 @@
     {
       "id": "ddd_meta_timeline",
       "title": "Decoration Disorder Disconnection Meta Timeline",
-      "cover": "assets/covers/ddd_meta_timeline.jpg",
+      "cover": "assets/covers/ddd_meta_timeline.webp",
       "links": [
         {
           "label": "Open",
