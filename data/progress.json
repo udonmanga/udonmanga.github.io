@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794112081,
+  "generated_at": 1794118721,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -369,9 +369,9 @@
       "series_title": "Witch on the Holy Night - Comic Anthology DNA 1",
       "series_id": "mahoyodna1",
       "chapter": "3",
-      "stage": "Proofreading",
-      "stage_key": "PR_MERGE",
-      "since": "November 6, 2026",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "November 8, 2026",
       "cover": "assets/covers/witch_on_the_holy_night_comic_anthology_dna_1.webp",
       "cubari_series_url": ""
     },
