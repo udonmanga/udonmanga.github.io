@@ -885,6 +885,17 @@ a.progress-card:hover {
   margin: 0.25rem 0;
 }
 
+.site-footer a {
+  color: var(--muted);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(243, 220, 190, 0.35);
+}
+
+.site-footer a:hover {
+  color: var(--focus);
+  border-bottom-color: var(--accent);
+}
+
 .back-to-top {
   position: fixed;
   right: max(1.25rem, calc(env(safe-area-inset-right, 0px) + 0.75rem));
