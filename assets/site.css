@@ -311,8 +311,17 @@ html.boot-hub #view-hub[hidden] {
   min-width: 0;
 }
 
-.progress-toggle h2 {
-  margin: 0;
+.section-head h2 .progress-toggle {
+  font: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  letter-spacing: inherit;
+  line-height: inherit;
+}
+
+.progress-toggle-label {
+  display: inline;
 }
 
 .progress-summary {

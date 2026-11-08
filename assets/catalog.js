@@ -128,6 +128,13 @@
     return raw;
   }
 
+  /** Small list thumbs (Latest / In Progress); falls back to full cover path. */
+  function coverThumbSrc(path) {
+    const raw = coverSrc(path);
+    if (!raw.startsWith("assets/covers/") || raw.includes("/thumbs/")) return raw;
+    return raw.replace("assets/covers/", "assets/covers/thumbs/");
+  }
+
   function sectionFromLocation() {
     const key = (location.hash || "").replace(/^#/, "").split("?")[0];
     return SECTIONS[key] ? key : "manga";
@@ -309,7 +316,7 @@
         if (row.chapter_title) chapterBits.push(escapeHtml(row.chapter_title));
         return `
           <a class="latest-row" href="${escapeHtml(row.cubari_url)}" rel="noopener noreferrer" target="_blank">
-            <img src="${escapeHtml(coverSrc(row.cover))}" alt="" loading="lazy" width="48" height="48" />
+            <img src="${escapeHtml(coverThumbSrc(row.cover))}" alt="" loading="lazy" width="48" height="48" />
             <div class="meta">
               <div class="series">${escapeHtml(row.series_title)}</div>
               <div class="chapter">${chapterBits.join(" · ")}</div>
@@ -468,7 +475,7 @@
         const count = group.chapters.length;
         return `
           <article class="progress-card progress-series">
-            <img src="${escapeHtml(coverSrc(group.cover))}" alt="" loading="lazy" width="52" height="52" />
+            <img src="${escapeHtml(coverThumbSrc(group.cover))}" alt="" loading="lazy" width="52" height="52" />
             <div>
               <div class="series">${titleHtml}</div>
               <div class="detail">${count} chapter${count === 1 ? "" : "s"} in progress</div>
@@ -592,6 +599,12 @@
     const onManga = state.section === "manga";
     if (els.latestSection) els.latestSection.hidden = !onManga || searching;
     if (els.progressSection) els.progressSection.hidden = !onManga || searching;
+    // Search results live under Projects — never leave that panel collapsed while searching.
+    if (searching && onManga && !state.projectsOpen) {
+      state.projectsOpen = true;
+      applyProjectsOpen();
+      writeUrlState();
+    }
   }
 
   function hubCardHtml(item) {
@@ -671,8 +684,15 @@
     syncSearchLayout();
   }
 
-  async function showSection(section, { updateUrl = true, push = true } = {}) {
+  async function showSection(
+    section,
+    { updateUrl = true, push = true, clearSearch = false } = {}
+  ) {
     const next = SECTIONS[section] ? section : "manga";
+    if (clearSearch && state.query) {
+      state.query = "";
+      if (els.search) els.search.value = "";
+    }
     state.section = next;
     applySectionChrome();
     if (updateUrl) writeUrlState({ push });
@@ -728,6 +748,14 @@
   function bind() {
     els.search.addEventListener("input", () => {
       state.query = els.search.value;
+      if (
+        state.section === "manga" &&
+        normalize(state.query.trim()) &&
+        !state.projectsOpen
+      ) {
+        state.projectsOpen = true;
+        applyProjectsOpen();
+      }
       writeUrlState();
       if (state.section === "manga") renderCards();
       else renderHub();
@@ -780,14 +808,19 @@
         const link = event.target.closest("[data-section]");
         if (!link) return;
         event.preventDefault();
-        showSection(link.getAttribute("data-section") || "manga", { push: true });
+        showSection(link.getAttribute("data-section") || "manga", {
+          push: true,
+          clearSearch: true,
+        });
       });
     }
 
     window.addEventListener("hashchange", () => {
       if (state.syncingUrl) return;
       const next = sectionFromLocation();
-      if (next !== state.section) showSection(next, { updateUrl: true, push: false });
+      if (next !== state.section) {
+        showSection(next, { updateUrl: true, push: false, clearSearch: true });
+      }
     });
 
     window.addEventListener("popstate", () => {
