@@ -270,6 +270,14 @@
     if (accent) document.documentElement.style.setProperty("--accent", accent);
   }
 
+  const NAV_ICONS = {
+    hub: '<span class="nav-icon-text" aria-hidden="true">BL</span>',
+    twitter:
+      '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M18.9 2H22l-6.78 7.75L22.83 22h-6.59l-5.16-6.74L5.2 22H2.1l7.25-8.29L1.4 2h6.75l4.66 6.18L18.9 2zm-1.16 18.2h1.83L6.4 3.7H4.44l13.3 16.5z"/></svg>',
+    reddit:
+      '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M12 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0zm5.01 4.744c.688 0 1.25.561 1.25 1.249a1.25 1.25 0 0 1-2.498.056l-2.597-.547-.8 3.747c1.824.07 3.48.632 4.674 1.488.308-.309.73-.491 1.207-.491.968 0 1.754.786 1.754 1.754 0 .716-.435 1.333-1.01 1.614a3.111 3.111 0 0 1 .042.52c0 2.694-3.13 4.87-7.004 4.87-3.874 0-7.004-2.176-7.004-4.87 0-.183.015-.366.043-.534A1.748 1.748 0 0 1 4.028 12c0-.968.786-1.754 1.754-1.754.463 0 .898.196 1.207.49 1.207-.883 2.878-1.43 4.744-1.487l.885-4.182a.342.342 0 0 1 .14-.197.35.35 0 0 1 .238-.042l2.906.617a1.214 1.214 0 0 1 1.108-.701zM9.438 12.386c-.607 0-1.098.5-1.098 1.117s.491 1.117 1.098 1.117c.606 0 1.098-.5 1.098-1.117s-.492-1.117-1.098-1.117zm5.124 0c-.607 0-1.098.5-1.098 1.117s.491 1.117 1.098 1.117c.607 0 1.099-.5 1.099-1.117s-.492-1.117-1.099-1.117zm-.321 3.329a.327.327 0 0 0-.215.079c-.72.561-1.844.876-3.026.876-1.182 0-2.305-.316-3.026-.876a.327.327 0 0 0-.436.046.32.32 0 0 0 .046.446c.838.655 2.097 1.033 3.416 1.033 1.319 0 2.578-.378 3.416-1.033a.32.32 0 0 0 .046-.446.313.313 0 0 0-.221-.125z"/></svg>',
+  };
+
   function renderHeader(site) {
     document.title = "UMD Translations";
     els.name.textContent = site.name || "UMD Translations";
@@ -279,10 +287,13 @@
 
     const links = [];
     if (site.hub_url) {
-      links.push(["Beast’s Lair Hub", site.hub_url]);
+      links.push(["Beast’s Lair Hub", site.hub_url, "hub"]);
     }
-    if (site.recruitment_url) {
-      links.push(["Recruitment", site.recruitment_url]);
+    if (site.twitter_url) {
+      links.push(["X (Twitter)", site.twitter_url, "twitter"]);
+    }
+    if (site.reddit_url) {
+      links.push(["Reddit", site.reddit_url, "reddit"]);
     }
 
     // Keep static HTML if site.json has no links (avoid wiping the header).
@@ -290,10 +301,10 @@
 
     els.links.hidden = false;
     els.links.innerHTML = links
-      .map(([label, href], i) => {
-        const sep =
-          i > 0 ? '<span class="nav-ext-sep" aria-hidden="true">·</span>' : "";
-        return `${sep}<a href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${escapeHtml(label)}</a>`;
+      .map(([label, href, icon]) => {
+        const safeHref = escapeHtml(href);
+        const safeLabel = escapeHtml(label);
+        return `<a class="nav-icon" href="${safeHref}" rel="noopener noreferrer" target="_blank" title="${safeLabel}" aria-label="${safeLabel}">${NAV_ICONS[icon] || ""}</a>`;
       })
       .join("");
   }
