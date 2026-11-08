@@ -368,7 +368,7 @@
   }
 
   const PROGRESS_STEPS = [
-    ["Translating", "Translate"],
+    ["Translating", "TL"],
     ["Translation Checking", "Check"],
     ["Proofreading", "Proof"],
     ["Typesetting", "Typeset"],
