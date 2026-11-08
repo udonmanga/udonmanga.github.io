@@ -97,8 +97,7 @@ a:hover {
 }
 
 .site-header,
-main,
-.site-footer {
+main {
   width: min(1120px, calc(100% - 2rem));
   margin-inline: auto;
 }
@@ -872,28 +871,6 @@ a.progress-card:hover {
 .empty {
   margin: 1.5rem 0 0;
   color: var(--muted);
-}
-
-.site-footer {
-  padding: 1.5rem 0 2.5rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.site-footer p {
-  margin: 0.25rem 0;
-}
-
-.site-footer a {
-  color: var(--muted);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(243, 220, 190, 0.35);
-}
-
-.site-footer a:hover {
-  color: var(--focus);
-  border-bottom-color: var(--accent);
 }
 
 .back-to-top {

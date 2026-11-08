@@ -65,7 +65,7 @@
   const els = {
     name: document.getElementById("site-name"),
     subtitle: document.getElementById("site-subtitle"),
-    footerLinks: document.getElementById("footer-links"),
+    links: document.getElementById("header-links"),
     search: document.getElementById("search"),
     latestSection: document.querySelector("section.latest"),
     latestBody: document.getElementById("latest-body"),
@@ -277,20 +277,22 @@
       site.subtitle || "Translations of Type-Moon Works";
     applyAccent(site.accent);
 
-    if (!els.footerLinks) return;
     const links = [];
     if (site.hub_url) {
-      links.push(["Beast’s Lair hub", site.hub_url]);
+      links.push(["Beast’s Lair Hub", site.hub_url]);
     }
     if (site.recruitment_url) {
       links.push(["Recruitment", site.recruitment_url]);
     }
-    // Keep static HTML if site.json has no footer links.
-    if (!links.length) return;
-    els.footerLinks.innerHTML = links
+
+    // Keep static HTML if site.json has no links (avoid wiping the header).
+    if (!els.links || !links.length) return;
+
+    els.links.hidden = false;
+    els.links.innerHTML = links
       .map(([label, href], i) => {
         const sep =
-          i > 0 ? '<span class="nav-ext-sep" aria-hidden="true"> · </span>' : "";
+          i > 0 ? '<span class="nav-ext-sep" aria-hidden="true">·</span>' : "";
         return `${sep}<a href="${escapeHtml(href)}" rel="noopener noreferrer" target="_blank">${escapeHtml(label)}</a>`;
       })
       .join("");
