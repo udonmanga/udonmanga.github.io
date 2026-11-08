@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794097120,
+  "generated_at": 1794102666,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -809,8 +809,8 @@
       "series_title": "Witch on the Holy Night: Witch Records",
       "series_id": "witch_on_the_holy_night_witch_records",
       "chapter": "5",
-      "stage": "Proofreading",
-      "stage_key": "PR_MERGE",
+      "stage": "Typesetting",
+      "stage_key": "TS",
       "since": "November 8, 2026",
       "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/"
@@ -820,9 +820,9 @@
       "series_title": "Witch on the Holy Night: Witch Records",
       "series_id": "witch_on_the_holy_night_witch_records",
       "chapter": "6",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "November 7, 2026",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "November 8, 2026",
       "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/"
     },

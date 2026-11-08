@@ -274,9 +274,6 @@
     if (site.hub_url) {
       links.push(["Beast’s Lair", site.hub_url]);
     }
-    if (site.discord_url) {
-      links.push(["Discord", site.discord_url]);
-    }
     if (site.recruitment_url) {
       links.push(["Recruitment", site.recruitment_url]);
     }
