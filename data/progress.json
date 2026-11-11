@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794403119,
+  "generated_at": 1794410330,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -161,8 +161,8 @@
       "series_id": "fatestay_night_heavens_feel",
       "chapter": "114",
       "stage": "Quality Checking",
-      "stage_key": "QC_MERGE",
-      "since": "November 11, 2026",
+      "stage_key": "QC",
+      "since": "November 8, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
     },
@@ -292,9 +292,9 @@
       "series_title": "Fate/Grand Order -Epic of Remnant- SE.RA.PH",
       "series_id": "fategrand_order_epic_of_remnant_seraph",
       "chapter": "38.1",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
-      "since": "November 7, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "November 11, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_seraph.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/"
     },
