@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794133620,
+  "generated_at": 1794401259,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -11,6 +11,17 @@
     "reddit_url": "https://www.reddit.com/user/UdonSamurai/"
   },
   "latest_releases": [
+    {
+      "series_id": "witch_on_the_holy_night_witch_records",
+      "series_title": "Witch on the Holy Night: Witch Records",
+      "chapter_number": "4",
+      "chapter_label": "Chapter 4",
+      "chapter_title": "Honeyed Days",
+      "released_at": 1794401220,
+      "released_display": "November 11, 2026",
+      "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/4/"
+    },
     {
       "series_id": "the_case_files_of_lord_melloi_ii",
       "series_title": "The Case Files of Lord Melloi II",
@@ -109,20 +120,29 @@
       "released_display": "September 24, 2026",
       "cover": "assets/covers/fatesamurai_remnant.webp",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.3/"
-    },
-    {
-      "series_id": "fategrand_order_epic_of_remnant_shinjuku",
-      "series_title": "Fate/Grand Order -Epic of Remnant- Shinjuku",
-      "chapter_number": "029.5",
-      "chapter_label": "Chapter 29.5",
-      "chapter_title": "",
-      "released_at": 1789864980,
-      "released_display": "September 20, 2026",
-      "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.webp",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/029.5/"
     }
   ],
   "titles": [
+    {
+      "id": "witch_on_the_holy_night_witch_records",
+      "title": "Witch on the Holy Night: Witch Records",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Nakatani"
+      ],
+      "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
+      "category": "anthology",
+      "latest_chapter_number": "4",
+      "latest_chapter_title": "Honeyed Days",
+      "released_at": 1794401220,
+      "released_display": "November 11, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/4/"
+    },
     {
       "id": "the_case_files_of_lord_melloi_ii",
       "title": "The Case Files of Lord Melloi II",
@@ -223,26 +243,6 @@
       "released_display": "October 26, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/098/"
-    },
-    {
-      "id": "witch_on_the_holy_night_witch_records",
-      "title": "Witch on the Holy Night: Witch Records",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Type-Moon"
-      ],
-      "artists": [
-        "Nakatani"
-      ],
-      "cover": "assets/covers/witch_on_the_holy_night_witch_records.webp",
-      "category": "anthology",
-      "latest_chapter_number": "3",
-      "latest_chapter_title": "The Man Known as Tsukiji Tobimaru",
-      "released_at": 1791684000,
-      "released_display": "October 11, 2026",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vV2l0Y2hfb25fdGhlX0hvbHlfTmlnaHRfV2l0Y2hfUmVjb3Jkcy5qc29u/3/"
     },
     {
       "id": "fatestay_night_heavens_feel",
