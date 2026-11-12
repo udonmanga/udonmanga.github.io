@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794413920,
+  "generated_at": 1794481023,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -154,17 +154,6 @@
       "since": "October 3, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
-    },
-    {
-      "sheet_series": "Heaven's Feel",
-      "series_title": "Fate/stay night: Heaven's Feel",
-      "series_id": "fatestay_night_heavens_feel",
-      "chapter": "114",
-      "stage": "Quality Checking",
-      "stage_key": "QC",
-      "since": "November 8, 2026",
-      "cover": "assets/covers/fatestay_night_heavens_feel.webp",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
     },
     {
       "sheet_series": "Heaven's Feel",

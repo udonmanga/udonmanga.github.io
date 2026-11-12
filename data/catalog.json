@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794401259,
+  "generated_at": 1794481020,
   "site": {
     "name": "UMD Translations",
     "subtitle": "Translations of Type-Moon Works",
@@ -11,6 +11,17 @@
     "reddit_url": "https://www.reddit.com/user/UdonSamurai/"
   },
   "latest_releases": [
+    {
+      "series_id": "fatestay_night_heavens_feel",
+      "series_title": "Fate/stay night: Heaven's Feel",
+      "chapter_number": "114",
+      "chapter_label": "Chapter 114",
+      "chapter_title": "Day 11 - Bad News (3)",
+      "released_at": 1794480960,
+      "released_display": "November 12, 2026",
+      "cover": "assets/covers/fatestay_night_heavens_feel.webp",
+      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/114/"
+    },
     {
       "series_id": "witch_on_the_holy_night_witch_records",
       "series_title": "Witch on the Holy Night: Witch Records",
@@ -109,20 +120,29 @@
       "released_display": "September 26, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
       "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/034.2/"
-    },
-    {
-      "series_id": "fatesamurai_remnant",
-      "series_title": "Fate/Samurai Remnant",
-      "chapter_number": "004.3",
-      "chapter_label": "Chapter 4.3",
-      "chapter_title": "",
-      "released_at": 1790255640,
-      "released_display": "September 24, 2026",
-      "cover": "assets/covers/fatesamurai_remnant.webp",
-      "cubari_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZVNhbXVyYWlfUmVtbmFudC5qc29u/004.3/"
     }
   ],
   "titles": [
+    {
+      "id": "fatestay_night_heavens_feel",
+      "title": "Fate/stay night: Heaven's Feel",
+      "original_title": "",
+      "alt_titles": [],
+      "authors": [
+        "Type-Moon"
+      ],
+      "artists": [
+        "Task Ohna"
+      ],
+      "cover": "assets/covers/fatestay_night_heavens_feel.webp",
+      "category": "series",
+      "latest_chapter_number": "114",
+      "latest_chapter_title": "Day 11 - Bad News (3)",
+      "released_at": 1794480960,
+      "released_display": "November 12, 2026",
+      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/",
+      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/114/"
+    },
     {
       "id": "witch_on_the_holy_night_witch_records",
       "title": "Witch on the Holy Night: Witch Records",
@@ -243,26 +263,6 @@
       "released_display": "October 26, 2026",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/",
       "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUVYVFJBX0NDQ19Gb3hfVGFpbC5qc29u/098/"
-    },
-    {
-      "id": "fatestay_night_heavens_feel",
-      "title": "Fate/stay night: Heaven's Feel",
-      "original_title": "",
-      "alt_titles": [],
-      "authors": [
-        "Type-Moon"
-      ],
-      "artists": [
-        "Task Ohna"
-      ],
-      "cover": "assets/covers/fatestay_night_heavens_feel.webp",
-      "category": "series",
-      "latest_chapter_number": "113",
-      "latest_chapter_title": "Day 11 - Bad News (2)",
-      "released_at": 1791238080,
-      "released_display": "October 6, 2026",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/",
-      "cubari_latest_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/113/"
     },
     {
       "id": "fatestay_night_unlimited_blade_works",
