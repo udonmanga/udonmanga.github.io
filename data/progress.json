@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794529119,
+  "generated_at": 1794550720,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -127,9 +127,9 @@
       "series_title": "Fate/stay night: Unlimited Blade Works",
       "series_id": "fatestay_night_unlimited_blade_works",
       "chapter": "39",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "November 13, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
     },
