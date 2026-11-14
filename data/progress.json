@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794619119,
+  "generated_at": 1794647922,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -84,8 +84,8 @@
       "series_id": "fatestay_night_unlimited_blade_works",
       "chapter": "36.2",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "October 21, 2026",
+      "stage_key": "TL_MERGE",
+      "since": "November 14, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
     },
@@ -95,8 +95,8 @@
       "series_id": "fatestay_night_unlimited_blade_works",
       "chapter": "37",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "October 27, 2026",
+      "stage_key": "TL_MERGE",
+      "since": "November 14, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
     },
@@ -721,9 +721,9 @@
       "series_title": "Fate/Grand Order COMIC à la carte PLUS! SP Showdown 2",
       "series_id": "fgoshowdown2",
       "chapter": "2",
-      "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "September 22, 2026",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "November 14, 2026",
       "cover": "assets/covers/fgo_comic_a_la_carte_plus_sp_showdown_2.webp",
       "cubari_series_url": ""
     },
