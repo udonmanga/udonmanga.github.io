@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794550720,
+  "generated_at": 1794619119,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -104,21 +104,10 @@
       "sheet_series": "Unlimited Blade Works",
       "series_title": "Fate/stay night: Unlimited Blade Works",
       "series_id": "fatestay_night_unlimited_blade_works",
-      "chapter": "38.1",
+      "chapter": "38",
       "stage": "Translation Checking",
       "stage_key": "TLC",
       "since": "November 3, 2026",
-      "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
-    },
-    {
-      "sheet_series": "Unlimited Blade Works",
-      "series_title": "Fate/stay night: Unlimited Blade Works",
-      "series_id": "fatestay_night_unlimited_blade_works",
-      "chapter": "38.2",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
     },
@@ -130,17 +119,6 @@
       "stage": "Translation Checking",
       "stage_key": "TLC",
       "since": "November 13, 2026",
-      "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
-      "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
-    },
-    {
-      "sheet_series": "Unlimited Blade Works",
-      "series_title": "Fate/stay night: Unlimited Blade Works",
-      "series_id": "fatestay_night_unlimited_blade_works",
-      "chapter": "39.2",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "August 27, 2026",
       "cover": "assets/covers/fatestay_night_unlimited_blade_works.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfVW5saW1pdGVkX0JsYWRlX1dvcmtzLmpzb24/"
     },
@@ -293,8 +271,8 @@
       "series_id": "fategrand_order_epic_of_remnant_shinjuku",
       "chapter": "30.2",
       "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "November 12, 2026",
+      "stage_key": "TL_MERGE",
+      "since": "November 14, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_shinjuku.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TaGluanVrdS5qc29u/"
     },
