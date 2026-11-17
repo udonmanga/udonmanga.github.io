@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794781121,
+  "generated_at": 1794907123,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -282,8 +282,8 @@
       "series_id": "fategrand_order_epic_of_remnant_seraph",
       "chapter": "38.1",
       "stage": "Proofreading",
-      "stage_key": "PR",
-      "since": "November 11, 2026",
+      "stage_key": "PR_MERGE",
+      "since": "November 17, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_seraph.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/"
     },
@@ -1271,9 +1271,9 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "45",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "November 16, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.webp",
       "cubari_series_url": ""
     },
