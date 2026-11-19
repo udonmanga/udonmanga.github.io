@@ -1,5 +1,5 @@
 {
-  "generated_at": 1794986323,
+  "generated_at": 1795097920,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -281,9 +281,9 @@
       "series_title": "Fate/Grand Order -Epic of Remnant- SE.RA.PH",
       "series_id": "fategrand_order_epic_of_remnant_seraph",
       "chapter": "38.1",
-      "stage": "Proofreading",
-      "stage_key": "PR_MERGE",
-      "since": "November 17, 2026",
+      "stage": "Typesetting",
+      "stage_key": "TS",
+      "since": "November 19, 2026",
       "cover": "assets/covers/fategrand_order_epic_of_remnant_seraph.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX0VwaWNfb2ZfUmVtbmFudF9TRVJBUEguanNvbg/"
     },
