@@ -87,6 +87,17 @@
           "url": "https://decoration-disorder-disconnection.pages.dev/"
         }
       ]
+    },
+    {
+      "id": "mahoyo_movie_phamplet_2026",
+      "title": "Mahoyo Movie Phamplet (Nov 2026)",
+      "cover": "assets/covers/hub_misc_mahoyo_movie_phamplet_2026.webp",
+      "links": [
+        {
+          "label": "Read",
+          "url": "https://mahoyomoviephamplet.github.io/"
+        }
+      ]
     }
   ]
 }
