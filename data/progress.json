@@ -1,5 +1,5 @@
 {
-  "generated_at": 1795400318,
+  "generated_at": 1795402949,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -204,9 +204,9 @@
       "series_title": "Fate/Grand Order -turas réalta-",
       "series_id": "fategrand_order_turas_réalta_",
       "chapter": "105",
-      "stage": "Translating",
-      "stage_key": "TL",
-      "since": "September 10, 2026",
+      "stage": "Translation Checking",
+      "stage_key": "TLC",
+      "since": "November 23, 2026",
       "cover": "assets/covers/fategrand_order_turas_réalta_.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
     },
