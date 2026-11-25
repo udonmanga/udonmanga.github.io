@@ -1,5 +1,5 @@
 {
-  "generated_at": 1795402949,
+  "generated_at": 1795572150,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -149,9 +149,9 @@
       "series_title": "Fate/stay night: Heaven's Feel",
       "series_id": "fatestay_night_heavens_feel",
       "chapter": "117",
-      "stage": "Translation Checking",
-      "stage_key": "TLC",
-      "since": "November 23, 2026",
+      "stage": "Proofreading",
+      "stage_key": "PR",
+      "since": "November 25, 2026",
       "cover": "assets/covers/fatestay_night_heavens_feel.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZXN0YXlfbmlnaHRfSGVhdmVuc19GZWVsLmpzb24/"
     },
