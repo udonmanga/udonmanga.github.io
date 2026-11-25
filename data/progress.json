@@ -1,5 +1,5 @@
 {
-  "generated_at": 1795586550,
+  "generated_at": 1795611753,
   "items": [
     {
       "sheet_series": "Case Files",
@@ -204,8 +204,8 @@
       "series_title": "Fate/Grand Order -turas réalta-",
       "series_id": "fategrand_order_turas_réalta_",
       "chapter": "105",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
+      "stage": "Proofreading",
+      "stage_key": "PR",
       "since": "November 25, 2026",
       "cover": "assets/covers/fategrand_order_turas_réalta_.webp",
       "cubari_series_url": "https://cubari.moe/read/gist/cmF3L3lrMTUxMi9VTUQtQ3ViYXJpL21haW4vRmF0ZUdyYW5kX09yZGVyX3R1cmFzX3LDqWFsdGFfLmpzb24/"
@@ -1260,8 +1260,8 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "45",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
+      "stage": "Proofreading",
+      "stage_key": "PR",
       "since": "November 25, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.webp",
       "cubari_series_url": ""
@@ -1271,8 +1271,8 @@
       "series_title": "Lunar Legend Tsukihime",
       "series_id": "tsukihime",
       "chapter": "46",
-      "stage": "Translation Checking",
-      "stage_key": "TL_MERGE",
+      "stage": "Proofreading",
+      "stage_key": "PR",
       "since": "November 25, 2026",
       "cover": "assets/covers/lunar_legend_tsukihime.webp",
       "cubari_series_url": ""
